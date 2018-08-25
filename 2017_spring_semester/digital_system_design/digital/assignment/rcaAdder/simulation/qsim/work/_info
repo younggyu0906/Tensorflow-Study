@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\17_1\digital\assignment\rcaAdder\simulation\qsim
+vrcaAdder
+Z1 !s100 1]moc_0fKGJP_JakoIO5F1
+Z2 IN6]an_P[lPadNlBCUS8Z`1
+Z3 Vn6:VUaF5:;[ODCY:D9@LI3
+Z4 dD:\17_1\digital\assignment\rcaAdder\simulation\qsim
+Z5 w1494239230
+Z6 8rcaAdder.vo
+Z7 FrcaAdder.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|rcaAdder.vo|
+Z10 o-work work -O0
+Z11 nrca@adder
+!i10b 1
+!s85 0
+Z12 !s108 1494239232.086000
+Z13 !s107 rcaAdder.vo|
+!s101 -O0
+vrcaAdder_vlg_check_tst
+!i10b 1
+Z14 !s100 >VXEHj7[`Co9hQT8UDdkf1
+Z15 IzY4kbEK?[11Y`B8OUG@d`1
+Z16 VHO=a>HE0WkJd9J6XOLeUe3
+R4
+Z17 w1494239229
+Z18 8rcaAdder.vt
+Z19 FrcaAdder.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z20 !s108 1494239232.178000
+Z21 !s107 rcaAdder.vt|
+Z22 !s90 -work|work|rcaAdder.vt|
+!s101 -O0
+R10
+Z23 nrca@adder_vlg_check_tst
+vrcaAdder_vlg_sample_tst
+!i10b 1
+Z24 !s100 OA?^2bE:iJX4:=UUHXkeW1
+Z25 IP^a7o8lL8EkE]Y8mX0=470
+Z26 Vzdi0C@Q0U:k`=WiM1N5Lb3
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 nrca@adder_vlg_sample_tst
+vrcaAdder_vlg_vec_tst
+!i10b 1
+Z28 !s100 VAPU54biZ^:QbChfVVl[a3
+Z29 I>3]c9RoQE[odKLMh;4NRZ3
+Z30 V9;M<DG5MKI:BMOJg@Q3dm1
+R4
+R17
+R18
+R19
+Z31 L0 236
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 nrca@adder_vlg_vec_tst

@@ -1,0 +1,15 @@
+|hw3decoder24
+a[0] => Mux0.IN5
+a[0] => Mux1.IN5
+a[0] => Mux2.IN5
+a[0] => Mux3.IN5
+a[1] => Mux0.IN4
+a[1] => Mux1.IN4
+a[1] => Mux2.IN4
+a[1] => Mux3.IN4
+y[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

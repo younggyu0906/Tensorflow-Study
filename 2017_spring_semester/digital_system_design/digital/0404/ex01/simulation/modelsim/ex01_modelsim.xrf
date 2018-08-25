@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, D:/17_1/digital/0404/ex01/ex01.vhd
+source_file = 1, D:/17_1/digital/0404/ex01/Waveform.vwf
+source_file = 1, D:/17_1/digital/0404/ex01/db/ex01.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = \logic 
+instance = comp, \y~output , y~output, \logic , 1
+instance = comp, \c~input , c~input, \logic , 1
+instance = comp, \b~input , b~input, \logic , 1
+instance = comp, \a~input , a~input, \logic , 1
+instance = comp, \no3~0 , no3~0, \logic , 1

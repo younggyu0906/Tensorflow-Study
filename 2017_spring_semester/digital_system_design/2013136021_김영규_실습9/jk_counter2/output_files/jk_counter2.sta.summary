@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -0.104
+TNS   : -0.104
+
+Type  : Slow 1200mV 85C Model Setup 'jkpr:u2|y_out'
+Slack : -0.036
+TNS   : -0.036
+
+Type  : Slow 1200mV 85C Model Setup 'jkpr:u3|y_out'
+Slack : 0.114
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'jkpr:u1|y_out'
+Slack : 0.131
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : -0.056
+TNS   : -0.056
+
+Type  : Slow 1200mV 85C Model Hold 'jkpr:u2|y_out'
+Slack : 0.051
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'jkpr:u1|y_out'
+Slack : 0.108
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'jkpr:u3|y_out'
+Slack : 0.497
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -4.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'jkpr:u1|y_out'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'jkpr:u2|y_out'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'jkpr:u3|y_out'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Setup 'jkpr:u2|y_out'
+Slack : -0.005
+TNS   : -0.005
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : 0.005
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'jkpr:u1|y_out'
+Slack : 0.141
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'jkpr:u3|y_out'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : -0.115
+TNS   : -0.115
+
+Type  : Slow 1200mV 0C Model Hold 'jkpr:u2|y_out'
+Slack : 0.063
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'jkpr:u1|y_out'
+Slack : 0.115
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'jkpr:u3|y_out'
+Slack : 0.447
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -4.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'jkpr:u1|y_out'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'jkpr:u2|y_out'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'jkpr:u3|y_out'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : 0.212
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'jkpr:u2|y_out'
+Slack : 0.310
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'jkpr:u1|y_out'
+Slack : 0.397
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'jkpr:u3|y_out'
+Slack : 0.624
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'jkpr:u2|y_out'
+Slack : -0.027
+TNS   : -0.027
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.015
+TNS   : -0.015
+
+Type  : Fast 1200mV 0C Model Hold 'jkpr:u1|y_out'
+Slack : -0.013
+TNS   : -0.013
+
+Type  : Fast 1200mV 0C Model Hold 'jkpr:u3|y_out'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -4.080
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'jkpr:u1|y_out'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'jkpr:u2|y_out'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'jkpr:u3|y_out'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

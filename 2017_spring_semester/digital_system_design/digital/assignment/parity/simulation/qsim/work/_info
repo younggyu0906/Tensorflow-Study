@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\17_1\digital\assign\parity\simulation\qsim
+vparity
+Z1 IfKR;H309XfCSQ3C<Z1gFB2
+Z2 Vmf0VNTAYfLk;NFMSGffzU3
+Z3 dD:\17_1\digital\assign\parity\simulation\qsim
+Z4 w1494241824
+Z5 8parity.vo
+Z6 Fparity.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 ;OVaFD5`@JX6UU?l;L>IP3
+!s85 0
+Z10 !s108 1494241825.490000
+Z11 !s107 parity.vo|
+Z12 !s90 -work|work|parity.vo|
+!s101 -O0
+vparity_vlg_check_tst
+!i10b 1
+!s100 QPB6JbZiOkIEAiQhi<iYZ0
+IA>>KRa[ZF7SS;RS6:ZWTl2
+Vn66e86DBlFYDMDzU2gN@22
+R3
+Z13 w1494241822
+Z14 8parity.vt
+Z15 Fparity.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z16 !s108 1494241825.560000
+Z17 !s107 parity.vt|
+Z18 !s90 -work|work|parity.vt|
+!s101 -O0
+R8
+vparity_vlg_sample_tst
+!i10b 1
+!s100 z0a^=lb8liFiJJSo2c66G2
+IlYFEQc[P98bgDHNDfc@Zl0
+VP8>ChSODKdC0@mMlV?XKE0
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vparity_vlg_vec_tst
+!i10b 1
+!s100 34:6Vib;K>cSELDRJA`:n1
+ITj@Z0kR`URd;5L@LFP05Q3
+V0c>?0>f^fzPS3VA@K0h@g1
+R3
+R13
+R14
+R15
+L0 152
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

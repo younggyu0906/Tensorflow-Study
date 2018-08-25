@@ -1,0 +1,242 @@
+|claDesign
+a[0] => HA:u1.x
+a[0] => full_adder:u13.w
+a[1] => HA:u2.x
+a[1] => full_adder:u14.w
+a[2] => HA:u3.x
+a[2] => full_adder:u15.w
+a[3] => full_adder:u16.w
+b[0] => HA:u1.y
+b[0] => full_adder:u13.x
+b[1] => HA:u2.y
+b[1] => full_adder:u14.x
+b[2] => HA:u3.y
+b[2] => full_adder:u15.x
+b[3] => full_adder:u16.x
+carryIn => and_4:u4.a
+carryIn => and_3:u7.a
+carryIn => and_2:u9.b
+carryIn => full_adder:u13.y
+carry <= comb.DB_MAX_OUTPUT_PORT_TYPE
+sum[0] <= full_adder:u13.sum
+sum[1] <= full_adder:u14.sum
+sum[2] <= full_adder:u15.sum
+sum[3] <= full_adder:u16.sum
+
+
+|claDesign|HA:u1
+x => p1.IN0
+x => p2.IN0
+y => p1.IN1
+y => p2.IN1
+c <= p1.DB_MAX_OUTPUT_PORT_TYPE
+s <= p2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|HA:u2
+x => p1.IN0
+x => p2.IN0
+y => p1.IN1
+y => p2.IN1
+c <= p1.DB_MAX_OUTPUT_PORT_TYPE
+s <= p2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|HA:u3
+x => p1.IN0
+x => p2.IN0
+y => p1.IN1
+y => p2.IN1
+c <= p1.DB_MAX_OUTPUT_PORT_TYPE
+s <= p2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|and_4:u4
+a => o.IN0
+b => o.IN1
+c => o.IN1
+d => o.IN1
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|and_3:u5
+a => o.IN0
+b => o.IN1
+c => o.IN1
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|and_2:u6
+a => o.IN0
+b => o.IN1
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|and_3:u7
+a => o.IN0
+b => o.IN1
+c => o.IN1
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|and_2:u8
+a => o.IN0
+b => o.IN1
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|and_2:u9
+a => o.IN0
+b => o.IN1
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|or_4:u10
+a => o.IN0
+b => o.IN1
+c => o.IN1
+d => o.IN1
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|or_3:u11
+a => o.IN0
+b => o.IN1
+c => o.IN1
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|or_2:u12
+a => o.IN0
+b => o.IN1
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|full_adder:u13
+w => HA:u1.x
+x => HA:u1.y
+y => HA:u2.y
+carry <= or_2:u3.o
+sum <= HA:u2.s
+
+
+|claDesign|full_adder:u13|HA:u1
+x => p1.IN0
+x => p2.IN0
+y => p1.IN1
+y => p2.IN1
+c <= p1.DB_MAX_OUTPUT_PORT_TYPE
+s <= p2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|full_adder:u13|HA:u2
+x => p1.IN0
+x => p2.IN0
+y => p1.IN1
+y => p2.IN1
+c <= p1.DB_MAX_OUTPUT_PORT_TYPE
+s <= p2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|full_adder:u13|or_2:u3
+a => o.IN0
+b => o.IN1
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|full_adder:u14
+w => HA:u1.x
+x => HA:u1.y
+y => HA:u2.y
+carry <= or_2:u3.o
+sum <= HA:u2.s
+
+
+|claDesign|full_adder:u14|HA:u1
+x => p1.IN0
+x => p2.IN0
+y => p1.IN1
+y => p2.IN1
+c <= p1.DB_MAX_OUTPUT_PORT_TYPE
+s <= p2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|full_adder:u14|HA:u2
+x => p1.IN0
+x => p2.IN0
+y => p1.IN1
+y => p2.IN1
+c <= p1.DB_MAX_OUTPUT_PORT_TYPE
+s <= p2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|full_adder:u14|or_2:u3
+a => o.IN0
+b => o.IN1
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|full_adder:u15
+w => HA:u1.x
+x => HA:u1.y
+y => HA:u2.y
+carry <= or_2:u3.o
+sum <= HA:u2.s
+
+
+|claDesign|full_adder:u15|HA:u1
+x => p1.IN0
+x => p2.IN0
+y => p1.IN1
+y => p2.IN1
+c <= p1.DB_MAX_OUTPUT_PORT_TYPE
+s <= p2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|full_adder:u15|HA:u2
+x => p1.IN0
+x => p2.IN0
+y => p1.IN1
+y => p2.IN1
+c <= p1.DB_MAX_OUTPUT_PORT_TYPE
+s <= p2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|full_adder:u15|or_2:u3
+a => o.IN0
+b => o.IN1
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|full_adder:u16
+w => HA:u1.x
+x => HA:u1.y
+y => HA:u2.y
+carry <= or_2:u3.o
+sum <= HA:u2.s
+
+
+|claDesign|full_adder:u16|HA:u1
+x => p1.IN0
+x => p2.IN0
+y => p1.IN1
+y => p2.IN1
+c <= p1.DB_MAX_OUTPUT_PORT_TYPE
+s <= p2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|full_adder:u16|HA:u2
+x => p1.IN0
+x => p2.IN0
+y => p1.IN1
+y => p2.IN1
+c <= p1.DB_MAX_OUTPUT_PORT_TYPE
+s <= p2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|claDesign|full_adder:u16|or_2:u3
+a => o.IN0
+b => o.IN1
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+

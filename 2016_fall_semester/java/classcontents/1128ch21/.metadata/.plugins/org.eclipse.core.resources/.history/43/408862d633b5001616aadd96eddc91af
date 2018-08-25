@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+class MyException extends Exception {
+	public MyException() {
+		super("This is my exception");
+	}
+}
+public class Pro05_MyExcption {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter numerator : ");
+		int x = sc.nextInt();
+		System.out.print("Enter denominator : ");
+		int y = sc.nextInt();
+		divide(x, y);
+	}
+	
+	public static void divide(int x, int y) {
+		int result = 0;
+		
+		try {
+			if (y == 0)
+				throw new MyException();
+			result = x / y;
+		} catch (MyException e) {
+			System.out.println("분모가 0입니다.\n");
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+		}
+		System.out.println("Result is " + result);
+	}
+}

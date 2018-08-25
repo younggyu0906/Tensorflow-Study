@@ -1,0 +1,1259 @@
+TimeQuest Timing Analyzer report for apollo
+Mon May 08 15:31:13 2017
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow 1200mV 85C Model Fmax Summary
+  6. Timing Closure Recommendations
+  7. Slow 1200mV 85C Model Setup Summary
+  8. Slow 1200mV 85C Model Hold Summary
+  9. Slow 1200mV 85C Model Recovery Summary
+ 10. Slow 1200mV 85C Model Removal Summary
+ 11. Slow 1200mV 85C Model Minimum Pulse Width Summary
+ 12. Propagation Delay
+ 13. Minimum Propagation Delay
+ 14. Slow 1200mV 85C Model Metastability Report
+ 15. Slow 1200mV 0C Model Fmax Summary
+ 16. Slow 1200mV 0C Model Setup Summary
+ 17. Slow 1200mV 0C Model Hold Summary
+ 18. Slow 1200mV 0C Model Recovery Summary
+ 19. Slow 1200mV 0C Model Removal Summary
+ 20. Slow 1200mV 0C Model Minimum Pulse Width Summary
+ 21. Propagation Delay
+ 22. Minimum Propagation Delay
+ 23. Slow 1200mV 0C Model Metastability Report
+ 24. Fast 1200mV 0C Model Setup Summary
+ 25. Fast 1200mV 0C Model Hold Summary
+ 26. Fast 1200mV 0C Model Recovery Summary
+ 27. Fast 1200mV 0C Model Removal Summary
+ 28. Fast 1200mV 0C Model Minimum Pulse Width Summary
+ 29. Propagation Delay
+ 30. Minimum Propagation Delay
+ 31. Fast 1200mV 0C Model Metastability Report
+ 32. Multicorner Timing Analysis Summary
+ 33. Progagation Delay
+ 34. Minimum Progagation Delay
+ 35. Board Trace Model Assignments
+ 36. Input Transition Times
+ 37. Signal Integrity Metrics (Slow 1200mv 0c Model)
+ 38. Signal Integrity Metrics (Slow 1200mv 85c Model)
+ 39. Signal Integrity Metrics (Fast 1200mv 0c Model)
+ 40. Clock Transfers
+ 41. Report TCCS
+ 42. Report RSKM
+ 43. Unconstrained Paths
+ 44. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                      ;
++--------------------+-------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition ;
+; Revision Name      ; apollo                                                            ;
+; Device Family      ; Cyclone IV E                                                      ;
+; Device Name        ; EP4CE6E22C8                                                       ;
+; Timing Models      ; Final                                                             ;
+; Delay Model        ; Combined                                                          ;
+; Rise/Fall Delays   ; Enabled                                                           ;
++--------------------+-------------------------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Fmax Summary ;
+--------------------------------------
+No paths to report.
+
+
+----------------------------------
+; Timing Closure Recommendations ;
+----------------------------------
+HTML report is unavailable in plain text report export.
+
+
+---------------------------------------
+; Slow 1200mV 85C Model Setup Summary ;
+---------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Hold Summary ;
+--------------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow 1200mV 85C Model Recovery Summary ;
+------------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 85C Model Removal Summary ;
+-----------------------------------------
+No paths to report.
+
+
+-----------------------------------------------------
+; Slow 1200mV 85C Model Minimum Pulse Width Summary ;
+-----------------------------------------------------
+No paths to report.
+
+
++-----------------------------------------------------------------------+
+; Propagation Delay                                                     ;
++---------------------+-------------+--------+--------+--------+--------+
+; Input Port          ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++---------------------+-------------+--------+--------+--------+--------+
+; battery_voltage[0]  ; green_led   ; 10.178 ; 9.492  ; 9.817  ; 10.225 ;
+; battery_voltage[0]  ; red_led     ;        ; 10.239 ; 10.348 ;        ;
+; battery_voltage[0]  ; yellow_led  ; 11.233 ; 9.846  ; 9.873  ; 11.662 ;
+; battery_voltage[1]  ; green_led   ; 10.260 ; 9.609  ; 10.049 ; 10.361 ;
+; battery_voltage[1]  ; red_led     ;        ; 10.321 ; 10.484 ;        ;
+; battery_voltage[1]  ; yellow_led  ; 11.315 ; 9.957  ; 10.088 ; 11.798 ;
+; battery_voltage[2]  ; green_led   ; 10.017 ; 9.328  ; 9.743  ; 10.100 ;
+; battery_voltage[2]  ; red_led     ;        ; 10.078 ; 10.223 ;        ;
+; battery_voltage[2]  ; yellow_led  ; 11.072 ; 9.682  ; 9.750  ; 11.537 ;
+; battery_voltage[3]  ; green_led   ; 10.355 ; 9.645  ; 10.073 ; 10.510 ;
+; battery_voltage[3]  ; red_led     ;        ; 10.416 ; 10.633 ;        ;
+; battery_voltage[3]  ; yellow_led  ; 11.410 ; 9.981  ; 10.133 ; 11.947 ;
+; battery_voltage[4]  ; green_led   ; 11.517 ; 10.772 ; 11.101 ; 11.561 ;
+; battery_voltage[4]  ; red_led     ;        ; 11.578 ; 11.684 ;        ;
+; battery_voltage[4]  ; yellow_led  ; 12.572 ; 11.670 ; 11.667 ; 12.998 ;
+; battery_voltage[5]  ; green_led   ; 10.848 ; 10.103 ; 10.575 ; 11.035 ;
+; battery_voltage[5]  ; red_led     ;        ; 10.909 ; 11.158 ;        ;
+; battery_voltage[5]  ; yellow_led  ; 11.903 ; 11.001 ; 11.141 ; 12.472 ;
+; battery_voltage[6]  ; green_led   ; 11.373 ; 10.628 ; 11.055 ; 11.515 ;
+; battery_voltage[6]  ; red_led     ;        ; 11.434 ; 11.638 ;        ;
+; battery_voltage[6]  ; yellow_led  ; 12.428 ; 11.526 ; 11.621 ; 12.952 ;
+; battery_voltage[7]  ; green_led   ; 11.542 ; 10.797 ; 11.246 ; 11.706 ;
+; battery_voltage[7]  ; red_led     ;        ; 11.603 ; 11.829 ;        ;
+; battery_voltage[7]  ; yellow_led  ; 12.597 ; 11.695 ; 11.812 ; 13.143 ;
+; battery_voltage[8]  ; green_led   ; 11.626 ; 10.881 ; 11.157 ; 11.617 ;
+; battery_voltage[8]  ; red_led     ;        ; 11.687 ; 11.740 ;        ;
+; battery_voltage[8]  ; yellow_led  ; 12.681 ; 11.779 ; 11.723 ; 13.054 ;
+; battery_voltage[9]  ; green_led   ; 11.280 ; 10.535 ; 10.959 ; 11.419 ;
+; battery_voltage[9]  ; red_led     ;        ; 11.341 ; 11.542 ;        ;
+; battery_voltage[9]  ; yellow_led  ; 12.335 ; 11.433 ; 11.525 ; 12.856 ;
+; battery_voltage[10] ; green_led   ; 8.576  ; 7.831  ; 8.170  ; 8.630  ;
+; battery_voltage[10] ; red_led     ;        ; 8.637  ; 8.753  ;        ;
+; battery_voltage[10] ; yellow_led  ; 9.631  ; 8.729  ; 8.736  ; 10.067 ;
+; battery_voltage[11] ; green_led   ; 8.172  ; 7.427  ; 7.757  ; 8.217  ;
+; battery_voltage[11] ; red_led     ;        ; 8.233  ; 8.340  ;        ;
+; battery_voltage[11] ; yellow_led  ; 9.227  ; 8.325  ; 8.323  ; 9.654  ;
+; battery_voltage[12] ; green_led   ; 12.040 ; 11.295 ; 11.645 ; 12.105 ;
+; battery_voltage[12] ; red_led     ;        ; 12.101 ; 12.228 ;        ;
+; battery_voltage[12] ; yellow_led  ; 13.095 ; 12.193 ; 12.211 ; 13.542 ;
+; battery_voltage[13] ; green_led   ; 10.970 ; 10.225 ; 10.636 ; 11.096 ;
+; battery_voltage[13] ; red_led     ;        ; 11.031 ; 11.219 ;        ;
+; battery_voltage[13] ; yellow_led  ; 12.025 ; 11.123 ; 11.202 ; 12.533 ;
+; battery_voltage[14] ; green_led   ; 11.855 ; 11.110 ; 11.464 ; 11.924 ;
+; battery_voltage[14] ; red_led     ;        ; 11.916 ; 12.047 ;        ;
+; battery_voltage[14] ; yellow_led  ; 12.910 ; 12.008 ; 12.030 ; 13.361 ;
+; battery_voltage[15] ; green_led   ; 11.397 ; 10.652 ; 11.009 ; 11.469 ;
+; battery_voltage[15] ; red_led     ;        ; 11.458 ; 11.592 ;        ;
+; battery_voltage[15] ; yellow_led  ; 12.452 ; 11.550 ; 11.575 ; 12.906 ;
+; battery_voltage[16] ; green_led   ; 11.695 ; 10.950 ; 11.318 ; 11.778 ;
+; battery_voltage[16] ; red_led     ;        ; 11.756 ; 11.901 ;        ;
+; battery_voltage[16] ; yellow_led  ; 12.750 ; 11.848 ; 11.884 ; 13.215 ;
+; battery_voltage[17] ; green_led   ; 11.347 ; 10.602 ; 10.947 ; 11.407 ;
+; battery_voltage[17] ; red_led     ;        ; 11.408 ; 11.530 ;        ;
+; battery_voltage[17] ; yellow_led  ; 12.402 ; 11.500 ; 11.513 ; 12.844 ;
+; battery_voltage[18] ; green_led   ; 11.148 ; 10.403 ; 10.732 ; 11.192 ;
+; battery_voltage[18] ; red_led     ;        ; 11.209 ; 11.315 ;        ;
+; battery_voltage[18] ; yellow_led  ; 12.203 ; 11.301 ; 11.298 ; 12.629 ;
+; battery_voltage[19] ; green_led   ; 11.417 ; 10.672 ; 11.070 ; 11.530 ;
+; battery_voltage[19] ; red_led     ;        ; 11.478 ; 11.653 ;        ;
+; battery_voltage[19] ; yellow_led  ; 12.472 ; 11.570 ; 11.636 ; 12.967 ;
+; battery_voltage[20] ; green_led   ; 10.827 ; 10.324 ; 10.621 ; 10.845 ;
+; battery_voltage[20] ; red_led     ;        ; 10.888 ; 10.968 ;        ;
+; battery_voltage[20] ; yellow_led  ; 11.882 ; 11.222 ; 11.187 ; 12.282 ;
+; battery_voltage[21] ; green_led   ; 10.716 ; 10.213 ; 10.512 ; 10.736 ;
+; battery_voltage[21] ; red_led     ;        ; 10.777 ; 10.859 ;        ;
+; battery_voltage[21] ; yellow_led  ; 11.771 ; 11.111 ; 11.078 ; 12.173 ;
+; battery_voltage[22] ; green_led   ; 10.932 ; 10.429 ; 10.773 ; 10.997 ;
+; battery_voltage[22] ; red_led     ;        ; 10.993 ; 11.120 ;        ;
+; battery_voltage[22] ; yellow_led  ; 11.987 ; 11.327 ; 11.339 ; 12.434 ;
+; battery_voltage[23] ; green_led   ; 11.102 ; 10.599 ; 10.907 ; 11.131 ;
+; battery_voltage[23] ; red_led     ;        ; 11.163 ; 11.254 ;        ;
+; battery_voltage[23] ; yellow_led  ; 12.157 ; 11.497 ; 11.473 ; 12.568 ;
+; battery_voltage[24] ; green_led   ; 11.084 ; 10.602 ; 10.889 ; 11.108 ;
+; battery_voltage[24] ; red_led     ;        ; 11.145 ; 11.231 ;        ;
+; battery_voltage[24] ; yellow_led  ; 12.139 ; 11.500 ; 11.455 ; 12.545 ;
+; battery_voltage[25] ; green_led   ; 11.482 ; 11.000 ; 11.257 ; 11.476 ;
+; battery_voltage[25] ; red_led     ;        ; 11.543 ; 11.599 ;        ;
+; battery_voltage[25] ; yellow_led  ; 12.537 ; 11.898 ; 11.823 ; 12.913 ;
+; battery_voltage[26] ; green_led   ; 7.674  ; 7.192  ; 7.485  ; 7.704  ;
+; battery_voltage[26] ; red_led     ;        ; 7.735  ; 7.827  ;        ;
+; battery_voltage[26] ; yellow_led  ; 8.729  ; 8.090  ; 8.051  ; 9.141  ;
+; battery_voltage[27] ; green_led   ; 8.075  ; 7.593  ; 7.903  ; 8.122  ;
+; battery_voltage[27] ; red_led     ;        ; 8.136  ; 8.245  ;        ;
+; battery_voltage[27] ; yellow_led  ; 9.130  ; 8.491  ; 8.469  ; 9.559  ;
+; battery_voltage[28] ; green_led   ;        ; 9.721  ; 10.060 ;        ;
+; battery_voltage[28] ; red_led     ;        ; 9.646  ; 9.723  ;        ;
+; battery_voltage[28] ; yellow_led  ; 10.640 ; 10.619 ; 10.626 ; 11.037 ;
+; battery_voltage[29] ; green_led   ;        ; 10.165 ; 10.559 ;        ;
+; battery_voltage[29] ; red_led     ;        ; 10.090 ; 10.222 ;        ;
+; battery_voltage[29] ; yellow_led  ; 11.084 ; 11.063 ; 11.125 ; 11.536 ;
+; battery_voltage[30] ; green_led   ;        ; 10.460 ; 10.728 ;        ;
+; battery_voltage[30] ; red_led     ;        ; 10.385 ; 10.391 ;        ;
+; battery_voltage[30] ; yellow_led  ; 11.379 ; 11.358 ; 11.294 ; 11.705 ;
+; battery_voltage[31] ; green_led   ;        ; 9.399  ; 9.693  ;        ;
+; battery_voltage[31] ; red_led     ; 9.227  ;        ;        ; 9.537  ;
+; battery_voltage[31] ; yellow_led  ;        ; 10.541 ; 10.531 ;        ;
++---------------------+-------------+--------+--------+--------+--------+
+
+
++-----------------------------------------------------------------------+
+; Minimum Propagation Delay                                             ;
++---------------------+-------------+--------+--------+--------+--------+
+; Input Port          ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++---------------------+-------------+--------+--------+--------+--------+
+; battery_voltage[0]  ; green_led   ; 9.816  ; 9.157  ; 9.466  ; 9.858  ;
+; battery_voltage[0]  ; red_led     ;        ; 9.809  ; 9.901  ;        ;
+; battery_voltage[0]  ; yellow_led  ; 10.753 ; 9.497  ; 9.519  ; 11.145 ;
+; battery_voltage[1]  ; green_led   ; 9.890  ; 9.265  ; 9.689  ; 9.988  ;
+; battery_voltage[1]  ; red_led     ;        ; 9.883  ; 10.031 ;        ;
+; battery_voltage[1]  ; yellow_led  ; 10.827 ; 9.600  ; 9.725  ; 11.275 ;
+; battery_voltage[2]  ; green_led   ; 9.657  ; 8.995  ; 9.395  ; 9.736  ;
+; battery_voltage[2]  ; red_led     ;        ; 9.650  ; 9.779  ;        ;
+; battery_voltage[2]  ; yellow_led  ; 10.594 ; 9.336  ; 9.399  ; 11.023 ;
+; battery_voltage[3]  ; green_led   ; 9.896  ; 9.270  ; 9.684  ; 10.025 ;
+; battery_voltage[3]  ; red_led     ;        ; 9.889  ; 10.068 ;        ;
+; battery_voltage[3]  ; yellow_led  ; 10.833 ; 9.575  ; 9.688  ; 11.312 ;
+; battery_voltage[4]  ; green_led   ; 11.103 ; 10.385 ; 10.702 ; 11.142 ;
+; battery_voltage[4]  ; red_led     ;        ; 11.096 ; 11.185 ;        ;
+; battery_voltage[4]  ; yellow_led  ; 12.040 ; 11.230 ; 11.234 ; 12.429 ;
+; battery_voltage[5]  ; green_led   ; 10.455 ; 9.737  ; 10.195 ; 10.635 ;
+; battery_voltage[5]  ; red_led     ;        ; 10.448 ; 10.678 ;        ;
+; battery_voltage[5]  ; yellow_led  ; 11.392 ; 10.582 ; 10.727 ; 11.922 ;
+; battery_voltage[6]  ; green_led   ; 10.959 ; 10.241 ; 10.656 ; 11.096 ;
+; battery_voltage[6]  ; red_led     ;        ; 10.952 ; 11.139 ;        ;
+; battery_voltage[6]  ; yellow_led  ; 11.896 ; 11.086 ; 11.188 ; 12.383 ;
+; battery_voltage[7]  ; green_led   ; 11.121 ; 10.403 ; 10.840 ; 11.280 ;
+; battery_voltage[7]  ; red_led     ;        ; 11.114 ; 11.323 ;        ;
+; battery_voltage[7]  ; yellow_led  ; 12.058 ; 11.248 ; 11.372 ; 12.567 ;
+; battery_voltage[8]  ; green_led   ; 11.206 ; 10.488 ; 10.756 ; 11.196 ;
+; battery_voltage[8]  ; red_led     ;        ; 11.199 ; 11.239 ;        ;
+; battery_voltage[8]  ; yellow_led  ; 12.143 ; 11.333 ; 11.288 ; 12.483 ;
+; battery_voltage[9]  ; green_led   ; 10.869 ; 10.151 ; 10.564 ; 11.004 ;
+; battery_voltage[9]  ; red_led     ;        ; 10.862 ; 11.047 ;        ;
+; battery_voltage[9]  ; yellow_led  ; 11.806 ; 10.996 ; 11.096 ; 12.291 ;
+; battery_voltage[10] ; green_led   ; 8.284  ; 7.566  ; 7.897  ; 8.337  ;
+; battery_voltage[10] ; red_led     ;        ; 8.277  ; 8.380  ;        ;
+; battery_voltage[10] ; yellow_led  ; 9.221  ; 8.411  ; 8.429  ; 9.624  ;
+; battery_voltage[11] ; green_led   ; 7.896  ; 7.178  ; 7.502  ; 7.942  ;
+; battery_voltage[11] ; red_led     ;        ; 7.889  ; 7.985  ;        ;
+; battery_voltage[11] ; yellow_led  ; 8.833  ; 8.023  ; 8.034  ; 9.229  ;
+; battery_voltage[12] ; green_led   ; 11.605 ; 10.887 ; 11.224 ; 11.664 ;
+; battery_voltage[12] ; red_led     ;        ; 11.598 ; 11.707 ;        ;
+; battery_voltage[12] ; yellow_led  ; 12.542 ; 11.732 ; 11.756 ; 12.951 ;
+; battery_voltage[13] ; green_led   ; 10.573 ; 9.855  ; 10.255 ; 10.695 ;
+; battery_voltage[13] ; red_led     ;        ; 10.566 ; 10.738 ;        ;
+; battery_voltage[13] ; yellow_led  ; 11.510 ; 10.700 ; 10.787 ; 11.982 ;
+; battery_voltage[14] ; green_led   ; 11.426 ; 10.708 ; 11.050 ; 11.490 ;
+; battery_voltage[14] ; red_led     ;        ; 11.419 ; 11.533 ;        ;
+; battery_voltage[14] ; yellow_led  ; 12.363 ; 11.553 ; 11.582 ; 12.777 ;
+; battery_voltage[15] ; green_led   ; 10.983 ; 10.265 ; 10.612 ; 11.052 ;
+; battery_voltage[15] ; red_led     ;        ; 10.976 ; 11.095 ;        ;
+; battery_voltage[15] ; yellow_led  ; 11.920 ; 11.110 ; 11.144 ; 12.339 ;
+; battery_voltage[16] ; green_led   ; 11.269 ; 10.551 ; 10.908 ; 11.348 ;
+; battery_voltage[16] ; red_led     ;        ; 11.262 ; 11.391 ;        ;
+; battery_voltage[16] ; yellow_led  ; 12.206 ; 11.396 ; 11.440 ; 12.635 ;
+; battery_voltage[17] ; green_led   ; 10.940 ; 10.222 ; 10.553 ; 10.993 ;
+; battery_voltage[17] ; red_led     ;        ; 10.933 ; 11.036 ;        ;
+; battery_voltage[17] ; yellow_led  ; 11.877 ; 11.067 ; 11.085 ; 12.280 ;
+; battery_voltage[18] ; green_led   ; 10.749 ; 10.031 ; 10.346 ; 10.786 ;
+; battery_voltage[18] ; red_led     ;        ; 10.742 ; 10.829 ;        ;
+; battery_voltage[18] ; yellow_led  ; 11.686 ; 10.876 ; 10.878 ; 12.073 ;
+; battery_voltage[19] ; green_led   ; 11.002 ; 10.284 ; 10.670 ; 11.110 ;
+; battery_voltage[19] ; red_led     ;        ; 10.995 ; 11.153 ;        ;
+; battery_voltage[19] ; yellow_led  ; 11.939 ; 11.129 ; 11.202 ; 12.397 ;
+; battery_voltage[20] ; green_led   ; 10.441 ; 9.956  ; 10.239 ; 10.453 ;
+; battery_voltage[20] ; red_led     ;        ; 10.434 ; 10.496 ;        ;
+; battery_voltage[20] ; yellow_led  ; 11.378 ; 10.801 ; 10.771 ; 11.740 ;
+; battery_voltage[21] ; green_led   ; 10.334 ; 9.849  ; 10.135 ; 10.349 ;
+; battery_voltage[21] ; red_led     ;        ; 10.327 ; 10.392 ;        ;
+; battery_voltage[21] ; yellow_led  ; 11.271 ; 10.694 ; 10.667 ; 11.636 ;
+; battery_voltage[22] ; green_led   ; 10.536 ; 10.051 ; 10.384 ; 10.598 ;
+; battery_voltage[22] ; red_led     ;        ; 10.529 ; 10.641 ;        ;
+; battery_voltage[22] ; yellow_led  ; 11.473 ; 10.896 ; 10.916 ; 11.885 ;
+; battery_voltage[23] ; green_led   ; 10.704 ; 10.219 ; 10.514 ; 10.728 ;
+; battery_voltage[23] ; red_led     ;        ; 10.697 ; 10.771 ;        ;
+; battery_voltage[23] ; yellow_led  ; 11.641 ; 11.064 ; 11.046 ; 12.015 ;
+; battery_voltage[24] ; green_led   ; 10.681 ; 10.217 ; 10.496 ; 10.705 ;
+; battery_voltage[24] ; red_led     ;        ; 10.674 ; 10.748 ;        ;
+; battery_voltage[24] ; yellow_led  ; 11.618 ; 11.062 ; 11.028 ; 11.992 ;
+; battery_voltage[25] ; green_led   ; 11.068 ; 10.604 ; 10.852 ; 11.061 ;
+; battery_voltage[25] ; red_led     ;        ; 11.061 ; 11.104 ;        ;
+; battery_voltage[25] ; yellow_led  ; 12.005 ; 11.449 ; 11.384 ; 12.348 ;
+; battery_voltage[26] ; green_led   ; 7.418  ; 6.954  ; 7.240  ; 7.449  ;
+; battery_voltage[26] ; red_led     ;        ; 7.411  ; 7.492  ;        ;
+; battery_voltage[26] ; yellow_led  ; 8.355  ; 7.799  ; 7.772  ; 8.736  ;
+; battery_voltage[27] ; green_led   ; 7.803  ; 7.339  ; 7.641  ; 7.850  ;
+; battery_voltage[27] ; red_led     ;        ; 7.796  ; 7.893  ;        ;
+; battery_voltage[27] ; yellow_led  ; 8.740  ; 8.184  ; 8.173  ; 9.137  ;
+; battery_voltage[28] ; green_led   ;        ; 9.376  ; 9.702  ;        ;
+; battery_voltage[28] ; red_led     ;        ; 9.243  ; 9.300  ;        ;
+; battery_voltage[28] ; yellow_led  ; 10.187 ; 10.221 ; 10.234 ; 10.544 ;
+; battery_voltage[29] ; green_led   ;        ; 9.761  ; 10.162 ;        ;
+; battery_voltage[29] ; red_led     ;        ; 9.628  ; 9.760  ;        ;
+; battery_voltage[29] ; yellow_led  ; 10.572 ; 10.606 ; 10.694 ; 11.004 ;
+; battery_voltage[30] ; green_led   ;        ; 10.060 ; 10.326 ;        ;
+; battery_voltage[30] ; red_led     ;        ; 9.927  ; 9.924  ;        ;
+; battery_voltage[30] ; yellow_led  ; 10.871 ; 10.905 ; 10.858 ; 11.168 ;
+; battery_voltage[31] ; green_led   ;        ; 9.068  ; 9.348  ;        ;
+; battery_voltage[31] ; red_led     ; 8.899  ;        ;        ; 9.197  ;
+; battery_voltage[31] ; yellow_led  ;        ; 10.143 ; 10.141 ;        ;
++---------------------+-------------+--------+--------+--------+--------+
+
+
+----------------------------------------------
+; Slow 1200mV 85C Model Metastability Report ;
+----------------------------------------------
+No synchronizer chains to report.
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Fmax Summary ;
+-------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Slow 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+----------------------------------------------------
+; Slow 1200mV 0C Model Minimum Pulse Width Summary ;
+----------------------------------------------------
+No paths to report.
+
+
++-----------------------------------------------------------------------+
+; Propagation Delay                                                     ;
++---------------------+-------------+--------+--------+--------+--------+
+; Input Port          ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++---------------------+-------------+--------+--------+--------+--------+
+; battery_voltage[0]  ; green_led   ; 9.305  ; 8.541  ; 8.804  ; 9.045  ;
+; battery_voltage[0]  ; red_led     ;        ; 9.352  ; 9.160  ;        ;
+; battery_voltage[0]  ; yellow_led  ; 10.171 ; 9.003  ; 8.724  ; 10.463 ;
+; battery_voltage[1]  ; green_led   ; 9.363  ; 8.626  ; 9.002  ; 9.163  ;
+; battery_voltage[1]  ; red_led     ;        ; 9.410  ; 9.278  ;        ;
+; battery_voltage[1]  ; yellow_led  ; 10.229 ; 9.082  ; 8.917  ; 10.581 ;
+; battery_voltage[2]  ; green_led   ; 9.135  ; 8.367  ; 8.731  ; 8.925  ;
+; battery_voltage[2]  ; red_led     ;        ; 9.182  ; 9.040  ;        ;
+; battery_voltage[2]  ; yellow_led  ; 10.001 ; 8.830  ; 8.607  ; 10.343 ;
+; battery_voltage[3]  ; green_led   ; 9.455  ; 8.667  ; 9.027  ; 9.302  ;
+; battery_voltage[3]  ; red_led     ;        ; 9.502  ; 9.417  ;        ;
+; battery_voltage[3]  ; yellow_led  ; 10.321 ; 9.108  ; 8.958  ; 10.720 ;
+; battery_voltage[4]  ; green_led   ; 10.531 ; 9.725  ; 9.998  ; 10.308 ;
+; battery_voltage[4]  ; red_led     ;        ; 10.578 ; 10.423 ;        ;
+; battery_voltage[4]  ; yellow_led  ; 11.397 ; 10.656 ; 10.408 ; 11.726 ;
+; battery_voltage[5]  ; green_led   ; 9.859  ; 9.053  ; 9.532  ; 9.842  ;
+; battery_voltage[5]  ; red_led     ;        ; 9.906  ; 9.957  ;        ;
+; battery_voltage[5]  ; yellow_led  ; 10.725 ; 9.984  ; 9.942  ; 11.260 ;
+; battery_voltage[6]  ; green_led   ; 10.372 ; 9.566  ; 9.947  ; 10.257 ;
+; battery_voltage[6]  ; red_led     ;        ; 10.419 ; 10.372 ;        ;
+; battery_voltage[6]  ; yellow_led  ; 11.238 ; 10.497 ; 10.357 ; 11.675 ;
+; battery_voltage[7]  ; green_led   ; 10.546 ; 9.740  ; 10.111 ; 10.421 ;
+; battery_voltage[7]  ; red_led     ;        ; 10.593 ; 10.536 ;        ;
+; battery_voltage[7]  ; yellow_led  ; 11.412 ; 10.671 ; 10.521 ; 11.839 ;
+; battery_voltage[8]  ; green_led   ; 10.636 ; 9.830  ; 10.038 ; 10.348 ;
+; battery_voltage[8]  ; red_led     ;        ; 10.683 ; 10.463 ;        ;
+; battery_voltage[8]  ; yellow_led  ; 11.502 ; 10.761 ; 10.448 ; 11.766 ;
+; battery_voltage[9]  ; green_led   ; 10.272 ; 9.466  ; 9.863  ; 10.173 ;
+; battery_voltage[9]  ; red_led     ;        ; 10.319 ; 10.288 ;        ;
+; battery_voltage[9]  ; yellow_led  ; 11.138 ; 10.397 ; 10.273 ; 11.591 ;
+; battery_voltage[10] ; green_led   ; 7.853  ; 7.047  ; 7.623  ; 7.933  ;
+; battery_voltage[10] ; red_led     ;        ; 7.900  ; 8.048  ;        ;
+; battery_voltage[10] ; yellow_led  ; 8.719  ; 7.978  ; 8.033  ; 9.351  ;
+; battery_voltage[11] ; green_led   ; 7.493  ; 6.687  ; 7.232  ; 7.542  ;
+; battery_voltage[11] ; red_led     ;        ; 7.540  ; 7.657  ;        ;
+; battery_voltage[11] ; yellow_led  ; 8.359  ; 7.618  ; 7.642  ; 8.960  ;
+; battery_voltage[12] ; green_led   ; 10.994 ; 10.188 ; 10.500 ; 10.810 ;
+; battery_voltage[12] ; red_led     ;        ; 11.041 ; 10.925 ;        ;
+; battery_voltage[12] ; yellow_led  ; 11.860 ; 11.119 ; 10.910 ; 12.228 ;
+; battery_voltage[13] ; green_led   ; 9.971  ; 9.165  ; 9.580  ; 9.890  ;
+; battery_voltage[13] ; red_led     ;        ; 10.018 ; 10.005 ;        ;
+; battery_voltage[13] ; yellow_led  ; 10.837 ; 10.096 ; 9.990  ; 11.308 ;
+; battery_voltage[14] ; green_led   ; 10.816 ; 10.010 ; 10.322 ; 10.632 ;
+; battery_voltage[14] ; red_led     ;        ; 10.863 ; 10.747 ;        ;
+; battery_voltage[14] ; yellow_led  ; 11.682 ; 10.941 ; 10.732 ; 12.050 ;
+; battery_voltage[15] ; green_led   ; 10.380 ; 9.574  ; 9.907  ; 10.217 ;
+; battery_voltage[15] ; red_led     ;        ; 10.427 ; 10.332 ;        ;
+; battery_voltage[15] ; yellow_led  ; 11.246 ; 10.505 ; 10.317 ; 11.635 ;
+; battery_voltage[16] ; green_led   ; 10.667 ; 9.861  ; 10.179 ; 10.489 ;
+; battery_voltage[16] ; red_led     ;        ; 10.714 ; 10.604 ;        ;
+; battery_voltage[16] ; yellow_led  ; 11.533 ; 10.792 ; 10.589 ; 11.907 ;
+; battery_voltage[17] ; green_led   ; 10.349 ; 9.543  ; 9.863  ; 10.173 ;
+; battery_voltage[17] ; red_led     ;        ; 10.396 ; 10.288 ;        ;
+; battery_voltage[17] ; yellow_led  ; 11.215 ; 10.474 ; 10.273 ; 11.591 ;
+; battery_voltage[18] ; green_led   ; 10.155 ; 9.349  ; 9.676  ; 9.986  ;
+; battery_voltage[18] ; red_led     ;        ; 10.202 ; 10.101 ;        ;
+; battery_voltage[18] ; yellow_led  ; 11.021 ; 10.280 ; 10.086 ; 11.404 ;
+; battery_voltage[19] ; green_led   ; 10.390 ; 9.584  ; 9.969  ; 10.279 ;
+; battery_voltage[19] ; red_led     ;        ; 10.437 ; 10.394 ;        ;
+; battery_voltage[19] ; yellow_led  ; 11.256 ; 10.515 ; 10.379 ; 11.697 ;
+; battery_voltage[20] ; green_led   ; 9.875  ; 9.291  ; 9.560  ; 9.644  ;
+; battery_voltage[20] ; red_led     ;        ; 9.922  ; 9.759  ;        ;
+; battery_voltage[20] ; yellow_led  ; 10.741 ; 10.222 ; 9.970  ; 11.062 ;
+; battery_voltage[21] ; green_led   ; 9.785  ; 9.201  ; 9.451  ; 9.535  ;
+; battery_voltage[21] ; red_led     ;        ; 9.832  ; 9.650  ;        ;
+; battery_voltage[21] ; yellow_led  ; 10.651 ; 10.132 ; 9.861  ; 10.953 ;
+; battery_voltage[22] ; green_led   ; 9.959  ; 9.375  ; 9.678  ; 9.762  ;
+; battery_voltage[22] ; red_led     ;        ; 10.006 ; 9.877  ;        ;
+; battery_voltage[22] ; yellow_led  ; 10.825 ; 10.306 ; 10.088 ; 11.180 ;
+; battery_voltage[23] ; green_led   ; 10.143 ; 9.559  ; 9.796  ; 9.880  ;
+; battery_voltage[23] ; red_led     ;        ; 10.190 ; 9.995  ;        ;
+; battery_voltage[23] ; yellow_led  ; 11.009 ; 10.490 ; 10.206 ; 11.298 ;
+; battery_voltage[24] ; green_led   ; 10.117 ; 9.551  ; 9.776  ; 9.855  ;
+; battery_voltage[24] ; red_led     ;        ; 10.164 ; 9.970  ;        ;
+; battery_voltage[24] ; yellow_led  ; 10.983 ; 10.482 ; 10.186 ; 11.273 ;
+; battery_voltage[25] ; green_led   ; 10.508 ; 9.942  ; 10.112 ; 10.191 ;
+; battery_voltage[25] ; red_led     ;        ; 10.555 ; 10.306 ;        ;
+; battery_voltage[25] ; yellow_led  ; 11.374 ; 10.873 ; 10.522 ; 11.609 ;
+; battery_voltage[26] ; green_led   ; 7.029  ; 6.463  ; 6.974  ; 7.053  ;
+; battery_voltage[26] ; red_led     ;        ; 7.076  ; 7.168  ;        ;
+; battery_voltage[26] ; yellow_led  ; 7.895  ; 7.394  ; 7.384  ; 8.471  ;
+; battery_voltage[27] ; green_led   ; 7.396  ; 6.830  ; 7.379  ; 7.458  ;
+; battery_voltage[27] ; red_led     ;        ; 7.443  ; 7.573  ;        ;
+; battery_voltage[27] ; yellow_led  ; 8.262  ; 7.761  ; 7.789  ; 8.876  ;
+; battery_voltage[28] ; green_led   ;        ; 8.740  ; 9.041  ;        ;
+; battery_voltage[28] ; red_led     ;        ; 8.758  ; 8.626  ;        ;
+; battery_voltage[28] ; yellow_led  ; 9.577  ; 9.671  ; 9.451  ; 9.929  ;
+; battery_voltage[29] ; green_led   ;        ; 9.140  ; 9.478  ;        ;
+; battery_voltage[29] ; red_led     ;        ; 9.158  ; 9.063  ;        ;
+; battery_voltage[29] ; yellow_led  ; 9.977  ; 10.071 ; 9.888  ; 10.366 ;
+; battery_voltage[30] ; green_led   ;        ; 9.437  ; 9.635  ;        ;
+; battery_voltage[30] ; red_led     ;        ; 9.455  ; 9.220  ;        ;
+; battery_voltage[30] ; yellow_led  ; 10.274 ; 10.368 ; 10.045 ; 10.523 ;
+; battery_voltage[31] ; green_led   ;        ; 8.481  ; 8.652  ;        ;
+; battery_voltage[31] ; red_led     ; 8.327  ;        ;        ; 8.518  ;
+; battery_voltage[31] ; yellow_led  ;        ; 9.630  ; 9.337  ;        ;
++---------------------+-------------+--------+--------+--------+--------+
+
+
++-----------------------------------------------------------------------+
+; Minimum Propagation Delay                                             ;
++---------------------+-------------+--------+--------+--------+--------+
+; Input Port          ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++---------------------+-------------+--------+--------+--------+--------+
+; battery_voltage[0]  ; green_led   ; 8.959  ; 8.222  ; 8.474  ; 8.705  ;
+; battery_voltage[0]  ; red_led     ;        ; 8.946  ; 8.743  ;        ;
+; battery_voltage[0]  ; yellow_led  ; 9.725  ; 8.667  ; 8.396  ; 9.983  ;
+; battery_voltage[1]  ; green_led   ; 9.011  ; 8.301  ; 8.664  ; 8.818  ;
+; battery_voltage[1]  ; red_led     ;        ; 8.998  ; 8.856  ;        ;
+; battery_voltage[1]  ; yellow_led  ; 9.777  ; 8.742  ; 8.582  ; 10.096 ;
+; battery_voltage[2]  ; green_led   ; 8.793  ; 8.051  ; 8.404  ; 8.590  ;
+; battery_voltage[2]  ; red_led     ;        ; 8.780  ; 8.628  ;        ;
+; battery_voltage[2]  ; yellow_led  ; 9.559  ; 8.500  ; 8.284  ; 9.868  ;
+; battery_voltage[3]  ; green_led   ; 9.016  ; 8.319  ; 8.665  ; 8.852  ;
+; battery_voltage[3]  ; red_led     ;        ; 9.003  ; 8.890  ;        ;
+; battery_voltage[3]  ; yellow_led  ; 9.782  ; 8.723  ; 8.546  ; 10.130 ;
+; battery_voltage[4]  ; green_led   ; 10.132 ; 9.356  ; 9.622  ; 9.918  ;
+; battery_voltage[4]  ; red_led     ;        ; 10.119 ; 9.956  ;        ;
+; battery_voltage[4]  ; yellow_led  ; 10.898 ; 10.237 ; 10.010 ; 11.196 ;
+; battery_voltage[5]  ; green_led   ; 9.485  ; 8.709  ; 9.175  ; 9.471  ;
+; battery_voltage[5]  ; red_led     ;        ; 9.472  ; 9.509  ;        ;
+; battery_voltage[5]  ; yellow_led  ; 10.251 ; 9.590  ; 9.563  ; 10.749 ;
+; battery_voltage[6]  ; green_led   ; 9.977  ; 9.201  ; 9.572  ; 9.868  ;
+; battery_voltage[6]  ; red_led     ;        ; 9.964  ; 9.906  ;        ;
+; battery_voltage[6]  ; yellow_led  ; 10.743 ; 10.082 ; 9.960  ; 11.146 ;
+; battery_voltage[7]  ; green_led   ; 10.144 ; 9.368  ; 9.731  ; 10.027 ;
+; battery_voltage[7]  ; red_led     ;        ; 10.131 ; 10.065 ;        ;
+; battery_voltage[7]  ; yellow_led  ; 10.910 ; 10.249 ; 10.119 ; 11.305 ;
+; battery_voltage[8]  ; green_led   ; 10.234 ; 9.458  ; 9.660  ; 9.956  ;
+; battery_voltage[8]  ; red_led     ;        ; 10.221 ; 9.994  ;        ;
+; battery_voltage[8]  ; yellow_led  ; 11.000 ; 10.339 ; 10.048 ; 11.234 ;
+; battery_voltage[9]  ; green_led   ; 9.882  ; 9.106  ; 9.493  ; 9.789  ;
+; battery_voltage[9]  ; red_led     ;        ; 9.869  ; 9.827  ;        ;
+; battery_voltage[9]  ; yellow_led  ; 10.648 ; 9.987  ; 9.881  ; 11.067 ;
+; battery_voltage[10] ; green_led   ; 7.567  ; 6.791  ; 7.350  ; 7.646  ;
+; battery_voltage[10] ; red_led     ;        ; 7.554  ; 7.684  ;        ;
+; battery_voltage[10] ; yellow_led  ; 8.333  ; 7.672  ; 7.738  ; 8.924  ;
+; battery_voltage[11] ; green_led   ; 7.221  ; 6.445  ; 6.974  ; 7.270  ;
+; battery_voltage[11] ; red_led     ;        ; 7.208  ; 7.308  ;        ;
+; battery_voltage[11] ; yellow_led  ; 7.987  ; 7.326  ; 7.362  ; 8.548  ;
+; battery_voltage[12] ; green_led   ; 10.579 ; 9.803  ; 10.102 ; 10.398 ;
+; battery_voltage[12] ; red_led     ;        ; 10.566 ; 10.436 ;        ;
+; battery_voltage[12] ; yellow_led  ; 11.345 ; 10.684 ; 10.490 ; 11.676 ;
+; battery_voltage[13] ; green_led   ; 9.593  ; 8.817  ; 9.220  ; 9.516  ;
+; battery_voltage[13] ; red_led     ;        ; 9.580  ; 9.554  ;        ;
+; battery_voltage[13] ; yellow_led  ; 10.359 ; 9.698  ; 9.608  ; 10.794 ;
+; battery_voltage[14] ; green_led   ; 10.408 ; 9.632  ; 9.932  ; 10.228 ;
+; battery_voltage[14] ; red_led     ;        ; 10.395 ; 10.266 ;        ;
+; battery_voltage[14] ; yellow_led  ; 11.174 ; 10.513 ; 10.320 ; 11.506 ;
+; battery_voltage[15] ; green_led   ; 9.986  ; 9.210  ; 9.533  ; 9.829  ;
+; battery_voltage[15] ; red_led     ;        ; 9.973  ; 9.867  ;        ;
+; battery_voltage[15] ; yellow_led  ; 10.752 ; 10.091 ; 9.921  ; 11.107 ;
+; battery_voltage[16] ; green_led   ; 10.260 ; 9.484  ; 9.796  ; 10.092 ;
+; battery_voltage[16] ; red_led     ;        ; 10.247 ; 10.130 ;        ;
+; battery_voltage[16] ; yellow_led  ; 11.026 ; 10.365 ; 10.184 ; 11.370 ;
+; battery_voltage[17] ; green_led   ; 9.957  ; 9.181  ; 9.491  ; 9.787  ;
+; battery_voltage[17] ; red_led     ;        ; 9.944  ; 9.825  ;        ;
+; battery_voltage[17] ; yellow_led  ; 10.723 ; 10.062 ; 9.879  ; 11.065 ;
+; battery_voltage[18] ; green_led   ; 9.771  ; 8.995  ; 9.311  ; 9.607  ;
+; battery_voltage[18] ; red_led     ;        ; 9.758  ; 9.645  ;        ;
+; battery_voltage[18] ; yellow_led  ; 10.537 ; 9.876  ; 9.699  ; 10.885 ;
+; battery_voltage[19] ; green_led   ; 9.994  ; 9.218  ; 9.593  ; 9.889  ;
+; battery_voltage[19] ; red_led     ;        ; 9.981  ; 9.927  ;        ;
+; battery_voltage[19] ; yellow_led  ; 10.760 ; 10.099 ; 9.981  ; 11.167 ;
+; battery_voltage[20] ; green_led   ; 9.505  ; 8.942  ; 9.199  ; 9.278  ;
+; battery_voltage[20] ; red_led     ;        ; 9.492  ; 9.316  ;        ;
+; battery_voltage[20] ; yellow_led  ; 10.271 ; 9.823  ; 9.587  ; 10.556 ;
+; battery_voltage[21] ; green_led   ; 9.417  ; 8.854  ; 9.096  ; 9.175  ;
+; battery_voltage[21] ; red_led     ;        ; 9.404  ; 9.213  ;        ;
+; battery_voltage[21] ; yellow_led  ; 10.183 ; 9.735  ; 9.484  ; 10.453 ;
+; battery_voltage[22] ; green_led   ; 9.582  ; 9.019  ; 9.314  ; 9.393  ;
+; battery_voltage[22] ; red_led     ;        ; 9.569  ; 9.431  ;        ;
+; battery_voltage[22] ; yellow_led  ; 10.348 ; 9.900  ; 9.702  ; 10.671 ;
+; battery_voltage[23] ; green_led   ; 9.761  ; 9.198  ; 9.426  ; 9.505  ;
+; battery_voltage[23] ; red_led     ;        ; 9.748  ; 9.543  ;        ;
+; battery_voltage[23] ; yellow_led  ; 10.527 ; 10.079 ; 9.814  ; 10.783 ;
+; battery_voltage[24] ; green_led   ; 9.733  ; 9.188  ; 9.408  ; 9.482  ;
+; battery_voltage[24] ; red_led     ;        ; 9.720  ; 9.520  ;        ;
+; battery_voltage[24] ; yellow_led  ; 10.499 ; 10.069 ; 9.796  ; 10.760 ;
+; battery_voltage[25] ; green_led   ; 10.112 ; 9.567  ; 9.729  ; 9.803  ;
+; battery_voltage[25] ; red_led     ;        ; 10.099 ; 9.841  ;        ;
+; battery_voltage[25] ; yellow_led  ; 10.878 ; 10.448 ; 10.117 ; 11.081 ;
+; battery_voltage[26] ; green_led   ; 6.776  ; 6.231  ; 6.726  ; 6.800  ;
+; battery_voltage[26] ; red_led     ;        ; 6.763  ; 6.838  ;        ;
+; battery_voltage[26] ; yellow_led  ; 7.542  ; 7.112  ; 7.114  ; 8.078  ;
+; battery_voltage[27] ; green_led   ; 7.129  ; 6.584  ; 7.114  ; 7.188  ;
+; battery_voltage[27] ; red_led     ;        ; 7.116  ; 7.226  ;        ;
+; battery_voltage[27] ; yellow_led  ; 7.895  ; 7.465  ; 7.502  ; 8.466  ;
+; battery_voltage[28] ; green_led   ;        ; 8.413  ; 8.702  ;        ;
+; battery_voltage[28] ; red_led     ;        ; 8.377  ; 8.231  ;        ;
+; battery_voltage[28] ; yellow_led  ; 9.156  ; 9.294  ; 9.090  ; 9.471  ;
+; battery_voltage[29] ; green_led   ;        ; 8.765  ; 9.111  ;        ;
+; battery_voltage[29] ; red_led     ;        ; 8.729  ; 8.640  ;        ;
+; battery_voltage[29] ; yellow_led  ; 9.508  ; 9.646  ; 9.499  ; 9.880  ;
+; battery_voltage[30] ; green_led   ;        ; 9.062  ; 9.261  ;        ;
+; battery_voltage[30] ; red_led     ;        ; 9.026  ; 8.790  ;        ;
+; battery_voltage[30] ; yellow_led  ; 9.805  ; 9.943  ; 9.649  ; 10.030 ;
+; battery_voltage[31] ; green_led   ;        ; 8.165  ; 8.328  ;        ;
+; battery_voltage[31] ; red_led     ; 8.013  ;        ;        ; 8.198  ;
+; battery_voltage[31] ; yellow_led  ;        ; 9.253  ; 8.977  ;        ;
++---------------------+-------------+--------+--------+--------+--------+
+
+
+---------------------------------------------
+; Slow 1200mV 0C Model Metastability Report ;
+---------------------------------------------
+No synchronizer chains to report.
+
+
+--------------------------------------
+; Fast 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Fast 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Fast 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Fast 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+----------------------------------------------------
+; Fast 1200mV 0C Model Minimum Pulse Width Summary ;
+----------------------------------------------------
+No paths to report.
+
+
++-------------------------------------------------------------------+
+; Propagation Delay                                                 ;
++---------------------+-------------+-------+-------+-------+-------+
+; Input Port          ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++---------------------+-------------+-------+-------+-------+-------+
+; battery_voltage[0]  ; green_led   ; 4.683 ; 4.558 ; 5.050 ; 5.387 ;
+; battery_voltage[0]  ; red_led     ;       ; 4.709 ; 5.440 ;       ;
+; battery_voltage[0]  ; yellow_led  ; 5.272 ; 4.544 ; 5.252 ; 5.871 ;
+; battery_voltage[1]  ; green_led   ; 4.762 ; 4.654 ; 5.186 ; 5.471 ;
+; battery_voltage[1]  ; red_led     ;       ; 4.788 ; 5.524 ;       ;
+; battery_voltage[1]  ; yellow_led  ; 5.351 ; 4.643 ; 5.378 ; 5.955 ;
+; battery_voltage[2]  ; green_led   ; 4.646 ; 4.524 ; 5.040 ; 5.354 ;
+; battery_voltage[2]  ; red_led     ;       ; 4.672 ; 5.407 ;       ;
+; battery_voltage[2]  ; yellow_led  ; 5.235 ; 4.508 ; 5.219 ; 5.838 ;
+; battery_voltage[3]  ; green_led   ; 4.786 ; 4.651 ; 5.191 ; 5.531 ;
+; battery_voltage[3]  ; red_led     ;       ; 4.812 ; 5.584 ;       ;
+; battery_voltage[3]  ; yellow_led  ; 5.375 ; 4.633 ; 5.385 ; 6.015 ;
+; battery_voltage[4]  ; green_led   ; 5.270 ; 5.106 ; 5.636 ; 5.964 ;
+; battery_voltage[4]  ; red_led     ;       ; 5.296 ; 6.017 ;       ;
+; battery_voltage[4]  ; yellow_led  ; 5.859 ; 5.352 ; 6.028 ; 6.448 ;
+; battery_voltage[5]  ; green_led   ; 5.039 ; 4.875 ; 5.360 ; 5.688 ;
+; battery_voltage[5]  ; red_led     ;       ; 5.065 ; 5.741 ;       ;
+; battery_voltage[5]  ; yellow_led  ; 5.628 ; 5.121 ; 5.752 ; 6.172 ;
+; battery_voltage[6]  ; green_led   ; 5.235 ; 5.071 ; 5.585 ; 5.913 ;
+; battery_voltage[6]  ; red_led     ;       ; 5.261 ; 5.966 ;       ;
+; battery_voltage[6]  ; yellow_led  ; 5.824 ; 5.317 ; 5.977 ; 6.397 ;
+; battery_voltage[7]  ; green_led   ; 5.310 ; 5.146 ; 5.689 ; 6.017 ;
+; battery_voltage[7]  ; red_led     ;       ; 5.336 ; 6.070 ;       ;
+; battery_voltage[7]  ; yellow_led  ; 5.899 ; 5.392 ; 6.081 ; 6.501 ;
+; battery_voltage[8]  ; green_led   ; 5.288 ; 5.124 ; 5.603 ; 5.931 ;
+; battery_voltage[8]  ; red_led     ;       ; 5.314 ; 5.984 ;       ;
+; battery_voltage[8]  ; yellow_led  ; 5.877 ; 5.370 ; 5.995 ; 6.415 ;
+; battery_voltage[9]  ; green_led   ; 5.186 ; 5.022 ; 5.524 ; 5.852 ;
+; battery_voltage[9]  ; red_led     ;       ; 5.212 ; 5.905 ;       ;
+; battery_voltage[9]  ; yellow_led  ; 5.775 ; 5.268 ; 5.916 ; 6.336 ;
+; battery_voltage[10] ; green_led   ; 3.930 ; 3.766 ; 3.966 ; 4.294 ;
+; battery_voltage[10] ; red_led     ;       ; 3.956 ; 4.347 ;       ;
+; battery_voltage[10] ; yellow_led  ; 4.519 ; 4.012 ; 4.358 ; 4.778 ;
+; battery_voltage[11] ; green_led   ; 3.754 ; 3.590 ; 3.806 ; 4.134 ;
+; battery_voltage[11] ; red_led     ;       ; 3.780 ; 4.187 ;       ;
+; battery_voltage[11] ; yellow_led  ; 4.343 ; 3.836 ; 4.198 ; 4.618 ;
+; battery_voltage[12] ; green_led   ; 5.543 ; 5.379 ; 5.886 ; 6.214 ;
+; battery_voltage[12] ; red_led     ;       ; 5.569 ; 6.267 ;       ;
+; battery_voltage[12] ; yellow_led  ; 6.132 ; 5.625 ; 6.278 ; 6.698 ;
+; battery_voltage[13] ; green_led   ; 5.088 ; 4.924 ; 5.379 ; 5.707 ;
+; battery_voltage[13] ; red_led     ;       ; 5.114 ; 5.760 ;       ;
+; battery_voltage[13] ; yellow_led  ; 5.677 ; 5.170 ; 5.771 ; 6.191 ;
+; battery_voltage[14] ; green_led   ; 5.455 ; 5.291 ; 5.784 ; 6.112 ;
+; battery_voltage[14] ; red_led     ;       ; 5.481 ; 6.165 ;       ;
+; battery_voltage[14] ; yellow_led  ; 6.044 ; 5.537 ; 6.176 ; 6.596 ;
+; battery_voltage[15] ; green_led   ; 5.244 ; 5.080 ; 5.543 ; 5.871 ;
+; battery_voltage[15] ; red_led     ;       ; 5.270 ; 5.924 ;       ;
+; battery_voltage[15] ; yellow_led  ; 5.833 ; 5.326 ; 5.935 ; 6.355 ;
+; battery_voltage[16] ; green_led   ; 5.376 ; 5.212 ; 5.694 ; 6.022 ;
+; battery_voltage[16] ; red_led     ;       ; 5.402 ; 6.075 ;       ;
+; battery_voltage[16] ; yellow_led  ; 5.965 ; 5.458 ; 6.086 ; 6.506 ;
+; battery_voltage[17] ; green_led   ; 5.222 ; 5.058 ; 5.524 ; 5.852 ;
+; battery_voltage[17] ; red_led     ;       ; 5.248 ; 5.905 ;       ;
+; battery_voltage[17] ; yellow_led  ; 5.811 ; 5.304 ; 5.916 ; 6.336 ;
+; battery_voltage[18] ; green_led   ; 5.122 ; 4.958 ; 5.396 ; 5.724 ;
+; battery_voltage[18] ; red_led     ;       ; 5.148 ; 5.777 ;       ;
+; battery_voltage[18] ; yellow_led  ; 5.711 ; 5.204 ; 5.788 ; 6.208 ;
+; battery_voltage[19] ; green_led   ; 5.273 ; 5.109 ; 5.583 ; 5.911 ;
+; battery_voltage[19] ; red_led     ;       ; 5.299 ; 5.964 ;       ;
+; battery_voltage[19] ; yellow_led  ; 5.862 ; 5.355 ; 5.975 ; 6.395 ;
+; battery_voltage[20] ; green_led   ; 4.998 ; 4.936 ; 5.404 ; 5.652 ;
+; battery_voltage[20] ; red_led     ;       ; 5.024 ; 5.705 ;       ;
+; battery_voltage[20] ; yellow_led  ; 5.587 ; 5.182 ; 5.796 ; 6.136 ;
+; battery_voltage[21] ; green_led   ; 4.933 ; 4.871 ; 5.349 ; 5.597 ;
+; battery_voltage[21] ; red_led     ;       ; 4.959 ; 5.650 ;       ;
+; battery_voltage[21] ; yellow_led  ; 5.522 ; 5.117 ; 5.741 ; 6.081 ;
+; battery_voltage[22] ; green_led   ; 5.056 ; 4.994 ; 5.483 ; 5.731 ;
+; battery_voltage[22] ; red_led     ;       ; 5.082 ; 5.784 ;       ;
+; battery_voltage[22] ; yellow_led  ; 5.645 ; 5.240 ; 5.875 ; 6.215 ;
+; battery_voltage[23] ; green_led   ; 5.095 ; 5.033 ; 5.524 ; 5.772 ;
+; battery_voltage[23] ; red_led     ;       ; 5.121 ; 5.825 ;       ;
+; battery_voltage[23] ; yellow_led  ; 5.684 ; 5.279 ; 5.916 ; 6.256 ;
+; battery_voltage[24] ; green_led   ; 5.096 ; 5.045 ; 5.538 ; 5.781 ;
+; battery_voltage[24] ; red_led     ;       ; 5.122 ; 5.834 ;       ;
+; battery_voltage[24] ; yellow_led  ; 5.685 ; 5.291 ; 5.930 ; 6.265 ;
+; battery_voltage[25] ; green_led   ; 5.253 ; 5.202 ; 5.704 ; 5.947 ;
+; battery_voltage[25] ; red_led     ;       ; 5.279 ; 6.000 ;       ;
+; battery_voltage[25] ; yellow_led  ; 5.842 ; 5.448 ; 6.096 ; 6.431 ;
+; battery_voltage[26] ; green_led   ; 3.551 ; 3.500 ; 3.704 ; 3.947 ;
+; battery_voltage[26] ; red_led     ;       ; 3.577 ; 4.000 ;       ;
+; battery_voltage[26] ; yellow_led  ; 4.140 ; 3.746 ; 4.096 ; 4.431 ;
+; battery_voltage[27] ; green_led   ; 3.727 ; 3.676 ; 3.857 ; 4.100 ;
+; battery_voltage[27] ; red_led     ;       ; 3.753 ; 4.153 ;       ;
+; battery_voltage[27] ; yellow_led  ; 4.316 ; 3.922 ; 4.249 ; 4.584 ;
+; battery_voltage[28] ; green_led   ;       ; 4.661 ; 5.132 ;       ;
+; battery_voltage[28] ; red_led     ;       ; 4.503 ; 5.124 ;       ;
+; battery_voltage[28] ; yellow_led  ; 5.066 ; 4.907 ; 5.524 ; 5.555 ;
+; battery_voltage[29] ; green_led   ;       ; 4.859 ; 5.374 ;       ;
+; battery_voltage[29] ; red_led     ;       ; 4.701 ; 5.366 ;       ;
+; battery_voltage[29] ; yellow_led  ; 5.264 ; 5.105 ; 5.766 ; 5.797 ;
+; battery_voltage[30] ; green_led   ;       ; 4.967 ; 5.455 ;       ;
+; battery_voltage[30] ; red_led     ;       ; 4.809 ; 5.447 ;       ;
+; battery_voltage[30] ; yellow_led  ; 5.372 ; 5.213 ; 5.847 ; 5.878 ;
+; battery_voltage[31] ; green_led   ;       ; 4.504 ; 5.037 ;       ;
+; battery_voltage[31] ; red_led     ; 4.430 ;       ;       ; 4.953 ;
+; battery_voltage[31] ; yellow_led  ;       ; 4.861 ; 5.516 ;       ;
++---------------------+-------------+-------+-------+-------+-------+
+
+
++-------------------------------------------------------------------+
+; Minimum Propagation Delay                                         ;
++---------------------+-------------+-------+-------+-------+-------+
+; Input Port          ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++---------------------+-------------+-------+-------+-------+-------+
+; battery_voltage[0]  ; green_led   ; 4.526 ; 4.408 ; 4.895 ; 5.220 ;
+; battery_voltage[0]  ; red_led     ;       ; 4.523 ; 5.241 ;       ;
+; battery_voltage[0]  ; yellow_led  ; 5.060 ; 4.392 ; 5.091 ; 5.646 ;
+; battery_voltage[1]  ; green_led   ; 4.604 ; 4.502 ; 5.027 ; 5.300 ;
+; battery_voltage[1]  ; red_led     ;       ; 4.601 ; 5.321 ;       ;
+; battery_voltage[1]  ; yellow_led  ; 5.138 ; 4.488 ; 5.212 ; 5.726 ;
+; battery_voltage[2]  ; green_led   ; 4.492 ; 4.378 ; 4.886 ; 5.188 ;
+; battery_voltage[2]  ; red_led     ;       ; 4.489 ; 5.209 ;       ;
+; battery_voltage[2]  ; yellow_led  ; 5.026 ; 4.359 ; 5.060 ; 5.614 ;
+; battery_voltage[3]  ; green_led   ; 4.591 ; 4.483 ; 5.017 ; 5.313 ;
+; battery_voltage[3]  ; red_led     ;       ; 4.588 ; 5.334 ;       ;
+; battery_voltage[3]  ; yellow_led  ; 5.125 ; 4.458 ; 5.184 ; 5.739 ;
+; battery_voltage[4]  ; green_led   ; 5.091 ; 4.935 ; 5.457 ; 5.773 ;
+; battery_voltage[4]  ; red_led     ;       ; 5.088 ; 5.794 ;       ;
+; battery_voltage[4]  ; yellow_led  ; 5.625 ; 5.162 ; 5.830 ; 6.199 ;
+; battery_voltage[5]  ; green_led   ; 4.870 ; 4.714 ; 5.192 ; 5.508 ;
+; battery_voltage[5]  ; red_led     ;       ; 4.867 ; 5.529 ;       ;
+; battery_voltage[5]  ; yellow_led  ; 5.404 ; 4.941 ; 5.565 ; 5.934 ;
+; battery_voltage[6]  ; green_led   ; 5.059 ; 4.903 ; 5.410 ; 5.726 ;
+; battery_voltage[6]  ; red_led     ;       ; 5.056 ; 5.747 ;       ;
+; battery_voltage[6]  ; yellow_led  ; 5.593 ; 5.130 ; 5.783 ; 6.152 ;
+; battery_voltage[7]  ; green_led   ; 5.132 ; 4.976 ; 5.510 ; 5.826 ;
+; battery_voltage[7]  ; red_led     ;       ; 5.129 ; 5.847 ;       ;
+; battery_voltage[7]  ; yellow_led  ; 5.666 ; 5.203 ; 5.883 ; 6.252 ;
+; battery_voltage[8]  ; green_led   ; 5.109 ; 4.953 ; 5.427 ; 5.743 ;
+; battery_voltage[8]  ; red_led     ;       ; 5.106 ; 5.764 ;       ;
+; battery_voltage[8]  ; yellow_led  ; 5.643 ; 5.180 ; 5.800 ; 6.169 ;
+; battery_voltage[9]  ; green_led   ; 5.013 ; 4.857 ; 5.351 ; 5.667 ;
+; battery_voltage[9]  ; red_led     ;       ; 5.010 ; 5.688 ;       ;
+; battery_voltage[9]  ; yellow_led  ; 5.547 ; 5.084 ; 5.724 ; 6.093 ;
+; battery_voltage[10] ; green_led   ; 3.809 ; 3.653 ; 3.858 ; 4.174 ;
+; battery_voltage[10] ; red_led     ;       ; 3.806 ; 4.195 ;       ;
+; battery_voltage[10] ; yellow_led  ; 4.343 ; 3.880 ; 4.231 ; 4.600 ;
+; battery_voltage[11] ; green_led   ; 3.641 ; 3.485 ; 3.705 ; 4.021 ;
+; battery_voltage[11] ; red_led     ;       ; 3.638 ; 4.042 ;       ;
+; battery_voltage[11] ; yellow_led  ; 4.175 ; 3.712 ; 4.078 ; 4.447 ;
+; battery_voltage[12] ; green_led   ; 5.351 ; 5.195 ; 5.697 ; 6.013 ;
+; battery_voltage[12] ; red_led     ;       ; 5.348 ; 6.034 ;       ;
+; battery_voltage[12] ; yellow_led  ; 5.885 ; 5.422 ; 6.070 ; 6.439 ;
+; battery_voltage[13] ; green_led   ; 4.917 ; 4.761 ; 5.211 ; 5.527 ;
+; battery_voltage[13] ; red_led     ;       ; 4.914 ; 5.548 ;       ;
+; battery_voltage[13] ; yellow_led  ; 5.451 ; 4.988 ; 5.584 ; 5.953 ;
+; battery_voltage[14] ; green_led   ; 5.267 ; 5.111 ; 5.601 ; 5.917 ;
+; battery_voltage[14] ; red_led     ;       ; 5.264 ; 5.938 ;       ;
+; battery_voltage[14] ; yellow_led  ; 5.801 ; 5.338 ; 5.974 ; 6.343 ;
+; battery_voltage[15] ; green_led   ; 5.067 ; 4.911 ; 5.369 ; 5.685 ;
+; battery_voltage[15] ; red_led     ;       ; 5.064 ; 5.706 ;       ;
+; battery_voltage[15] ; yellow_led  ; 5.601 ; 5.138 ; 5.742 ; 6.111 ;
+; battery_voltage[16] ; green_led   ; 5.194 ; 5.038 ; 5.514 ; 5.830 ;
+; battery_voltage[16] ; red_led     ;       ; 5.191 ; 5.851 ;       ;
+; battery_voltage[16] ; yellow_led  ; 5.728 ; 5.265 ; 5.887 ; 6.256 ;
+; battery_voltage[17] ; green_led   ; 5.045 ; 4.889 ; 5.349 ; 5.665 ;
+; battery_voltage[17] ; red_led     ;       ; 5.042 ; 5.686 ;       ;
+; battery_voltage[17] ; yellow_led  ; 5.579 ; 5.116 ; 5.722 ; 6.091 ;
+; battery_voltage[18] ; green_led   ; 4.947 ; 4.791 ; 5.226 ; 5.542 ;
+; battery_voltage[18] ; red_led     ;       ; 4.944 ; 5.563 ;       ;
+; battery_voltage[18] ; yellow_led  ; 5.481 ; 5.018 ; 5.599 ; 5.968 ;
+; battery_voltage[19] ; green_led   ; 5.096 ; 4.940 ; 5.407 ; 5.723 ;
+; battery_voltage[19] ; red_led     ;       ; 5.093 ; 5.744 ;       ;
+; battery_voltage[19] ; yellow_led  ; 5.630 ; 5.167 ; 5.780 ; 6.149 ;
+; battery_voltage[20] ; green_led   ; 4.827 ; 4.769 ; 5.235 ; 5.472 ;
+; battery_voltage[20] ; red_led     ;       ; 4.824 ; 5.493 ;       ;
+; battery_voltage[20] ; yellow_led  ; 5.361 ; 4.996 ; 5.608 ; 5.898 ;
+; battery_voltage[21] ; green_led   ; 4.766 ; 4.708 ; 5.182 ; 5.419 ;
+; battery_voltage[21] ; red_led     ;       ; 4.763 ; 5.440 ;       ;
+; battery_voltage[21] ; yellow_led  ; 5.300 ; 4.935 ; 5.555 ; 5.845 ;
+; battery_voltage[22] ; green_led   ; 4.886 ; 4.828 ; 5.313 ; 5.550 ;
+; battery_voltage[22] ; red_led     ;       ; 4.883 ; 5.571 ;       ;
+; battery_voltage[22] ; yellow_led  ; 5.420 ; 5.055 ; 5.686 ; 5.976 ;
+; battery_voltage[23] ; green_led   ; 4.922 ; 4.864 ; 5.351 ; 5.588 ;
+; battery_voltage[23] ; red_led     ;       ; 4.919 ; 5.609 ;       ;
+; battery_voltage[23] ; yellow_led  ; 5.456 ; 5.091 ; 5.724 ; 6.014 ;
+; battery_voltage[24] ; green_led   ; 4.924 ; 4.877 ; 5.364 ; 5.598 ;
+; battery_voltage[24] ; red_led     ;       ; 4.921 ; 5.619 ;       ;
+; battery_voltage[24] ; yellow_led  ; 5.458 ; 5.104 ; 5.737 ; 6.024 ;
+; battery_voltage[25] ; green_led   ; 5.073 ; 5.026 ; 5.523 ; 5.757 ;
+; battery_voltage[25] ; red_led     ;       ; 5.070 ; 5.778 ;       ;
+; battery_voltage[25] ; yellow_led  ; 5.607 ; 5.253 ; 5.896 ; 6.183 ;
+; battery_voltage[26] ; green_led   ; 3.444 ; 3.397 ; 3.606 ; 3.840 ;
+; battery_voltage[26] ; red_led     ;       ; 3.441 ; 3.861 ;       ;
+; battery_voltage[26] ; yellow_led  ; 3.978 ; 3.624 ; 3.979 ; 4.266 ;
+; battery_voltage[27] ; green_led   ; 3.612 ; 3.565 ; 3.753 ; 3.987 ;
+; battery_voltage[27] ; red_led     ;       ; 3.609 ; 4.008 ;       ;
+; battery_voltage[27] ; yellow_led  ; 4.146 ; 3.792 ; 4.126 ; 4.413 ;
+; battery_voltage[28] ; green_led   ;       ; 4.508 ; 4.974 ;       ;
+; battery_voltage[28] ; red_led     ;       ; 4.327 ; 4.938 ;       ;
+; battery_voltage[28] ; yellow_led  ; 4.864 ; 4.735 ; 5.347 ; 5.343 ;
+; battery_voltage[29] ; green_led   ;       ; 4.687 ; 5.200 ;       ;
+; battery_voltage[29] ; red_led     ;       ; 4.506 ; 5.164 ;       ;
+; battery_voltage[29] ; yellow_led  ; 5.043 ; 4.914 ; 5.573 ; 5.569 ;
+; battery_voltage[30] ; green_led   ;       ; 4.793 ; 5.279 ;       ;
+; battery_voltage[30] ; red_led     ;       ; 4.612 ; 5.243 ;       ;
+; battery_voltage[30] ; yellow_led  ; 5.149 ; 5.020 ; 5.652 ; 5.648 ;
+; battery_voltage[31] ; green_led   ;       ; 4.355 ; 4.883 ;       ;
+; battery_voltage[31] ; red_led     ; 4.282 ;       ;       ; 4.800 ;
+; battery_voltage[31] ; yellow_led  ;       ; 4.687 ; 5.337 ;       ;
++---------------------+-------------+-------+-------+-------+-------+
+
+
+---------------------------------------------
+; Fast 1200mV 0C Model Metastability Report ;
+---------------------------------------------
+No synchronizer chains to report.
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++-----------------------------------------------------------------------+
+; Progagation Delay                                                     ;
++---------------------+-------------+--------+--------+--------+--------+
+; Input Port          ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++---------------------+-------------+--------+--------+--------+--------+
+; battery_voltage[0]  ; green_led   ; 10.178 ; 9.492  ; 9.817  ; 10.225 ;
+; battery_voltage[0]  ; red_led     ;        ; 10.239 ; 10.348 ;        ;
+; battery_voltage[0]  ; yellow_led  ; 11.233 ; 9.846  ; 9.873  ; 11.662 ;
+; battery_voltage[1]  ; green_led   ; 10.260 ; 9.609  ; 10.049 ; 10.361 ;
+; battery_voltage[1]  ; red_led     ;        ; 10.321 ; 10.484 ;        ;
+; battery_voltage[1]  ; yellow_led  ; 11.315 ; 9.957  ; 10.088 ; 11.798 ;
+; battery_voltage[2]  ; green_led   ; 10.017 ; 9.328  ; 9.743  ; 10.100 ;
+; battery_voltage[2]  ; red_led     ;        ; 10.078 ; 10.223 ;        ;
+; battery_voltage[2]  ; yellow_led  ; 11.072 ; 9.682  ; 9.750  ; 11.537 ;
+; battery_voltage[3]  ; green_led   ; 10.355 ; 9.645  ; 10.073 ; 10.510 ;
+; battery_voltage[3]  ; red_led     ;        ; 10.416 ; 10.633 ;        ;
+; battery_voltage[3]  ; yellow_led  ; 11.410 ; 9.981  ; 10.133 ; 11.947 ;
+; battery_voltage[4]  ; green_led   ; 11.517 ; 10.772 ; 11.101 ; 11.561 ;
+; battery_voltage[4]  ; red_led     ;        ; 11.578 ; 11.684 ;        ;
+; battery_voltage[4]  ; yellow_led  ; 12.572 ; 11.670 ; 11.667 ; 12.998 ;
+; battery_voltage[5]  ; green_led   ; 10.848 ; 10.103 ; 10.575 ; 11.035 ;
+; battery_voltage[5]  ; red_led     ;        ; 10.909 ; 11.158 ;        ;
+; battery_voltage[5]  ; yellow_led  ; 11.903 ; 11.001 ; 11.141 ; 12.472 ;
+; battery_voltage[6]  ; green_led   ; 11.373 ; 10.628 ; 11.055 ; 11.515 ;
+; battery_voltage[6]  ; red_led     ;        ; 11.434 ; 11.638 ;        ;
+; battery_voltage[6]  ; yellow_led  ; 12.428 ; 11.526 ; 11.621 ; 12.952 ;
+; battery_voltage[7]  ; green_led   ; 11.542 ; 10.797 ; 11.246 ; 11.706 ;
+; battery_voltage[7]  ; red_led     ;        ; 11.603 ; 11.829 ;        ;
+; battery_voltage[7]  ; yellow_led  ; 12.597 ; 11.695 ; 11.812 ; 13.143 ;
+; battery_voltage[8]  ; green_led   ; 11.626 ; 10.881 ; 11.157 ; 11.617 ;
+; battery_voltage[8]  ; red_led     ;        ; 11.687 ; 11.740 ;        ;
+; battery_voltage[8]  ; yellow_led  ; 12.681 ; 11.779 ; 11.723 ; 13.054 ;
+; battery_voltage[9]  ; green_led   ; 11.280 ; 10.535 ; 10.959 ; 11.419 ;
+; battery_voltage[9]  ; red_led     ;        ; 11.341 ; 11.542 ;        ;
+; battery_voltage[9]  ; yellow_led  ; 12.335 ; 11.433 ; 11.525 ; 12.856 ;
+; battery_voltage[10] ; green_led   ; 8.576  ; 7.831  ; 8.170  ; 8.630  ;
+; battery_voltage[10] ; red_led     ;        ; 8.637  ; 8.753  ;        ;
+; battery_voltage[10] ; yellow_led  ; 9.631  ; 8.729  ; 8.736  ; 10.067 ;
+; battery_voltage[11] ; green_led   ; 8.172  ; 7.427  ; 7.757  ; 8.217  ;
+; battery_voltage[11] ; red_led     ;        ; 8.233  ; 8.340  ;        ;
+; battery_voltage[11] ; yellow_led  ; 9.227  ; 8.325  ; 8.323  ; 9.654  ;
+; battery_voltage[12] ; green_led   ; 12.040 ; 11.295 ; 11.645 ; 12.105 ;
+; battery_voltage[12] ; red_led     ;        ; 12.101 ; 12.228 ;        ;
+; battery_voltage[12] ; yellow_led  ; 13.095 ; 12.193 ; 12.211 ; 13.542 ;
+; battery_voltage[13] ; green_led   ; 10.970 ; 10.225 ; 10.636 ; 11.096 ;
+; battery_voltage[13] ; red_led     ;        ; 11.031 ; 11.219 ;        ;
+; battery_voltage[13] ; yellow_led  ; 12.025 ; 11.123 ; 11.202 ; 12.533 ;
+; battery_voltage[14] ; green_led   ; 11.855 ; 11.110 ; 11.464 ; 11.924 ;
+; battery_voltage[14] ; red_led     ;        ; 11.916 ; 12.047 ;        ;
+; battery_voltage[14] ; yellow_led  ; 12.910 ; 12.008 ; 12.030 ; 13.361 ;
+; battery_voltage[15] ; green_led   ; 11.397 ; 10.652 ; 11.009 ; 11.469 ;
+; battery_voltage[15] ; red_led     ;        ; 11.458 ; 11.592 ;        ;
+; battery_voltage[15] ; yellow_led  ; 12.452 ; 11.550 ; 11.575 ; 12.906 ;
+; battery_voltage[16] ; green_led   ; 11.695 ; 10.950 ; 11.318 ; 11.778 ;
+; battery_voltage[16] ; red_led     ;        ; 11.756 ; 11.901 ;        ;
+; battery_voltage[16] ; yellow_led  ; 12.750 ; 11.848 ; 11.884 ; 13.215 ;
+; battery_voltage[17] ; green_led   ; 11.347 ; 10.602 ; 10.947 ; 11.407 ;
+; battery_voltage[17] ; red_led     ;        ; 11.408 ; 11.530 ;        ;
+; battery_voltage[17] ; yellow_led  ; 12.402 ; 11.500 ; 11.513 ; 12.844 ;
+; battery_voltage[18] ; green_led   ; 11.148 ; 10.403 ; 10.732 ; 11.192 ;
+; battery_voltage[18] ; red_led     ;        ; 11.209 ; 11.315 ;        ;
+; battery_voltage[18] ; yellow_led  ; 12.203 ; 11.301 ; 11.298 ; 12.629 ;
+; battery_voltage[19] ; green_led   ; 11.417 ; 10.672 ; 11.070 ; 11.530 ;
+; battery_voltage[19] ; red_led     ;        ; 11.478 ; 11.653 ;        ;
+; battery_voltage[19] ; yellow_led  ; 12.472 ; 11.570 ; 11.636 ; 12.967 ;
+; battery_voltage[20] ; green_led   ; 10.827 ; 10.324 ; 10.621 ; 10.845 ;
+; battery_voltage[20] ; red_led     ;        ; 10.888 ; 10.968 ;        ;
+; battery_voltage[20] ; yellow_led  ; 11.882 ; 11.222 ; 11.187 ; 12.282 ;
+; battery_voltage[21] ; green_led   ; 10.716 ; 10.213 ; 10.512 ; 10.736 ;
+; battery_voltage[21] ; red_led     ;        ; 10.777 ; 10.859 ;        ;
+; battery_voltage[21] ; yellow_led  ; 11.771 ; 11.111 ; 11.078 ; 12.173 ;
+; battery_voltage[22] ; green_led   ; 10.932 ; 10.429 ; 10.773 ; 10.997 ;
+; battery_voltage[22] ; red_led     ;        ; 10.993 ; 11.120 ;        ;
+; battery_voltage[22] ; yellow_led  ; 11.987 ; 11.327 ; 11.339 ; 12.434 ;
+; battery_voltage[23] ; green_led   ; 11.102 ; 10.599 ; 10.907 ; 11.131 ;
+; battery_voltage[23] ; red_led     ;        ; 11.163 ; 11.254 ;        ;
+; battery_voltage[23] ; yellow_led  ; 12.157 ; 11.497 ; 11.473 ; 12.568 ;
+; battery_voltage[24] ; green_led   ; 11.084 ; 10.602 ; 10.889 ; 11.108 ;
+; battery_voltage[24] ; red_led     ;        ; 11.145 ; 11.231 ;        ;
+; battery_voltage[24] ; yellow_led  ; 12.139 ; 11.500 ; 11.455 ; 12.545 ;
+; battery_voltage[25] ; green_led   ; 11.482 ; 11.000 ; 11.257 ; 11.476 ;
+; battery_voltage[25] ; red_led     ;        ; 11.543 ; 11.599 ;        ;
+; battery_voltage[25] ; yellow_led  ; 12.537 ; 11.898 ; 11.823 ; 12.913 ;
+; battery_voltage[26] ; green_led   ; 7.674  ; 7.192  ; 7.485  ; 7.704  ;
+; battery_voltage[26] ; red_led     ;        ; 7.735  ; 7.827  ;        ;
+; battery_voltage[26] ; yellow_led  ; 8.729  ; 8.090  ; 8.051  ; 9.141  ;
+; battery_voltage[27] ; green_led   ; 8.075  ; 7.593  ; 7.903  ; 8.122  ;
+; battery_voltage[27] ; red_led     ;        ; 8.136  ; 8.245  ;        ;
+; battery_voltage[27] ; yellow_led  ; 9.130  ; 8.491  ; 8.469  ; 9.559  ;
+; battery_voltage[28] ; green_led   ;        ; 9.721  ; 10.060 ;        ;
+; battery_voltage[28] ; red_led     ;        ; 9.646  ; 9.723  ;        ;
+; battery_voltage[28] ; yellow_led  ; 10.640 ; 10.619 ; 10.626 ; 11.037 ;
+; battery_voltage[29] ; green_led   ;        ; 10.165 ; 10.559 ;        ;
+; battery_voltage[29] ; red_led     ;        ; 10.090 ; 10.222 ;        ;
+; battery_voltage[29] ; yellow_led  ; 11.084 ; 11.063 ; 11.125 ; 11.536 ;
+; battery_voltage[30] ; green_led   ;        ; 10.460 ; 10.728 ;        ;
+; battery_voltage[30] ; red_led     ;        ; 10.385 ; 10.391 ;        ;
+; battery_voltage[30] ; yellow_led  ; 11.379 ; 11.358 ; 11.294 ; 11.705 ;
+; battery_voltage[31] ; green_led   ;        ; 9.399  ; 9.693  ;        ;
+; battery_voltage[31] ; red_led     ; 9.227  ;        ;        ; 9.537  ;
+; battery_voltage[31] ; yellow_led  ;        ; 10.541 ; 10.531 ;        ;
++---------------------+-------------+--------+--------+--------+--------+
+
+
++-------------------------------------------------------------------+
+; Minimum Progagation Delay                                         ;
++---------------------+-------------+-------+-------+-------+-------+
+; Input Port          ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++---------------------+-------------+-------+-------+-------+-------+
+; battery_voltage[0]  ; green_led   ; 4.526 ; 4.408 ; 4.895 ; 5.220 ;
+; battery_voltage[0]  ; red_led     ;       ; 4.523 ; 5.241 ;       ;
+; battery_voltage[0]  ; yellow_led  ; 5.060 ; 4.392 ; 5.091 ; 5.646 ;
+; battery_voltage[1]  ; green_led   ; 4.604 ; 4.502 ; 5.027 ; 5.300 ;
+; battery_voltage[1]  ; red_led     ;       ; 4.601 ; 5.321 ;       ;
+; battery_voltage[1]  ; yellow_led  ; 5.138 ; 4.488 ; 5.212 ; 5.726 ;
+; battery_voltage[2]  ; green_led   ; 4.492 ; 4.378 ; 4.886 ; 5.188 ;
+; battery_voltage[2]  ; red_led     ;       ; 4.489 ; 5.209 ;       ;
+; battery_voltage[2]  ; yellow_led  ; 5.026 ; 4.359 ; 5.060 ; 5.614 ;
+; battery_voltage[3]  ; green_led   ; 4.591 ; 4.483 ; 5.017 ; 5.313 ;
+; battery_voltage[3]  ; red_led     ;       ; 4.588 ; 5.334 ;       ;
+; battery_voltage[3]  ; yellow_led  ; 5.125 ; 4.458 ; 5.184 ; 5.739 ;
+; battery_voltage[4]  ; green_led   ; 5.091 ; 4.935 ; 5.457 ; 5.773 ;
+; battery_voltage[4]  ; red_led     ;       ; 5.088 ; 5.794 ;       ;
+; battery_voltage[4]  ; yellow_led  ; 5.625 ; 5.162 ; 5.830 ; 6.199 ;
+; battery_voltage[5]  ; green_led   ; 4.870 ; 4.714 ; 5.192 ; 5.508 ;
+; battery_voltage[5]  ; red_led     ;       ; 4.867 ; 5.529 ;       ;
+; battery_voltage[5]  ; yellow_led  ; 5.404 ; 4.941 ; 5.565 ; 5.934 ;
+; battery_voltage[6]  ; green_led   ; 5.059 ; 4.903 ; 5.410 ; 5.726 ;
+; battery_voltage[6]  ; red_led     ;       ; 5.056 ; 5.747 ;       ;
+; battery_voltage[6]  ; yellow_led  ; 5.593 ; 5.130 ; 5.783 ; 6.152 ;
+; battery_voltage[7]  ; green_led   ; 5.132 ; 4.976 ; 5.510 ; 5.826 ;
+; battery_voltage[7]  ; red_led     ;       ; 5.129 ; 5.847 ;       ;
+; battery_voltage[7]  ; yellow_led  ; 5.666 ; 5.203 ; 5.883 ; 6.252 ;
+; battery_voltage[8]  ; green_led   ; 5.109 ; 4.953 ; 5.427 ; 5.743 ;
+; battery_voltage[8]  ; red_led     ;       ; 5.106 ; 5.764 ;       ;
+; battery_voltage[8]  ; yellow_led  ; 5.643 ; 5.180 ; 5.800 ; 6.169 ;
+; battery_voltage[9]  ; green_led   ; 5.013 ; 4.857 ; 5.351 ; 5.667 ;
+; battery_voltage[9]  ; red_led     ;       ; 5.010 ; 5.688 ;       ;
+; battery_voltage[9]  ; yellow_led  ; 5.547 ; 5.084 ; 5.724 ; 6.093 ;
+; battery_voltage[10] ; green_led   ; 3.809 ; 3.653 ; 3.858 ; 4.174 ;
+; battery_voltage[10] ; red_led     ;       ; 3.806 ; 4.195 ;       ;
+; battery_voltage[10] ; yellow_led  ; 4.343 ; 3.880 ; 4.231 ; 4.600 ;
+; battery_voltage[11] ; green_led   ; 3.641 ; 3.485 ; 3.705 ; 4.021 ;
+; battery_voltage[11] ; red_led     ;       ; 3.638 ; 4.042 ;       ;
+; battery_voltage[11] ; yellow_led  ; 4.175 ; 3.712 ; 4.078 ; 4.447 ;
+; battery_voltage[12] ; green_led   ; 5.351 ; 5.195 ; 5.697 ; 6.013 ;
+; battery_voltage[12] ; red_led     ;       ; 5.348 ; 6.034 ;       ;
+; battery_voltage[12] ; yellow_led  ; 5.885 ; 5.422 ; 6.070 ; 6.439 ;
+; battery_voltage[13] ; green_led   ; 4.917 ; 4.761 ; 5.211 ; 5.527 ;
+; battery_voltage[13] ; red_led     ;       ; 4.914 ; 5.548 ;       ;
+; battery_voltage[13] ; yellow_led  ; 5.451 ; 4.988 ; 5.584 ; 5.953 ;
+; battery_voltage[14] ; green_led   ; 5.267 ; 5.111 ; 5.601 ; 5.917 ;
+; battery_voltage[14] ; red_led     ;       ; 5.264 ; 5.938 ;       ;
+; battery_voltage[14] ; yellow_led  ; 5.801 ; 5.338 ; 5.974 ; 6.343 ;
+; battery_voltage[15] ; green_led   ; 5.067 ; 4.911 ; 5.369 ; 5.685 ;
+; battery_voltage[15] ; red_led     ;       ; 5.064 ; 5.706 ;       ;
+; battery_voltage[15] ; yellow_led  ; 5.601 ; 5.138 ; 5.742 ; 6.111 ;
+; battery_voltage[16] ; green_led   ; 5.194 ; 5.038 ; 5.514 ; 5.830 ;
+; battery_voltage[16] ; red_led     ;       ; 5.191 ; 5.851 ;       ;
+; battery_voltage[16] ; yellow_led  ; 5.728 ; 5.265 ; 5.887 ; 6.256 ;
+; battery_voltage[17] ; green_led   ; 5.045 ; 4.889 ; 5.349 ; 5.665 ;
+; battery_voltage[17] ; red_led     ;       ; 5.042 ; 5.686 ;       ;
+; battery_voltage[17] ; yellow_led  ; 5.579 ; 5.116 ; 5.722 ; 6.091 ;
+; battery_voltage[18] ; green_led   ; 4.947 ; 4.791 ; 5.226 ; 5.542 ;
+; battery_voltage[18] ; red_led     ;       ; 4.944 ; 5.563 ;       ;
+; battery_voltage[18] ; yellow_led  ; 5.481 ; 5.018 ; 5.599 ; 5.968 ;
+; battery_voltage[19] ; green_led   ; 5.096 ; 4.940 ; 5.407 ; 5.723 ;
+; battery_voltage[19] ; red_led     ;       ; 5.093 ; 5.744 ;       ;
+; battery_voltage[19] ; yellow_led  ; 5.630 ; 5.167 ; 5.780 ; 6.149 ;
+; battery_voltage[20] ; green_led   ; 4.827 ; 4.769 ; 5.235 ; 5.472 ;
+; battery_voltage[20] ; red_led     ;       ; 4.824 ; 5.493 ;       ;
+; battery_voltage[20] ; yellow_led  ; 5.361 ; 4.996 ; 5.608 ; 5.898 ;
+; battery_voltage[21] ; green_led   ; 4.766 ; 4.708 ; 5.182 ; 5.419 ;
+; battery_voltage[21] ; red_led     ;       ; 4.763 ; 5.440 ;       ;
+; battery_voltage[21] ; yellow_led  ; 5.300 ; 4.935 ; 5.555 ; 5.845 ;
+; battery_voltage[22] ; green_led   ; 4.886 ; 4.828 ; 5.313 ; 5.550 ;
+; battery_voltage[22] ; red_led     ;       ; 4.883 ; 5.571 ;       ;
+; battery_voltage[22] ; yellow_led  ; 5.420 ; 5.055 ; 5.686 ; 5.976 ;
+; battery_voltage[23] ; green_led   ; 4.922 ; 4.864 ; 5.351 ; 5.588 ;
+; battery_voltage[23] ; red_led     ;       ; 4.919 ; 5.609 ;       ;
+; battery_voltage[23] ; yellow_led  ; 5.456 ; 5.091 ; 5.724 ; 6.014 ;
+; battery_voltage[24] ; green_led   ; 4.924 ; 4.877 ; 5.364 ; 5.598 ;
+; battery_voltage[24] ; red_led     ;       ; 4.921 ; 5.619 ;       ;
+; battery_voltage[24] ; yellow_led  ; 5.458 ; 5.104 ; 5.737 ; 6.024 ;
+; battery_voltage[25] ; green_led   ; 5.073 ; 5.026 ; 5.523 ; 5.757 ;
+; battery_voltage[25] ; red_led     ;       ; 5.070 ; 5.778 ;       ;
+; battery_voltage[25] ; yellow_led  ; 5.607 ; 5.253 ; 5.896 ; 6.183 ;
+; battery_voltage[26] ; green_led   ; 3.444 ; 3.397 ; 3.606 ; 3.840 ;
+; battery_voltage[26] ; red_led     ;       ; 3.441 ; 3.861 ;       ;
+; battery_voltage[26] ; yellow_led  ; 3.978 ; 3.624 ; 3.979 ; 4.266 ;
+; battery_voltage[27] ; green_led   ; 3.612 ; 3.565 ; 3.753 ; 3.987 ;
+; battery_voltage[27] ; red_led     ;       ; 3.609 ; 4.008 ;       ;
+; battery_voltage[27] ; yellow_led  ; 4.146 ; 3.792 ; 4.126 ; 4.413 ;
+; battery_voltage[28] ; green_led   ;       ; 4.508 ; 4.974 ;       ;
+; battery_voltage[28] ; red_led     ;       ; 4.327 ; 4.938 ;       ;
+; battery_voltage[28] ; yellow_led  ; 4.864 ; 4.735 ; 5.347 ; 5.343 ;
+; battery_voltage[29] ; green_led   ;       ; 4.687 ; 5.200 ;       ;
+; battery_voltage[29] ; red_led     ;       ; 4.506 ; 5.164 ;       ;
+; battery_voltage[29] ; yellow_led  ; 5.043 ; 4.914 ; 5.573 ; 5.569 ;
+; battery_voltage[30] ; green_led   ;       ; 4.793 ; 5.279 ;       ;
+; battery_voltage[30] ; red_led     ;       ; 4.612 ; 5.243 ;       ;
+; battery_voltage[30] ; yellow_led  ; 5.149 ; 5.020 ; 5.652 ; 5.648 ;
+; battery_voltage[31] ; green_led   ;       ; 4.355 ; 4.883 ;       ;
+; battery_voltage[31] ; red_led     ; 4.282 ;       ;       ; 4.800 ;
+; battery_voltage[31] ; yellow_led  ;       ; 4.687 ; 5.337 ;       ;
++---------------------+-------------+-------+-------+-------+-------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Trace Model Assignments                                                                                                                                                                                                                                                                                                                                                                                    ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; Pin           ; I/O Standard ; Near Tline Length ; Near Tline L per Length ; Near Tline C per Length ; Near Series R ; Near Differential R ; Near Pull-up R ; Near Pull-down R ; Near C ; Far Tline Length ; Far Tline L per Length ; Far Tline C per Length ; Far Series R ; Far Pull-up R ; Far Pull-down R ; Far C ; Termination Voltage ; Far Differential R ; EBD File Name ; EBD Signal Name ; EBD Far-end ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; red_led       ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; green_led     ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; yellow_led    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; ~ALTERA_nCEO~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+
+
++----------------------------------------------------------------------------+
+; Input Transition Times                                                     ;
++-------------------------+--------------+-----------------+-----------------+
+; Pin                     ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
++-------------------------+--------------+-----------------+-----------------+
+; battery_voltage[3]      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[2]      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[0]      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[1]      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[4]      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[5]      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[6]      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[7]      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[8]      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[9]      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[10]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[11]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[12]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[13]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[14]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[15]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[16]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[17]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[18]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[19]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[20]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[21]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[22]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[23]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[24]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[25]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[26]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[27]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[28]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[29]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[30]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; battery_voltage[31]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_ASDO_DATA1~     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_FLASH_nCE_nCSO~ ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_DATA0~          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
++-------------------------+--------------+-----------------+-----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1200mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; red_led       ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.07e-09 V                   ; 2.36 V              ; -0.00737 V          ; 0.209 V                              ; 0.012 V                              ; 5.22e-10 s                  ; 5.33e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.07e-09 V                  ; 2.36 V             ; -0.00737 V         ; 0.209 V                             ; 0.012 V                             ; 5.22e-10 s                 ; 5.33e-10 s                 ; Yes                       ; Yes                       ;
+; green_led     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.07e-09 V                   ; 2.36 V              ; -0.00737 V          ; 0.209 V                              ; 0.012 V                              ; 5.22e-10 s                  ; 5.33e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.07e-09 V                  ; 2.36 V             ; -0.00737 V         ; 0.209 V                             ; 0.012 V                             ; 5.22e-10 s                 ; 5.33e-10 s                 ; Yes                       ; Yes                       ;
+; yellow_led    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.07e-09 V                   ; 2.36 V              ; -0.00737 V          ; 0.209 V                              ; 0.012 V                              ; 5.22e-10 s                  ; 5.33e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.07e-09 V                  ; 2.36 V             ; -0.00737 V         ; 0.209 V                             ; 0.012 V                             ; 5.22e-10 s                 ; 5.33e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.74e-09 V                   ; 2.37 V              ; -0.0346 V           ; 0.198 V                              ; 0.094 V                              ; 3.14e-10 s                  ; 2.92e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.74e-09 V                  ; 2.37 V             ; -0.0346 V          ; 0.198 V                             ; 0.094 V                             ; 3.14e-10 s                 ; 2.92e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_nCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.57e-09 V                   ; 2.37 V              ; -0.00683 V          ; 0.171 V                              ; 0.018 V                              ; 4.97e-10 s                  ; 6.66e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.57e-09 V                  ; 2.37 V             ; -0.00683 V         ; 0.171 V                             ; 0.018 V                             ; 4.97e-10 s                 ; 6.66e-10 s                 ; Yes                       ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1200mv 85c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; red_led       ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.93e-07 V                   ; 2.34 V              ; -0.00869 V          ; 0.14 V                               ; 0.046 V                              ; 6.89e-10 s                  ; 6.56e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.93e-07 V                  ; 2.34 V             ; -0.00869 V         ; 0.14 V                              ; 0.046 V                             ; 6.89e-10 s                 ; 6.56e-10 s                 ; Yes                       ; Yes                       ;
+; green_led     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.93e-07 V                   ; 2.34 V              ; -0.00869 V          ; 0.14 V                               ; 0.046 V                              ; 6.89e-10 s                  ; 6.56e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.93e-07 V                  ; 2.34 V             ; -0.00869 V         ; 0.14 V                              ; 0.046 V                             ; 6.89e-10 s                 ; 6.56e-10 s                 ; Yes                       ; Yes                       ;
+; yellow_led    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.93e-07 V                   ; 2.34 V              ; -0.00869 V          ; 0.14 V                               ; 0.046 V                              ; 6.89e-10 s                  ; 6.56e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.93e-07 V                  ; 2.34 V             ; -0.00869 V         ; 0.14 V                              ; 0.046 V                             ; 6.89e-10 s                 ; 6.56e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.55e-07 V                   ; 2.35 V              ; -0.00221 V          ; 0.097 V                              ; 0.005 V                              ; 4.49e-10 s                  ; 3.85e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.55e-07 V                  ; 2.35 V             ; -0.00221 V         ; 0.097 V                             ; 0.005 V                             ; 4.49e-10 s                 ; 3.85e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_nCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.54e-07 V                   ; 2.34 V              ; -0.00774 V          ; 0.109 V                              ; 0.026 V                              ; 6.58e-10 s                  ; 8.24e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.54e-07 V                  ; 2.34 V             ; -0.00774 V         ; 0.109 V                             ; 0.026 V                             ; 6.58e-10 s                 ; 8.24e-10 s                 ; Yes                       ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Fast 1200mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; red_led       ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.74e-08 V                   ; 2.71 V              ; -0.0317 V           ; 0.148 V                              ; 0.064 V                              ; 4.51e-10 s                  ; 4.15e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.74e-08 V                  ; 2.71 V             ; -0.0317 V          ; 0.148 V                             ; 0.064 V                             ; 4.51e-10 s                 ; 4.15e-10 s                 ; No                        ; Yes                       ;
+; green_led     ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.74e-08 V                   ; 2.71 V              ; -0.0317 V           ; 0.148 V                              ; 0.064 V                              ; 4.51e-10 s                  ; 4.15e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.74e-08 V                  ; 2.71 V             ; -0.0317 V          ; 0.148 V                             ; 0.064 V                             ; 4.51e-10 s                 ; 4.15e-10 s                 ; No                        ; Yes                       ;
+; yellow_led    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.74e-08 V                   ; 2.71 V              ; -0.0317 V           ; 0.148 V                              ; 0.064 V                              ; 4.51e-10 s                  ; 4.15e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.74e-08 V                  ; 2.71 V             ; -0.0317 V          ; 0.148 V                             ; 0.064 V                             ; 4.51e-10 s                 ; 4.15e-10 s                 ; No                        ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.22e-08 V                   ; 2.74 V              ; -0.06 V             ; 0.158 V                              ; 0.08 V                               ; 2.68e-10 s                  ; 2.19e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 2.22e-08 V                  ; 2.74 V             ; -0.06 V            ; 0.158 V                             ; 0.08 V                              ; 2.68e-10 s                 ; 2.19e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_nCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.54e-08 V                   ; 2.7 V               ; -0.00943 V          ; 0.276 V                              ; 0.035 V                              ; 3.19e-10 s                  ; 4.99e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 3.54e-08 V                  ; 2.7 V              ; -0.00943 V         ; 0.276 V                             ; 0.035 V                             ; 3.19e-10 s                 ; 4.99e-10 s                 ; No                        ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 32    ; 32   ;
+; Unconstrained Input Port Paths  ; 96    ; 96   ;
+; Unconstrained Output Ports      ; 3     ; 3    ;
+; Unconstrained Output Port Paths ; 96    ; 96   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Mon May 08 15:31:10 2017
+Info: Command: quartus_sta apollo -c apollo
+Info: qsta_default_script.tcl version: #1
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (21077): Core supply voltage is 1.2V
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'apollo.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info: Analyzing Slow 1200mV 85C Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info: Analyzing Slow 1200mV 0C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info: Analyzing Fast 1200mV 0C Model
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 483 megabytes
+    Info: Processing ended: Mon May 08 15:31:13 2017
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
+
+

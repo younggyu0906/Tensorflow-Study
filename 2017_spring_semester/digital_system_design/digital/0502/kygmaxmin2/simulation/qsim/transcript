@@ -1,0 +1,26 @@
+# do kygmaxmin2.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module kygmaxmin2
+# 
+# Top level modules:
+# 	kygmaxmin2
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module kygmaxmin2_vlg_sample_tst
+# -- Compiling module kygmaxmin2_vlg_check_tst
+# -- Compiling module kygmaxmin2_vlg_vec_tst
+# 
+# Top level modules:
+# 	kygmaxmin2_vlg_vec_tst
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.kygmaxmin2_vlg_vec_tst 
+# Loading work.kygmaxmin2_vlg_vec_tst
+# Loading work.kygmaxmin2
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading work.kygmaxmin2_vlg_sample_tst
+# Loading work.kygmaxmin2_vlg_check_tst
+# Simulation passed !
+# ** Note: $finish    : kygmaxmin2.vt(319)
+#    Time: 1 us  Iteration: 0  Instance: /kygmaxmin2_vlg_vec_tst/tb_out

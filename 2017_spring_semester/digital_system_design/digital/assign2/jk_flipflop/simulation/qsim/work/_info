@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\17_1\digital\assign2\jk_flipflop\simulation\qsim
+vjk_flipflop
+Z1 !s100 0ENG6AHJBo8oED^=AKKE_3
+Z2 I8RfdKQFePbMUo>62b0CU42
+Z3 VJejQz7oU[i88N<ETTS6FO2
+Z4 dD:\17_1\digital\assign2\jk_flipflop\simulation\qsim
+Z5 w1495084782
+Z6 8jk_flipflop.vo
+Z7 Fjk_flipflop.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|jk_flipflop.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1495084783.520000
+Z12 !s107 jk_flipflop.vo|
+!s101 -O0
+vjk_flipflop_vlg_check_tst
+!i10b 1
+Z13 !s100 <RUkiL_9dLA5nD:N:8zeb2
+Z14 I1]6]ShTBnJe4oIX6n7H@73
+Z15 V7N0^PY0N7Uzd92GkX6QUX1
+R4
+Z16 w1495084781
+Z17 8jk_flipflop.vt
+Z18 Fjk_flipflop.vt
+L0 65
+R8
+r1
+!s85 0
+31
+Z19 !s108 1495084783.592000
+Z20 !s107 jk_flipflop.vt|
+Z21 !s90 -work|work|jk_flipflop.vt|
+!s101 -O0
+R10
+vjk_flipflop_vlg_sample_tst
+!i10b 1
+Z22 !s100 R;7VOlM676d7f[EA0[G9R1
+Z23 I5<g9Nz<GM3JfnUj=SChQ41
+Z24 VKJ^7bibFfnYK_e@m[n8Bl2
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vjk_flipflop_vlg_vec_tst
+!i10b 1
+!s100 9Ven]jh1n`IGW;a:o2CLC1
+Iglm`^W?1e]5^NZHb6@6g^1
+Z25 Vgj<j5Ug8EKA8C1iWCHKSi3
+R4
+R16
+R17
+R18
+Z26 L0 160
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

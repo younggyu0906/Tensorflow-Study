@@ -1,0 +1,940 @@
+$comment
+	File created using the following command:
+		vcd file apollo.msim.vcd -direction
+$end
+$date
+	Mon May 08 19:04:08 2017
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module apollo_vlg_vec_tst $end
+$var reg 32 ! battery_voltage [31:0] $end
+$var wire 1 " green_led $end
+$var wire 1 # red_led $end
+$var wire 1 $ yellow_led $end
+$var wire 1 % sampler $end
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , green_led~2_combout $end
+$var wire 1 - green_led~6_combout $end
+$var wire 1 . battery_voltage[3]~input_o $end
+$var wire 1 / battery_voltage[7]~input_o $end
+$var wire 1 0 battery_voltage[9]~input_o $end
+$var wire 1 1 battery_voltage[12]~input_o $end
+$var wire 1 2 battery_voltage[13]~input_o $end
+$var wire 1 3 battery_voltage[14]~input_o $end
+$var wire 1 4 battery_voltage[15]~input_o $end
+$var wire 1 5 battery_voltage[16]~input_o $end
+$var wire 1 6 battery_voltage[22]~input_o $end
+$var wire 1 7 battery_voltage[24]~input_o $end
+$var wire 1 8 battery_voltage[25]~input_o $end
+$var wire 1 9 battery_voltage[26]~input_o $end
+$var wire 1 : battery_voltage[27]~input_o $end
+$var wire 1 ; battery_voltage[29]~input_o $end
+$var wire 1 < red_led~output_o $end
+$var wire 1 = green_led~output_o $end
+$var wire 1 > yellow_led~output_o $end
+$var wire 1 ? battery_voltage[30]~input_o $end
+$var wire 1 @ battery_voltage[28]~input_o $end
+$var wire 1 A green_led~7_combout $end
+$var wire 1 B battery_voltage[23]~input_o $end
+$var wire 1 C battery_voltage[20]~input_o $end
+$var wire 1 D battery_voltage[21]~input_o $end
+$var wire 1 E green_led~5_combout $end
+$var wire 1 F battery_voltage[19]~input_o $end
+$var wire 1 G battery_voltage[18]~input_o $end
+$var wire 1 H battery_voltage[17]~input_o $end
+$var wire 1 I green_led~3_combout $end
+$var wire 1 J battery_voltage[8]~input_o $end
+$var wire 1 K battery_voltage[10]~input_o $end
+$var wire 1 L battery_voltage[11]~input_o $end
+$var wire 1 M green_led~1_combout $end
+$var wire 1 N battery_voltage[6]~input_o $end
+$var wire 1 O battery_voltage[5]~input_o $end
+$var wire 1 P battery_voltage[4]~input_o $end
+$var wire 1 Q green_led~0_combout $end
+$var wire 1 R green_led~4_combout $end
+$var wire 1 S battery_voltage[1]~input_o $end
+$var wire 1 T battery_voltage[0]~input_o $end
+$var wire 1 U battery_voltage[2]~input_o $end
+$var wire 1 V LessThan0~0_combout $end
+$var wire 1 W LessThan0~1_combout $end
+$var wire 1 X battery_voltage[31]~input_o $end
+$var wire 1 Y LessThan0~2_combout $end
+$var wire 1 Z green_led~8_combout $end
+$var wire 1 [ green_led~9_combout $end
+$var wire 1 \ green_led~10_combout $end
+$var wire 1 ] yellow_led~0_combout $end
+$var wire 1 ^ yellow_led~1_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+0"
+1#
+0$
+x%
+0&
+1'
+x(
+1)
+1*
+1+
+1,
+1-
+0.
+0/
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0:
+0;
+1<
+0=
+0>
+0?
+0@
+1A
+0B
+0C
+0D
+1E
+0F
+0G
+0H
+1I
+0J
+0K
+0L
+1M
+0N
+0O
+0P
+1Q
+1R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+1Z
+1[
+0\
+0]
+1^
+$end
+#10000
+b1 !
+1T
+0%
+#20000
+b11 !
+b10 !
+0T
+1S
+1%
+#30000
+b11 !
+1T
+0%
+#40000
+b111 !
+b101 !
+b100 !
+0T
+0S
+1U
+1%
+#50000
+b101 !
+1T
+0%
+#60000
+b111 !
+b110 !
+0T
+1S
+1%
+#70000
+b111 !
+1T
+0%
+1V
+1W
+1Y
+1\
+0^
+0<
+1=
+0#
+1"
+1>
+1$
+#80000
+b1111 !
+b1011 !
+b1001 !
+b1000 !
+0T
+0S
+0U
+1.
+1%
+#90000
+b1001 !
+1T
+0%
+#100000
+b1011 !
+b1010 !
+0T
+1S
+1%
+#110000
+b1011 !
+1T
+0%
+1]
+1^
+0>
+0$
+#120000
+b1111 !
+b1101 !
+b1100 !
+0T
+0S
+1U
+1%
+#130000
+b1101 !
+1T
+0%
+0Z
+0\
+0=
+0"
+#140000
+b1111 !
+b1110 !
+0T
+1S
+1%
+#150000
+b1111 !
+1T
+0%
+#160000
+b111 !
+b11 !
+b1 !
+b0 !
+0T
+0S
+0U
+0.
+1%
+0]
+1Z
+0V
+0^
+0W
+1\
+0Y
+1>
+1=
+1$
+1"
+0\
+1^
+1<
+0=
+1#
+0"
+0>
+0$
+#170000
+b1 !
+1T
+0%
+#180000
+b11 !
+b10 !
+0T
+1S
+1%
+#190000
+b11 !
+1T
+0%
+#200000
+b111 !
+b101 !
+b100 !
+0T
+0S
+1U
+1%
+#210000
+b101 !
+1T
+0%
+#220000
+b111 !
+b110 !
+0T
+1S
+1%
+#230000
+b111 !
+1T
+0%
+1V
+1W
+1Y
+1\
+0^
+0<
+1=
+0#
+1"
+1>
+1$
+#240000
+b1111 !
+b1011 !
+b1001 !
+b1000 !
+0T
+0S
+0U
+1.
+1%
+#250000
+b1001 !
+1T
+0%
+#260000
+b1011 !
+b1010 !
+0T
+1S
+1%
+#270000
+b1011 !
+1T
+0%
+1]
+1^
+0>
+0$
+#280000
+b1111 !
+b1101 !
+b1100 !
+0T
+0S
+1U
+1%
+#290000
+b1101 !
+1T
+0%
+0Z
+0\
+0=
+0"
+#300000
+b1111 !
+b1110 !
+0T
+1S
+1%
+#310000
+b1111 !
+1T
+0%
+#320000
+b111 !
+b11 !
+b1 !
+b0 !
+0T
+0S
+0U
+0.
+1%
+0]
+1Z
+0V
+0^
+0W
+1\
+0Y
+1>
+1=
+1$
+1"
+0\
+1^
+1<
+0=
+1#
+0"
+0>
+0$
+#330000
+b1 !
+1T
+0%
+#340000
+b11 !
+b10 !
+0T
+1S
+1%
+#350000
+b11 !
+1T
+0%
+#360000
+b111 !
+b101 !
+b100 !
+0T
+0S
+1U
+1%
+#370000
+b101 !
+1T
+0%
+#380000
+b111 !
+b110 !
+0T
+1S
+1%
+#390000
+b111 !
+1T
+0%
+1V
+1W
+1Y
+1\
+0^
+0<
+1=
+0#
+1"
+1>
+1$
+#400000
+b1111 !
+b1011 !
+b1001 !
+b1000 !
+0T
+0S
+0U
+1.
+1%
+#410000
+b1001 !
+1T
+0%
+#420000
+b1011 !
+b1010 !
+0T
+1S
+1%
+#430000
+b1011 !
+1T
+0%
+1]
+1^
+0>
+0$
+#440000
+b1111 !
+b1101 !
+b1100 !
+0T
+0S
+1U
+1%
+#450000
+b1101 !
+1T
+0%
+0Z
+0\
+0=
+0"
+#460000
+b1111 !
+b1110 !
+0T
+1S
+1%
+#470000
+b1111 !
+1T
+0%
+#480000
+b111 !
+b11 !
+b1 !
+b0 !
+0T
+0S
+0U
+0.
+1%
+0]
+1Z
+0V
+0^
+0W
+1\
+0Y
+1>
+1=
+1$
+1"
+0\
+1^
+1<
+0=
+1#
+0"
+0>
+0$
+#490000
+b1 !
+1T
+0%
+#500000
+b11 !
+b10 !
+0T
+1S
+1%
+#510000
+b11 !
+1T
+0%
+#520000
+b111 !
+b101 !
+b100 !
+0T
+0S
+1U
+1%
+#530000
+b101 !
+1T
+0%
+#540000
+b111 !
+b110 !
+0T
+1S
+1%
+#550000
+b111 !
+1T
+0%
+1V
+1W
+1Y
+1\
+0^
+0<
+1=
+0#
+1"
+1>
+1$
+#560000
+b1111 !
+b1011 !
+b1001 !
+b1000 !
+0T
+0S
+0U
+1.
+1%
+#570000
+b1001 !
+1T
+0%
+#580000
+b1011 !
+b1010 !
+0T
+1S
+1%
+#590000
+b1011 !
+1T
+0%
+1]
+1^
+0>
+0$
+#600000
+b1111 !
+b1101 !
+b1100 !
+0T
+0S
+1U
+1%
+#610000
+b1101 !
+1T
+0%
+0Z
+0\
+0=
+0"
+#620000
+b1111 !
+b1110 !
+0T
+1S
+1%
+#630000
+b1111 !
+1T
+0%
+#640000
+b111 !
+b11 !
+b1 !
+b0 !
+0T
+0S
+0U
+0.
+1%
+0]
+1Z
+0V
+0^
+0W
+1\
+0Y
+1>
+1=
+1$
+1"
+0\
+1^
+1<
+0=
+1#
+0"
+0>
+0$
+#650000
+b1 !
+1T
+0%
+#660000
+b11 !
+b10 !
+0T
+1S
+1%
+#670000
+b11 !
+1T
+0%
+#680000
+b111 !
+b101 !
+b100 !
+0T
+0S
+1U
+1%
+#690000
+b101 !
+1T
+0%
+#700000
+b111 !
+b110 !
+0T
+1S
+1%
+#710000
+b111 !
+1T
+0%
+1V
+1W
+1Y
+1\
+0^
+0<
+1=
+0#
+1"
+1>
+1$
+#720000
+b1111 !
+b1011 !
+b1001 !
+b1000 !
+0T
+0S
+0U
+1.
+1%
+#730000
+b1001 !
+1T
+0%
+#740000
+b1011 !
+b1010 !
+0T
+1S
+1%
+#750000
+b1011 !
+1T
+0%
+1]
+1^
+0>
+0$
+#760000
+b1111 !
+b1101 !
+b1100 !
+0T
+0S
+1U
+1%
+#770000
+b1101 !
+1T
+0%
+0Z
+0\
+0=
+0"
+#780000
+b1111 !
+b1110 !
+0T
+1S
+1%
+#790000
+b1111 !
+1T
+0%
+#800000
+b111 !
+b11 !
+b1 !
+b0 !
+0T
+0S
+0U
+0.
+1%
+0]
+1Z
+0V
+0^
+0W
+1\
+0Y
+1>
+1=
+1$
+1"
+0\
+1^
+1<
+0=
+1#
+0"
+0>
+0$
+#810000
+b1 !
+1T
+0%
+#820000
+b11 !
+b10 !
+0T
+1S
+1%
+#830000
+b11 !
+1T
+0%
+#840000
+b111 !
+b101 !
+b100 !
+0T
+0S
+1U
+1%
+#850000
+b101 !
+1T
+0%
+#860000
+b111 !
+b110 !
+0T
+1S
+1%
+#870000
+b111 !
+1T
+0%
+1V
+1W
+1Y
+1\
+0^
+0<
+1=
+0#
+1"
+1>
+1$
+#880000
+b1111 !
+b1011 !
+b1001 !
+b1000 !
+0T
+0S
+0U
+1.
+1%
+#890000
+b1001 !
+1T
+0%
+#900000
+b1011 !
+b1010 !
+0T
+1S
+1%
+#910000
+b1011 !
+1T
+0%
+1]
+1^
+0>
+0$
+#920000
+b1111 !
+b1101 !
+b1100 !
+0T
+0S
+1U
+1%
+#930000
+b1101 !
+1T
+0%
+0Z
+0\
+0=
+0"
+#940000
+b1111 !
+b1110 !
+0T
+1S
+1%
+#950000
+b1111 !
+1T
+0%
+#960000
+b111 !
+b11 !
+b1 !
+b0 !
+0T
+0S
+0U
+0.
+1%
+0]
+1Z
+0V
+0^
+0W
+1\
+0Y
+1>
+1=
+1$
+1"
+0\
+1^
+1<
+0=
+1#
+0"
+0>
+0$
+#970000
+b1 !
+1T
+0%
+#980000
+b11 !
+b10 !
+0T
+1S
+1%
+#990000
+b11 !
+1T
+0%
+#1000000

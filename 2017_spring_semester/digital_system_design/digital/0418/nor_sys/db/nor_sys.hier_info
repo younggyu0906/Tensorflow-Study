@@ -1,0 +1,24 @@
+|nor_sys
+a[0] => norx:ux.x[0]
+a[1] => norx:ux.x[1]
+a[2] => norx:ux.x[2]
+a[3] => norx:ux.x[3]
+a[4] => norx:ux.x[4]
+a[5] => norx:ux.x[5]
+a[6] => norx:ux.x[6]
+a[7] => norx:ux.x[7]
+c <= norx:ux.z
+
+
+|nor_sys|norx:ux
+x[0] => temp.IN0
+x[1] => temp.IN1
+x[2] => temp.IN1
+x[3] => temp.IN1
+x[4] => temp.IN1
+x[5] => temp.IN1
+x[6] => temp.IN1
+x[7] => temp.IN1
+z <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+

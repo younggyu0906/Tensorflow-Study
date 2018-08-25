@@ -1,0 +1,11 @@
+|combosys
+in1 => o1.IN0
+in2 => o1.IN1
+in2 => o2.IN0
+in3 => o2.IN1
+in4 => o3.DATAIN
+o1 <= o1.DB_MAX_OUTPUT_PORT_TYPE
+o2 <= o2.DB_MAX_OUTPUT_PORT_TYPE
+o3 <= in4.DB_MAX_OUTPUT_PORT_TYPE
+
+

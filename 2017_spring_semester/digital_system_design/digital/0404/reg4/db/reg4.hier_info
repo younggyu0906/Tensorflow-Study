@@ -1,0 +1,19 @@
+|reg4
+clk => reg_out[0]~reg0.CLK
+clk => reg_out[1]~reg0.CLK
+clk => reg_out[2]~reg0.CLK
+clk => reg_out[3]~reg0.CLK
+data_in[0] => reg_in[0].DATAIN
+data_in[1] => reg_in[1].DATAIN
+data_in[2] => reg_in[2].DATAIN
+data_in[3] => reg_in[3].DATAIN
+reg_in[0] <> reg_in[0]
+reg_in[1] <> reg_in[1]
+reg_in[2] <> reg_in[2]
+reg_in[3] <> reg_in[3]
+reg_out[0] <> reg_out[0]~reg0
+reg_out[1] <> reg_out[1]~reg0
+reg_out[2] <> reg_out[2]~reg0
+reg_out[3] <> reg_out[3]~reg0
+
+

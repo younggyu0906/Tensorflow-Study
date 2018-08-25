@@ -1,0 +1,22 @@
+|comparator
+a[0] => process_0.IN0
+a[0] => process_0.IN0
+a[1] => process_0.IN0
+a[1] => process_0.IN0
+a[2] => process_0.IN0
+a[2] => process_0.IN0
+a[3] => process_0.IN0
+a[3] => process_0.IN0
+b[0] => process_0.IN1
+b[0] => process_0.IN1
+b[1] => process_0.IN1
+b[1] => process_0.IN1
+b[2] => process_0.IN1
+b[2] => process_0.IN1
+b[3] => process_0.IN1
+b[3] => process_0.IN1
+a_out <= a_out$latch.DB_MAX_OUTPUT_PORT_TYPE
+b_out <= b_out$latch.DB_MAX_OUTPUT_PORT_TYPE
+s_out <= s_out$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

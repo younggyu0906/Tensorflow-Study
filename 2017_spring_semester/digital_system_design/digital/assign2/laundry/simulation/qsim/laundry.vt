@@ -1,0 +1,394 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "05/19/2017 17:29:55"
+                                                                        
+// Verilog Self-Checking Test Bench (with test vectors) for design :    laundry
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module laundry_vlg_sample_tst(
+	clk,
+	l_start,
+	pollution,
+	sampler_tx
+);
+input  clk;
+input  l_start;
+input  pollution;
+output sampler_tx;
+
+reg sample;
+time current_time;
+always @(clk or l_start or pollution)
+                                                                                
+begin                                                 
+ if ($realtime > 0)                                   
+ begin                                                
+	if ($realtime == 0 || $realtime != current_time)  
+	begin									          
+		if (sample === 1'bx)                          
+			sample = 0;                               
+		else                                          
+			sample = ~sample;                         
+	end										          
+	current_time = $realtime;					      
+ end                                                  
+end                                                   
+
+assign sampler_tx = sample;
+endmodule
+
+module laundry_vlg_check_tst (
+	dewater,
+	drainage,
+	l_stop,
+	rinse,
+	spin,
+	wash,
+	waterSupply,
+	sampler_rx
+);
+input  dewater;
+input  drainage;
+input  l_stop;
+input  rinse;
+input  spin;
+input  wash;
+input  waterSupply;
+input sampler_rx;
+
+reg  dewater_expected;
+reg  drainage_expected;
+reg  l_stop_expected;
+reg  rinse_expected;
+reg  spin_expected;
+reg  wash_expected;
+reg  waterSupply_expected;
+
+reg  dewater_prev;
+reg  drainage_prev;
+reg  l_stop_prev;
+reg  rinse_prev;
+reg  spin_prev;
+reg  wash_prev;
+reg  waterSupply_prev;
+
+reg  dewater_expected_prev;
+reg  drainage_expected_prev;
+reg  l_stop_expected_prev;
+reg  rinse_expected_prev;
+reg  spin_expected_prev;
+reg  wash_expected_prev;
+reg  waterSupply_expected_prev;
+
+reg  last_dewater_exp;
+reg  last_drainage_exp;
+reg  last_l_stop_exp;
+reg  last_rinse_exp;
+reg  last_spin_exp;
+reg  last_wash_exp;
+reg  last_waterSupply_exp;
+
+reg trigger;
+
+integer i;
+integer nummismatches;
+
+reg [1:7] on_first_change ;
+
+
+initial
+begin
+trigger = 0;
+i = 0;
+nummismatches = 0;
+on_first_change = 7'b1;
+end
+
+// update real /o prevs
+
+always @(trigger)
+begin
+	dewater_prev = dewater;
+	drainage_prev = drainage;
+	l_stop_prev = l_stop;
+	rinse_prev = rinse;
+	spin_prev = spin;
+	wash_prev = wash;
+	waterSupply_prev = waterSupply;
+end
+
+// update expected /o prevs
+
+always @(trigger)
+begin
+	dewater_expected_prev = dewater_expected;
+	drainage_expected_prev = drainage_expected;
+	l_stop_expected_prev = l_stop_expected;
+	rinse_expected_prev = rinse_expected;
+	spin_expected_prev = spin_expected;
+	wash_expected_prev = wash_expected;
+	waterSupply_expected_prev = waterSupply_expected;
+end
+
+
+
+// expected l_stop
+initial
+begin
+	l_stop_expected = 1'bX;
+end 
+
+// expected wash
+initial
+begin
+	wash_expected = 1'bX;
+end 
+
+// expected rinse
+initial
+begin
+	rinse_expected = 1'bX;
+end 
+
+// expected dewater
+initial
+begin
+	dewater_expected = 1'bX;
+end 
+
+// expected waterSupply
+initial
+begin
+	waterSupply_expected = 1'bX;
+end 
+
+// expected spin
+initial
+begin
+	spin_expected = 1'bX;
+end 
+
+// expected drainage
+initial
+begin
+	drainage_expected = 1'bX;
+end 
+// generate trigger
+always @(dewater_expected or dewater or drainage_expected or drainage or l_stop_expected or l_stop or rinse_expected or rinse or spin_expected or spin or wash_expected or wash or waterSupply_expected or waterSupply)
+begin
+	trigger <= ~trigger;
+end
+
+always @(posedge sampler_rx or negedge sampler_rx)
+begin
+`ifdef debug_tbench
+	$display("Scanning pattern %d @time = %t",i,$realtime );
+	i = i + 1;
+	$display("| expected dewater = %b | expected drainage = %b | expected l_stop = %b | expected rinse = %b | expected spin = %b | expected wash = %b | expected waterSupply = %b | ",dewater_expected_prev,drainage_expected_prev,l_stop_expected_prev,rinse_expected_prev,spin_expected_prev,wash_expected_prev,waterSupply_expected_prev);
+	$display("| real dewater = %b | real drainage = %b | real l_stop = %b | real rinse = %b | real spin = %b | real wash = %b | real waterSupply = %b | ",dewater_prev,drainage_prev,l_stop_prev,rinse_prev,spin_prev,wash_prev,waterSupply_prev);
+`endif
+	if (
+		( dewater_expected_prev !== 1'bx ) && ( dewater_prev !== dewater_expected_prev )
+		&& ((dewater_expected_prev !== last_dewater_exp) ||
+			on_first_change[1])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port dewater :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", dewater_expected_prev);
+		$display ("     Real value = %b", dewater_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[1] = 1'b0;
+		last_dewater_exp = dewater_expected_prev;
+	end
+	if (
+		( drainage_expected_prev !== 1'bx ) && ( drainage_prev !== drainage_expected_prev )
+		&& ((drainage_expected_prev !== last_drainage_exp) ||
+			on_first_change[2])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port drainage :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", drainage_expected_prev);
+		$display ("     Real value = %b", drainage_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[2] = 1'b0;
+		last_drainage_exp = drainage_expected_prev;
+	end
+	if (
+		( l_stop_expected_prev !== 1'bx ) && ( l_stop_prev !== l_stop_expected_prev )
+		&& ((l_stop_expected_prev !== last_l_stop_exp) ||
+			on_first_change[3])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port l_stop :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", l_stop_expected_prev);
+		$display ("     Real value = %b", l_stop_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[3] = 1'b0;
+		last_l_stop_exp = l_stop_expected_prev;
+	end
+	if (
+		( rinse_expected_prev !== 1'bx ) && ( rinse_prev !== rinse_expected_prev )
+		&& ((rinse_expected_prev !== last_rinse_exp) ||
+			on_first_change[4])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port rinse :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", rinse_expected_prev);
+		$display ("     Real value = %b", rinse_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[4] = 1'b0;
+		last_rinse_exp = rinse_expected_prev;
+	end
+	if (
+		( spin_expected_prev !== 1'bx ) && ( spin_prev !== spin_expected_prev )
+		&& ((spin_expected_prev !== last_spin_exp) ||
+			on_first_change[5])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port spin :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", spin_expected_prev);
+		$display ("     Real value = %b", spin_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[5] = 1'b0;
+		last_spin_exp = spin_expected_prev;
+	end
+	if (
+		( wash_expected_prev !== 1'bx ) && ( wash_prev !== wash_expected_prev )
+		&& ((wash_expected_prev !== last_wash_exp) ||
+			on_first_change[6])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port wash :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", wash_expected_prev);
+		$display ("     Real value = %b", wash_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[6] = 1'b0;
+		last_wash_exp = wash_expected_prev;
+	end
+	if (
+		( waterSupply_expected_prev !== 1'bx ) && ( waterSupply_prev !== waterSupply_expected_prev )
+		&& ((waterSupply_expected_prev !== last_waterSupply_exp) ||
+			on_first_change[7])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port waterSupply :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", waterSupply_expected_prev);
+		$display ("     Real value = %b", waterSupply_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[7] = 1'b0;
+		last_waterSupply_exp = waterSupply_expected_prev;
+	end
+
+	trigger <= ~trigger;
+end
+initial 
+
+begin 
+$timeformat(-12,3," ps",6);
+#1000000;
+if (nummismatches > 0)
+	$display ("%d mismatched vectors : Simulation failed !",nummismatches);
+else
+	$display ("Simulation passed !");
+$finish;
+end 
+endmodule
+
+module laundry_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg clk;
+reg l_start;
+reg pollution;
+// wires                                               
+wire dewater;
+wire drainage;
+wire l_stop;
+wire rinse;
+wire spin;
+wire wash;
+wire waterSupply;
+
+wire sampler;                             
+
+// assign statements (if any)                          
+laundry i1 (
+// port map - connection between master ports and signals/registers   
+	.clk(clk),
+	.dewater(dewater),
+	.drainage(drainage),
+	.l_start(l_start),
+	.l_stop(l_stop),
+	.pollution(pollution),
+	.rinse(rinse),
+	.spin(spin),
+	.wash(wash),
+	.waterSupply(waterSupply)
+);
+
+// clk
+always
+begin
+	clk = 1'b0;
+	clk = #10000 1'b1;
+	#10000;
+end 
+
+// pollution
+initial
+begin
+	pollution = 1'b0;
+	pollution = #70000 1'b1;
+	pollution = #370000 1'b0;
+end 
+
+// l_start
+initial
+begin
+	l_start = 1'b0;
+	l_start = #70000 1'b1;
+	l_start = #80000 1'b0;
+	l_start = #620000 1'b1;
+	l_start = #80000 1'b0;
+end 
+
+laundry_vlg_sample_tst tb_sample (
+	.clk(clk),
+	.l_start(l_start),
+	.pollution(pollution),
+	.sampler_tx(sampler)
+);
+
+laundry_vlg_check_tst tb_out(
+	.dewater(dewater),
+	.drainage(drainage),
+	.l_stop(l_stop),
+	.rinse(rinse),
+	.spin(spin),
+	.wash(wash),
+	.waterSupply(waterSupply),
+	.sampler_rx(sampler)
+);
+endmodule
+

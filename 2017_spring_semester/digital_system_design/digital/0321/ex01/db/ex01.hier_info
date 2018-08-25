@@ -1,0 +1,8 @@
+|comp
+a[0] => equal.IN0
+a[1] => equal.IN0
+b[0] => equal.IN1
+b[1] => equal.IN1
+equal <= equal.DB_MAX_OUTPUT_PORT_TYPE
+
+

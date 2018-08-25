@@ -1,0 +1,8 @@
+|andlogic
+a[3] => temp.IN1
+a[2] => temp.IN1
+a[1] => temp.IN0
+a[0] => temp.IN1
+y <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+

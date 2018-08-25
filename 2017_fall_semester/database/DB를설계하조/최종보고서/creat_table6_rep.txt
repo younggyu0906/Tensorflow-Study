@@ -1,0 +1,33 @@
+CREATE TABLE repaircompany( 
+ rep_id            VARCHAR2(10)  NOT  NULL, 
+ rep_comp_name     VARCHAR2(20)  NOT  NULL,
+ rep_phone         VARCHAR2(13)  NOT  NULL,
+ rep_addr          VARCHAR2(40),
+ kind              VARCHAR2(20),
+ rep_bus_name      VARCHAR2(20)  NOT  NULL,
+CONSTRAINT  repaircompany_PK   PRIMARY KEY (rep_id));
+ 
+
+INSERT INTO repaircompany VALUES ('500000001', '트리오현악기공방', '0415775416' , '충청남도 천안시 동남구 충절로 109'       , '현악기'  , '한희라'); 
+INSERT INTO repaircompany VALUES ('500000002', '향복한악기사'    , '01042477931', '충청남도 천안시 서북구 쌍용대로 293'     , '현악기'  , '이명수'); 
+INSERT INTO repaircompany VALUES ('500000003', '색소필리아'      , '0415781742' , '충청남도 천안시 서북구 서부대로 418'     , '색소폰'  , '최석준'); 
+INSERT INTO repaircompany VALUES ('500000004', '세종악기'        , '0448632225' , '세종특별자치시 보듬3로 91 2층 212호'     , '관현악기', '전성수'); 
+INSERT INTO repaircompany VALUES ('500000005', '세종영창영음악기', '0448688270' , '세종특별자치시 한누리대로 249 '          , '관현악기', '장준혁'); 
+INSERT INTO repaircompany VALUES ('500000006', '영통악기'        , '0312543335' , '경기도 수원시 영통구 영통로 136'         , '피아노'  , '박봉구'); 
+INSERT INTO repaircompany VALUES ('500000007', '모노종합악기'    , '03180038178', '경기도 화성시 동탄지성로 86 P&P'         , '피아노'  , '이창희'); 
+INSERT INTO repaircompany VALUES ('500000008', '가인악기'        , '0432625333' , '충청북도 청주시 흥덕구 예체로167번길'    , '관악기'  , '조명수'); 
+INSERT INTO repaircompany VALUES ('500000009', '에셀나무악기'    , '0448628720' , '세종특별자치시 아름서길 3'               , '관현악기', '한승지'); 
+INSERT INTO repaircompany VALUES ('500000010', '용인종합피아노'  , '0313212166' , '경기도 용인시 처인구 금령로 32'          , '피아노'  , '김철수'); 
+INSERT INTO repaircompany VALUES ('500000011', '크라운뮤직'      , '0313721077' , '경기도 화성시 동탄면 방교리 770-3'       , '바이올린', '이민수'); 
+INSERT INTO repaircompany VALUES ('500000012', '로빈악기수리'    , '01030267406', '경기도 고양시 일산동구 정발산로42번길 60', '관악기'  , '김영재'); 
+INSERT INTO repaircompany VALUES ('500000013', '서부피아노백화점', '023964141'  , '서울특별시 서대문구 통일로 465'          , '피아노'  , '김영태'); 
+INSERT INTO repaircompany VALUES ('500000014', '동신악기'        , '0317111808' , '경기도 성남시 분당구 돌마로 361 동신코아', '현악기'  , '박조현'); 
+INSERT INTO repaircompany VALUES ('500000015', '통기타이야기'    , '027627434'  , '서울특별시 마포구 양화로 50'             , '통기타'  , '이세현'); 
+INSERT INTO repaircompany VALUES ('500000016', '뮤직마스터'      , '0422236399' , '대전광역시 중구 오류로 97-2'             , '클라리넷', '선우정'); 
+INSERT INTO repaircompany VALUES ('500000017', '스노우뮤직'      , '025255597'  , '서울특별시 서초구 서초중앙로 40-6 우림'  , '관악기'  , '최수진'); 
+INSERT INTO repaircompany VALUES ('500000018', '원미사운드'      , '07073132024', '경기도 부천시 부일로369번길 32 1층'      , '기타'    , '박원미'); 
+INSERT INTO repaircompany VALUES ('500000019', '카운티스'        , '0027449879' , '서울특별시 송파구 삼전로9길 20 2층'      , '우쿨렐레', '한대영'); 
+INSERT INTO repaircompany VALUES ('500000020', '브루노뮤직'      , '0267327753' , '서울특별시 종로구 낙원동 254-3 '         , '관현악기', '황동현'); 
+INSERT INTO repaircompany VALUES ('500000021', '샤인기타'        , '0518180527' , '부산광역시 동래구 명륜로 144'            , '기타'    , '서종수'); 
+ 
+commit; 

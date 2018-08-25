@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\digital\0411\hw3decoder24\simulation\qsim
+vhw3decoder24
+Z1 IhZ]U_IU_GKOekAP>bCcAR2
+Z2 VZ5a3l7e0FkN?n`;l>E^nX1
+Z3 dE:\digital\0411\hw3decoder24\simulation\qsim
+Z4 w1492816144
+Z5 8hw3decoder24.vo
+Z6 Fhw3decoder24.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 Ek`gfdn>K7`A=YY>QFVN^1
+!s85 0
+Z10 !s108 1492816144.463000
+Z11 !s107 hw3decoder24.vo|
+Z12 !s90 -work|work|hw3decoder24.vo|
+!s101 -O0
+vhw3decoder24_vlg_check_tst
+!i10b 1
+!s100 TdQL2lo:TG3ZAC0X:LAn13
+IWiQTP@:F6GmQW68Q6UN^U3
+VMI89<OlL]nTIQ;dX6m7<33
+R3
+Z13 w1492816142
+Z14 8hw3decoder24.vt
+Z15 Fhw3decoder24.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z16 !s108 1492816145.054000
+Z17 !s107 hw3decoder24.vt|
+Z18 !s90 -work|work|hw3decoder24.vt|
+!s101 -O0
+R8
+vhw3decoder24_vlg_sample_tst
+!i10b 1
+!s100 EHfE;CAl;SXOK1:dcBjEB1
+IIRblOamD20hmH1m8fkUDP3
+VW@45lm67bm3OlBDhghZka1
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vhw3decoder24_vlg_vec_tst
+!i10b 1
+!s100 X_PIKTE]6UE30@DkA4Oc91
+I0Qe?Yi>`bkFY>ZB43f2EZ2
+VanDMbL:1z[^PXa0AJTem?0
+R3
+R13
+R14
+R15
+L0 205
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

@@ -1,0 +1,17 @@
+|hw01
+a[0] => agtb.IN0
+a[1] => agtb.IN0
+a[2] => agtb.IN0
+a[3] => agtb.IN0
+b[0] => agtb.IN1
+b[0] => agtb.IN1
+b[1] => agtb.IN1
+b[1] => agtb.IN1
+b[2] => agtb.IN1
+b[2] => agtb.IN1
+b[3] => agtb.IN1
+b[3] => agtb.IN1
+agtb <= agtb.DB_MAX_OUTPUT_PORT_TYPE
+altb <= altb.DB_MAX_OUTPUT_PORT_TYPE
+
+

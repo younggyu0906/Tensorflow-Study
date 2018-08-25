@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\17_1\digital\assignment\comparator\simulation\qsim
+vcomparator
+Z1 IXbM9IMHEolYFIX=ABd4W?3
+Z2 VYHDiCYMdnM0Uz`hcO:Cc?3
+Z3 dD:\17_1\digital\assignment\comparator\simulation\qsim
+Z4 w1492200145
+Z5 8comparator.vo
+Z6 Fcomparator.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|comparator.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 Mg8NnaZAZ91O`KW54=T:81
+!s85 0
+Z11 !s108 1492200147.078000
+Z12 !s107 comparator.vo|
+!s101 -O0
+vcomparator_vlg_check_tst
+!i10b 1
+Z13 !s100 gPAA2Ba0>F]IGjLKADY[>0
+Z14 IQZB:a6mHiMaGPCc[[[8gB2
+Z15 VZAizBB8hZoiThfoAG^mPK2
+R3
+Z16 w1492200144
+Z17 8comparator.vt
+Z18 Fcomparator.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z19 !s108 1492200147.185000
+Z20 !s107 comparator.vt|
+Z21 !s90 -work|work|comparator.vt|
+!s101 -O0
+R9
+vcomparator_vlg_sample_tst
+!i10b 1
+Z22 !s100 eXogl=gVzFnKkfCO614[g2
+Z23 IcUbaeREgUGl4o2z>EkMCn2
+Z24 V;feJYeGB3T42=1IjDGU820
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vcomparator_vlg_vec_tst
+!i10b 1
+Z25 !s100 RdIgMdGbHi25H=<z:H[YM2
+Z26 IgP98[R0dg>6<2<QmeIWSm3
+Z27 VA9jRHK7ImBaJ6^?Wgb1Mz3
+R3
+R16
+R17
+R18
+Z28 L0 208
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

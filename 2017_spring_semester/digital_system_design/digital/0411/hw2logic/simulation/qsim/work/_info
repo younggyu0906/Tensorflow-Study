@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\digital\0411\hw2logic\simulation\qsim
+vhw2logic
+Z1 IC=z8P<B6a3hI:Jd?U=P4k2
+Z2 Vm>`8^bN99[3`08ER4nFo<3
+Z3 dE:\digital\0411\hw2logic\simulation\qsim
+Z4 w1492814650
+Z5 8hw2logic.vo
+Z6 Fhw2logic.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|hw2logic.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 ]VkfZJ_Cm`cDYHWBLgOPd2
+!s85 0
+Z11 !s108 1492814651.493000
+Z12 !s107 hw2logic.vo|
+!s101 -O0
+vhw2logic_vlg_check_tst
+!i10b 1
+Z13 !s100 kHKi3b_G@1AHoBgRUT`Wf0
+Z14 IO;hH`J_[FQQzB`8B5:Mnn3
+Z15 VUPL>C8L8>F8gX8mTj8o;L3
+R3
+Z16 w1492814648
+Z17 8hw2logic.vt
+Z18 Fhw2logic.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z19 !s108 1492814652.071000
+Z20 !s107 hw2logic.vt|
+Z21 !s90 -work|work|hw2logic.vt|
+!s101 -O0
+R9
+vhw2logic_vlg_sample_tst
+!i10b 1
+Z22 !s100 H8C1_96]jQ<6nOCo@GzOe1
+Z23 IG;:ch>VZU6b?WK6iKZC3z0
+Z24 VLhYA@GCBzlo?7NRE2[3UD2
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vhw2logic_vlg_vec_tst
+!i10b 1
+Z25 !s100 _S5:2UXmmCieQodL0:SCn0
+Z26 IgTl1Xk<H[Q5@V=2eC_a;E1
+Z27 V>[Q:hFWNPG=m]A7:7<Pf53
+R3
+R16
+R17
+R18
+Z28 L0 158
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

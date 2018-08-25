@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\user\Desktop\0418\nor_sys\simulation\qsim
+vnor_sys
+Z1 !s100 CU:O2UQYF>zNV4?k:YNL92
+Z2 IPEkU_ZPL@Mo5QfSo<:][l3
+Z3 VOzmEzaXeMbaFc9eNXcdlm3
+Z4 dC:\Users\user\Desktop\0418\nor_sys\simulation\qsim
+Z5 w1492505073
+Z6 8nor_sys.vo
+Z7 Fnor_sys.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|nor_sys.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1492505073.556000
+Z12 !s107 nor_sys.vo|
+!s101 -O0
+vnor_sys_vlg_check_tst
+!i10b 1
+Z13 !s100 z7AiAB5mAF_bI5[R_FOBh0
+Z14 I?M<KnnX2^ND9=Q8PDnIZj0
+Z15 V@ddaF;J:kD:_ln]b1Wf1`2
+R4
+Z16 w1492505072
+Z17 8nor_sys.vt
+Z18 Fnor_sys.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z19 !s108 1492505073.603000
+Z20 !s107 nor_sys.vt|
+Z21 !s90 -work|work|nor_sys.vt|
+!s101 -O0
+R10
+vnor_sys_vlg_sample_tst
+!i10b 1
+Z22 !s100 a:me9U@RFKij5aTB[llX^0
+Z23 IVNW7Rbf^EGP3SFco0>6;T0
+Z24 VEEk9TI4?nm9hG<H2BI>fd0
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vnor_sys_vlg_vec_tst
+!i10b 1
+Z25 !s100 ^F]U@N62X@1DOdZKT;E<R2
+Z26 I_hXH_G@zj2CZnYVQ0SUZC3
+Z27 VO_2cKH;ENQzNUPa0RkKee1
+R4
+R16
+R17
+R18
+Z28 L0 152
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

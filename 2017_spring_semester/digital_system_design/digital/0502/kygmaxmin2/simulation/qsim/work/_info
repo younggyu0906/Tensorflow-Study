@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\user\Desktop\0502\kygmaxmin2\simulation\qsim
+vkygmaxmin2
+Z1 !s100 z@KRSE;C2eoJ5^JlGKTk62
+Z2 IQ>7<1l=oTloMU9jo>M20F3
+Z3 VMcbM[LCT_fPglYS8dcc2H0
+Z4 dD:\17_1\digital\0502\kygmaxmin2\simulation\qsim
+Z5 w1495327738
+Z6 8kygmaxmin2.vo
+Z7 Fkygmaxmin2.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|kygmaxmin2.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1495327739.881000
+Z12 !s107 kygmaxmin2.vo|
+!s101 -O0
+vkygmaxmin2_vlg_check_tst
+!i10b 1
+Z13 !s100 <ocRR4U1z46aMBiIPcnd61
+Z14 Ia7>G<DNQ4@c;2P4feEnhF2
+Z15 V0WS6hoW]N<bD=Wd7TK^K]3
+R4
+Z16 w1495327737
+Z17 8kygmaxmin2.vt
+Z18 Fkygmaxmin2.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z19 !s108 1495327739.981000
+Z20 !s107 kygmaxmin2.vt|
+Z21 !s90 -work|work|kygmaxmin2.vt|
+!s101 -O0
+R10
+vkygmaxmin2_vlg_sample_tst
+!i10b 1
+Z22 !s100 _E:Z3K[bQ0C^k6dBoK0VO3
+Z23 IHT=_mTgP6JlSTnLdi03hG2
+Z24 VCBMji0NlhSQZn<VK6ie=I0
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vkygmaxmin2_vlg_vec_tst
+!i10b 1
+Z25 !s100 MccYAihVC?XP1M2oUmLJP1
+Z26 I;;ieFG[cn:oIkl3PhYQ6@1
+Z27 V_^l0O9<e`d=5REoYM@:ha3
+R4
+R16
+R17
+R18
+Z28 L0 323
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

@@ -1,0 +1,7 @@
+|sys_var
+i => temp.IN0
+j => temp.IN1
+k => temp.IN1
+l <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+

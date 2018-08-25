@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\17_1\digital\0516\ringCount\simulation\qsim
+vringCount
+Z1 !s100 Wm>=jf5iL80[YmJog:^;72
+Z2 I=?H6CXmoOA9;IZW1CRh_`0
+Z3 VNZlEnUhENiGl<^SlN:C?O0
+Z4 dD:\17_1\digital\0516\ringCount\simulation\qsim
+Z5 w1494919035
+Z6 8ringCount.vo
+Z7 FringCount.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|ringCount.vo|
+Z10 o-work work -O0
+Z11 nring@count
+!i10b 1
+!s85 0
+Z12 !s108 1494919036.625000
+Z13 !s107 ringCount.vo|
+!s101 -O0
+vringCount_vlg_check_tst
+!i10b 1
+Z14 !s100 4em^kV_Z3i47Z>^OSNh9W1
+Z15 IWQGUB<c;HKg[zZcR[;_nN0
+Z16 VnVR?529g4zoVXmC:z`S5N3
+R4
+Z17 w1494919034
+Z18 8ringCount.vt
+Z19 FringCount.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z20 !s108 1494919036.703000
+Z21 !s107 ringCount.vt|
+Z22 !s90 -work|work|ringCount.vt|
+!s101 -O0
+R10
+Z23 nring@count_vlg_check_tst
+vringCount_vlg_sample_tst
+!i10b 1
+Z24 !s100 XBoRokNa=CCic:F^Nk<5@0
+Z25 Id1=O6AHhhEP^P7VgEH9]<1
+Z26 VjR6_WhX]^ZjoD4eo<kD8E2
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 nring@count_vlg_sample_tst
+vringCount_vlg_vec_tst
+!i10b 1
+!s100 ^SJz>19`K6eBz^9TQ34LH1
+IhC=>S=0Sf?3EB9fI4D]0z2
+Z28 VTgnR`c:VYgVn2TbgT>N:M1
+R4
+R17
+R18
+R19
+Z29 L0 279
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 nring@count_vlg_vec_tst

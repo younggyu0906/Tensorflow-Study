@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Pro_01 {
+	public static void main(String args[]) {
+		String name;
+		int age;
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("이름 : ");
+		name = (input.nextLine());
+		System.out.println("나이 : ");
+		age = (input.nextInt());
+	
+		System.out.println("이름은 " + name + "이고 나이는 " + age + "입니다");
+	}
+}

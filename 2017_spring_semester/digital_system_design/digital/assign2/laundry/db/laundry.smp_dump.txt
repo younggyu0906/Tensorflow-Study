@@ -1,0 +1,14 @@
+
+State Machine - |laundry|w_state
+Name w_state.w3 w_state.w2 w_state.w1 w_state.w0 
+w_state.w0 0 0 0 0 
+w_state.w1 0 0 1 1 
+w_state.w2 0 1 0 1 
+w_state.w3 1 0 0 1 
+
+State Machine - |laundry|l_state
+Name l_state.l3 l_state.l2 l_state.l1 l_state.l0 
+l_state.l0 0 0 0 0 
+l_state.l1 0 0 1 1 
+l_state.l2 0 1 0 1 
+l_state.l3 1 0 0 1 

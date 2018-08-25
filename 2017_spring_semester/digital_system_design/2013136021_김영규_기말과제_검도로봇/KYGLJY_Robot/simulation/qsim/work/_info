@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\YGKIM\Desktop\KYGLJY_Robot\simulation\qsim
+vKYGLJY_Robot
+Z1 I?j8nAbUT@6EoN2eE9NSFV3
+Z2 VM2ob]63_75_B:OnAloe>N0
+Z3 dC:\Users\YGKIM\Desktop\KYGLJY_Robot\simulation\qsim
+Z4 w1497678304
+Z5 8KYGLJY_Robot.vo
+Z6 FKYGLJY_Robot.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@k@y@g@l@j@y_@robot
+!i10b 1
+Z10 !s100 [<<@e;XE_UTkV3:`8S[=33
+!s85 0
+Z11 !s108 1497678305.830000
+Z12 !s107 KYGLJY_Robot.vo|
+Z13 !s90 -work|work|KYGLJY_Robot.vo|
+!s101 -O0
+vKYGLJY_Robot_vlg_check_tst
+!i10b 1
+!s100 @n@X<HG]RMihl05R;3FK11
+Imm[MCRkBPIOD3E?[i=_R10
+V?:bzn`B0WDYM4T]n0[VST0
+R3
+Z14 w1497678302
+Z15 8KYGLJY_Robot.vt
+Z16 FKYGLJY_Robot.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z17 !s108 1497678305.997000
+Z18 !s107 KYGLJY_Robot.vt|
+Z19 !s90 -work|work|KYGLJY_Robot.vt|
+!s101 -O0
+R8
+n@k@y@g@l@j@y_@robot_vlg_check_tst
+vKYGLJY_Robot_vlg_sample_tst
+!i10b 1
+!s100 V8gTECFzTKD;F1Z@_hbKF3
+IJbmA5@YjWiT=Vg@mn_3SA0
+VJ2Pl^i5dB;9i`iA3e`mk<0
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@k@y@g@l@j@y_@robot_vlg_sample_tst
+vKYGLJY_Robot_vlg_vec_tst
+!i10b 1
+!s100 oRjoYBIn`3GSSPFIJBN<j2
+ICnC]WaQMSRzD82?faLRb91
+VUCj?jXnMF6[d;aOHko3h?1
+R3
+R14
+R15
+R16
+L0 345
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@k@y@g@l@j@y_@robot_vlg_vec_tst

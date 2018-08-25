@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, F:/digital/0411/andlogic/andlogic.vhd
+source_file = 1, F:/digital/0411/andlogic/Waveform.vwf
+source_file = 1, F:/digital/0411/andlogic/db/andlogic.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = andlogic
+instance = comp, \y~output , y~output, andlogic, 1
+instance = comp, \a[1]~input , a[1]~input, andlogic, 1
+instance = comp, \a[3]~input , a[3]~input, andlogic, 1
+instance = comp, \a[0]~input , a[0]~input, andlogic, 1
+instance = comp, \a[2]~input , a[2]~input, andlogic, 1
+instance = comp, \temp~0 , temp~0, andlogic, 1

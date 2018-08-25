@@ -1,0 +1,7 @@
+|and3input
+a => sn.IN0
+b => sn.IN1
+c => o.IN1
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+

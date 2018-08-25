@@ -1,0 +1,37 @@
+import java.io.IOException;
+/*
+public class Pro04_ExceptionTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(readString());
+	}
+	public static String readString() {
+		byte[] buf = new byte[10];
+		System.out.println("Enter string : ");
+		try {
+			System.in.read(buf);
+		} catch (IOException e) {
+			System.out.println(e.getMessage());
+		}
+		return new String(buf);
+	}
+}
+*/
+public class Pro04_ExceptionTest {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			System.out.println(readString());
+		} catch (IOException e) {
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+		}
+	}
+	public static String readString() throws IOException {
+		byte[] buf = new byte[10];
+		System.out.println("Enter string : ");
+		System.in.read(buf);
+		return new String(buf);
+	}
+}

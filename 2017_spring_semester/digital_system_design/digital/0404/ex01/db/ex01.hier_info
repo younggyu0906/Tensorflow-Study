@@ -1,0 +1,8 @@
+|logic
+a => w.IN0
+b => w.IN1
+b => x.IN0
+c => x.IN1
+y <= no3.DB_MAX_OUTPUT_PORT_TYPE
+
+

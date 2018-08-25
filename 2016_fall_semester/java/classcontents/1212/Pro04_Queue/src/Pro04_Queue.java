@@ -1,0 +1,36 @@
+// LinkedList 클래스는 Queue 인터페이스를 구현한다
+// 따라서 Queue는 LinkedList를 사용하여 작성할 수 있다
+
+import java.util.LinkedList;
+
+public class Pro04_Queue {
+	public static void main(String[] args) {
+		LinkedList<Integer> queue = new LinkedList<>();
+		
+		for (int i = 0; i <= 10; i++)
+			queue.add(i);
+		System.out.println(queue);
+		
+		queue.offer(11);	// add와 동일
+		System.out.println(queue);
+		
+		System.out.println(queue.element());// 첫번쨰 원소 리턴, 삭제하지 않는다
+		System.out.println(queue);
+		
+		System.out.println(queue.peek());//첫번째 원소 리턴, 삭제하지 않는다
+		System.out.println(queue);
+		
+		System.out.println(queue.remove());	// 첫뻔째 원소 리턴, 삭제한다
+		System.out.println(queue);
+		
+		System.out.println(queue.poll());//첫번째 원소 리턴, 삭제한다
+		System.out.println(queue);
+		
+		System.out.println(queue.get(2));//번호에 있는 원소 리턴, 삭제하지 않는다
+		System.out.println("size : " + queue.size());
+	}
+}
+// 	차이	   : exception발생	null, true, false 리턴
+// insert  : add(e)			offer(e)
+// remove  : remove()		poll()
+// examine : element()		peek()

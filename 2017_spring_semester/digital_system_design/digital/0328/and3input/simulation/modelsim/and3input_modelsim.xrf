@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, E:/digital/0328/and3input/and3input.vhd
+source_file = 1, E:/digital/0328/and3input/Waveform.vwf
+source_file = 1, E:/digital/0328/and3input/db/and3input.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = and3input
+instance = comp, \c~I , c, and3input, 1
+instance = comp, \a~I , a, and3input, 1
+instance = comp, \b~I , b, and3input, 1
+instance = comp, \o~0 , o~0, and3input, 1
+instance = comp, \o~I , o, and3input, 1

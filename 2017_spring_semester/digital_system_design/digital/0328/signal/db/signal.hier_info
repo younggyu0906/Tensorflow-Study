@@ -1,0 +1,7 @@
+|system
+k1 => cn.IN0
+k2 => cn.IN1
+k3 => y_out.IN1
+y_out <= y_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

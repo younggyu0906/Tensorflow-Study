@@ -1,0 +1,13 @@
+
+State Machine - |signal_lamp|l_state
+Name l_state.l2 l_state.l1 l_state.l0 
+l_state.l0 0 0 0 
+l_state.l1 0 1 1 
+l_state.l2 1 0 1 
+
+State Machine - |signal_lamp|s_state
+Name s_state.s3 s_state.s2 s_state.s0 s_state.s1 
+s_state.s1 0 0 0 0 
+s_state.s0 0 0 1 1 
+s_state.s2 0 1 0 1 
+s_state.s3 1 0 0 1 

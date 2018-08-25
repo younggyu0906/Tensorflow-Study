@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\user\Desktop\digitalwork\combosys\simulation\qsim
+vcombosys
+Z1 I>jFOaS>V04A_<PUK<8^042
+Z2 VHEMQodL8I:D;96HBGc77S0
+Z3 dC:\Users\user\Desktop\digitalwork\combosys\simulation\qsim
+Z4 w1489482019
+Z5 8combosys.vo
+Z6 Fcombosys.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|combosys.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 Z[OPMn5[61kb9C`6>DjU81
+!s85 0
+Z11 !s108 1489482019.704000
+Z12 !s107 combosys.vo|
+!s101 -O0
+vcombosys_vlg_check_tst
+!i10b 1
+Z13 !s100 >C8loz9M=jMc7IFEz1OP21
+Z14 I2;ROc^njnnXcI85lzZmBR2
+Z15 V@ok;SZm>Okzn1KWZ0dY3h0
+R3
+Z16 w1489482018
+Z17 8combosys.vt
+Z18 Fcombosys.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z19 !s108 1489482019.767000
+Z20 !s107 combosys.vt|
+Z21 !s90 -work|work|combosys.vt|
+!s101 -O0
+R9
+vcombosys_vlg_sample_tst
+!i10b 1
+Z22 !s100 W2fma`kA2kYR9OdEd:FTD0
+Z23 IjH1]i2JBC0YGRncZO[XV]1
+Z24 VEojL6^:9T_fb7gUYd9DLz3
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vcombosys_vlg_vec_tst
+!i10b 1
+Z25 !s100 WLl]FB4eQJM<LS_Df_oOE1
+Z26 I7fCETdeH@c0[`QNNbh:7D3
+Z27 VT`:0<0I0m[]<^O:V4Fc]^1
+R3
+R16
+R17
+R18
+Z28 L0 212
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="121101_Miso_Factory_Method_PT">
+</Property><Property Name="솔루션 파일" Value="D:\과제\visual c++ project\121101_Miso_Factory_Method_PT\121101_Miso_Factory_Method_PT.sln">
+</Property><Property Name="Date" Value="2016년 6월 6일 월요일">
+</Property><Property Name="Time" Value="오후 12:22:08">
+</Property></Properties><Event ErrorLevel="0" Project="121101_Miso_Factory_Method_PT" Source="121101_Miso_Factory_Method_PT.vcproj" Description="Converting project file 'D:\과제\visual c++ project\121101_Miso_Factory_Method_PT\121101_Miso_Factory_Method_PT.vcproj'.">
+</Event><Event ErrorLevel="1" Project="121101_Miso_Factory_Method_PT" Source="121101_Miso_Factory_Method_PT.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="121101_Miso_Factory_Method_PT" Source="121101_Miso_Factory_Method_PT.vcproj" Description="Done converting to new project file 'D:\과제\visual c++ project\121101_Miso_Factory_Method_PT\121101_Miso_Factory_Method_PT.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="121101_Miso_Factory_Method_PT" Source="121101_Miso_Factory_Method_PT.vcproj" Description="Converted">
+</Event></UpgradeLog>

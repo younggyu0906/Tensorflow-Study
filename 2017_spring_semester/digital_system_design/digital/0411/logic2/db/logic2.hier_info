@@ -1,0 +1,15 @@
+|logic2
+xin[0] => Mux0.IN5
+xin[0] => Mux1.IN5
+xin[0] => Mux2.IN5
+xin[0] => Mux3.IN5
+xin[1] => Mux0.IN4
+xin[1] => Mux1.IN4
+xin[1] => Mux2.IN4
+xin[1] => Mux3.IN4
+y_out[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+y_out[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+y_out[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+y_out[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

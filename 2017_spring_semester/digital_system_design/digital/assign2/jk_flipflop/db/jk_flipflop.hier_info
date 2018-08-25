@@ -1,0 +1,11 @@
+|jk_flipflop
+clk => ~NO_FANOUT~
+j => ~NO_FANOUT~
+k => ~NO_FANOUT~
+pr => comb.IN1
+pr => comb.IN1
+pr => y_out.IN0
+clr => y_out.IN1
+y_out << y_out$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

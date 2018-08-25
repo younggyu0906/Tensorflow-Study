@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, E:/digital/0328/signal/signal.vhd
+source_file = 1, E:/digital/0328/signal/Waveform.vwf
+source_file = 1, E:/digital/0328/signal/db/signal.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = system
+instance = comp, \k3~I , k3, system, 1
+instance = comp, \k1~I , k1, system, 1
+instance = comp, \k2~I , k2, system, 1
+instance = comp, \y_out~0 , y_out~0, system, 1
+instance = comp, \y_out~I , y_out, system, 1

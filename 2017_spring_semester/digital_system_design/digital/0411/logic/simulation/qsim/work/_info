@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\digital\0411\logic\simulation\qsim
+vlogic
+Z1 I:Z_0=]dja7;lkaM8JV05B2
+Z2 Vfh_YfXmeE4:a5A9^52JR63
+Z3 dF:\digital\0411\logic\simulation\qsim
+Z4 w1491894892
+Z5 8logic.vo
+Z6 Flogic.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 K_eA]oG<]112YCUNh;mo[1
+!s85 0
+Z10 !s108 1491894894.248000
+Z11 !s107 logic.vo|
+Z12 !s90 -work|work|logic.vo|
+!s101 -O0
+vlogic_vlg_check_tst
+!i10b 1
+!s100 Pl7JY8NSN95R03O]7QezK1
+IJMM3^^]zA?KmCVNiQkT292
+VZNT6l>NE:`:[MiGN4dY9Y2
+R3
+R4
+Z13 8logic.vt
+Z14 Flogic.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z15 !s108 1491894895.200000
+Z16 !s107 logic.vt|
+Z17 !s90 -work|work|logic.vt|
+!s101 -O0
+R8
+vlogic_vlg_sample_tst
+!i10b 1
+!s100 Tk_XzgzmZ5D7Q]CjeLHO51
+IIDjCVPHkoET8fP:oF<=J71
+V029Xzl]O@Rz9^XXK]oX0<1
+R3
+R4
+R13
+R14
+L0 29
+R7
+r1
+!s85 0
+31
+R15
+R16
+R17
+!s101 -O0
+R8
+vlogic_vlg_vec_tst
+!i10b 1
+!s100 _::aM6YQWHM:OFb;Q=nAm0
+Ijd2H[M[a[[7`bSKYI>XYW2
+VCd<eZKdd@]Z]kfmR0j4^Y3
+R3
+R4
+R13
+R14
+L0 158
+R7
+r1
+!s85 0
+31
+R15
+R16
+R17
+!s101 -O0
+R8

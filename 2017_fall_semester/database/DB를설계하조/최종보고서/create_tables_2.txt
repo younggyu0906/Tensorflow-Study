@@ -1,0 +1,196 @@
+﻿﻿
+CREATE TABLE member ( 
+ mem_id            CHAR(10),
+ mem_name          VARCHAR2(20)  NOT NULL, 
+ pw                VARCHAR2(10)  NOT NULL, 
+ mem_addr          VARCHAR2(30)  NOT NULL,
+ mem_phone         CHAR(13)  NOT NULL,
+ CONSTRAINT  member_PK  PRIMARY KEY (mem_id); 
+ 
+INSERT INTO member VALUES ('1000', '김영규', 'dudrb123', '천안', '01012345678'); 
+INSERT INTO member VALUES ('1001', '김진학', 'wlsgkr00', '세종', '01022223333');  
+INSERT INTO member VALUES ('1002', '김하늘', 'rlagksmf25', '대전', '01033334444'); 
+INSERT INTO member VALUES ('1003', '정세열', 'tpduf77', '수원', '01044445555'); 
+INSERT INTO member VALUES ('1004', '김승우', 'tmddntmddn', '서울', '01055556666');  
+INSERT INTO member VALUES ('1005', '박진희', 'qkrwlsgml', '세종', '01055555678'); 
+INSERT INTO member VALUES ('1006', '송미현', 'algusdl', '부산', '01026345744');  
+INSERT INTO member VALUES ('1007', '임소라', 'thfkdla', '서울', '01055552222'); 
+INSERT INTO member VALUES ('1008', '김지환', 'kwlghks', '천안', '01076544567'); 
+INSERT INTO member VALUES ('1009', '최민준', 'alswnsdlRJ', '천안', '01088009988');  
+INSERT INTO member VALUES ('1010', '황승호', 'ghkdtmdgh1', '대전', '01022443355'); 
+INSERT INTO member VALUES ('1011', '조승재', 'tmdwowhwh', '천안', '01065433456');  
+INSERT INTO member VALUES ('1012', '신승민', 'tlstlstmdals', '인천', '01045677654'); 
+INSERT INTO member VALUES ('1013', '김주영', 'wndud866', '목포', '01056788765'); 
+INSERT INTO member VALUES ('1014', '이유영', 'dbdud135', '전주', '01012344321');  
+INSERT INTO member VALUES ('1015', '오진미', 'dhwlsal99', '광주', '01087655678'); 
+INSERT INTO member VALUES ('1016', '장정호', 'wjdghwjdgh', '전주', '01064642222');  
+INSERT INTO member VALUES ('1017', '김동훈', 'ehdgnsdl6', '대전', '01033337789'); 
+INSERT INTO member VALUES ('1018', '김세중', 'rlatpwnd24', '대전', '01075649980'); 
+INSERT INTO member VALUES ('1019', '이연서', 'dustj9999', '서울', '01024453345'); 
+INSERT INTO member VALUES ('1020', '황윤식', 'dbstlrdlek', '서울', '01098472847'); 
+INSERT INTO member VALUES ('1021', '김정은', 'wjddmsdl10', '천안', '01029834711'); 
+INSERT INTO member VALUES ('1022', '임보린', 'qhflsqhfls1', '천안', '01010182731'); 
+INSERT INTO member VALUES ('1023', '이승주', 'tmdwntmd1', '서울', '01012222345'); 
+
+commit; 
+ 
+CREATE TABLE club ( 
+ club_id           VARCHAR2(10), 
+ club_name         VARCHAR2(20)  NOT NULL, 
+ club_phone        VARCHAR2(10)  NOT  NULL,    
+ club_addr         VARCHAR2(30),
+ CONSTRAINT  club_PK   PRIMARY KEY (club_id);
+ 
+INSERT INTO club VALUES ('guitar1', '비상', '01098766789', '천안시 신부동');
+INSERT INTO club VALUES ('korchestra', '오케스트라', '01012465412', '천안시 불당동');
+INSERT INTO club VALUES ('security6', '보안', '01025676955', '천안시 청수동');
+INSERT INTO club VALUES ('singer00', '솔메', '01027693456', '대전시 월평동');
+INSERT INTO club VALUES ('pianolove', '피아노사랑', '01013134444', '천안시 성정동');
+INSERT INTO club VALUES ('book', '독서모임', '01099908888', '천안시 구성동');
+INSERT INTO club VALUES ('security48', 'SECURITY', '01011113243', '대전시 둔산동');
+INSERT INTO club VALUES ('soccer2017', '축구', '01043562578', '세종시 반곡동');
+INSERT INTO club VALUES ('basketball', '농구천재', '01022836412', '세종시 보람동');
+INSERT INTO club VALUES ('musical101', '뮤지컬', '01017334644', '세종시 대평동'); 
+INSERT INTO club VALUES ('movie99', '영화감상', '01099112345', '수원시 인계동동');
+INSERT INTO club VALUES ('cartoon32', '만화', '01019923333', '수원시 송산동');
+INSERT INTO club VALUES ('vocal11', '보컬', '01078966543', '천안시 청수동');
+INSERT INTO club VALUES ('guitar4', '기타세상', '01019473547', '천안시 성정동');
+INSERT INTO club VALUES ('mybook3', '책읽는사람', '01063813739', '천안시 신부동');
+INSERT INTO club VALUES ('orchestra', '수원시오케스트라', '01017193729', '수원시 신풍동');
+INSERT INTO club VALUES ('soccer22', '축구사랑', '01013783928', '세종시 반곡동');
+INSERT INTO club VALUES ('ilovesing', '나는가수다', '01018743920', '대전시 노은동');
+INSERT INTO club VALUES ('mypiano', '나의피아노', '01019372890', '성남시 산성동');
+INSERT INTO club VALUES ('travel', '여행을떠나요', '01024980123', '성남시 양지동');
+commit;
+ 
+CREATE TABLE instrument ( 
+ instr_id          VARCHAR2(10), 
+ mdl_name          VARCHAR2(20),
+ brand             VARCHAR2(10),
+ color             VARCHAR2(30),
+ size              NUMBER(6)  NOT NULL,
+ kind              VARCHAR2(10)  NOT NULL,
+ prod_date         DATE  NOT NULL,
+CONSTRAINT  instrument_PK   PRIMARY KEY (instr_id));
+ 
+INSERT INTO instrument VALUES ('100001', '기타', '영창악기', 'beige', '6', TO_DATE('03/01/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100002', '바이올린', '삼익악기', 'brown', '4', TO_DATE('03/11/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100003', '첼로', '삼익악기', 'brown', '8', TO_DATE('03/21/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100004', '호른', '영창악기', 'gold', '5', TO_DATE('03/07/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100005', '피아노', '영창악기', 'black', '10', TO_DATE('03/03/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100006', '플룻', '삼익악기', 'silver', '4', TO_DATE('03/21/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100007', '기타', '영창악기', 'beige', '6', TO_DATE('03/01/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100008', '기타', '삼익악기', 'brown', '5', TO_DATE('03/11/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100009', '호른', '영창악기', 'gold', '5', TO_DATE('03/21/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100010', '클라리넷', '삼익악기', 'black', '4', TO_DATE('03/07/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100011', '트럼펫', '영창악기', 'gold', '4', TO_DATE('03/03/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100012', '비올라', '삼익악기', 'brown', '4', TO_DATE('03/21/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100013', '트럼본', '영창악기', 'gold', '5', TO_DATE('03/21/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100014', '바이올린', '삼익악기', 'brown', '5', TO_DATE('03/07/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100015', '플룻', '영창악기', 'silver', '4', TO_DATE('03/03/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100016', '피아노', '삼익악기', 'white', '10', TO_DATE('03/21/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100017', '피아노', '영창악기', 'brown', '10', TO_DATE('03/01/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100018', '바이올린', '삼익악기', 'brown', '4', TO_DATE('03/11/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100019', '바이올린', '삼익악기', 'brown', '8', TO_DATE('03/21/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100020', '첼로', '삼익악기', 'brown', '7', TO_DATE('03/07/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100021', '기타', '영창악기', 'brown', '5', TO_DATE('03/07/2017','MM/DD/YYYY')); 
+INSERT INTO instrument VALUES ('100022', '호른', '영창악기', 'gold', '5', TO_DATE('03/07/2017','MM/DD/YYYY')); 
+ 
+commit;
+ 
+CREATE TABLE supplier( 
+ sup_id            VARCHAR2(10), 
+ sup_name          VARCHAR2(20)  NOT  NULL,
+ sup_phone         VARCHAR2(13)  NOT  NULL,
+ sup_addr          VARCHAR2(30)  NOT  NULL,
+ sup_grade         NUMBER(1),
+CONSTRAINT  supplier_PK   PRIMARY KEY (sup_id)),
+CONSTRAINT  sup_grade
+CHECK sup_grade BETWEEN 0 and 5;
+ 
+
+INSERT INTO supplier VALUES ('898900001', '최남영', '01018726978', '대전', '3'); 
+INSERT INTO supplier VALUES ('898900002', '이유리', '01010998019', '대전', '4'); 
+INSERT INTO supplier VALUES ('898900003', '이민선', '01012312111', '서울', '1'); 
+INSERT INTO supplier VALUES ('898900004', '박수향', '01022227863', '천안', '2'); 
+INSERT INTO supplier VALUES ('898900005', '김지희', '01028739493', '인천', '1'); 
+INSERT INTO supplier VALUES ('898900006', '임진주', '01028974292', '세종', '5'); 
+INSERT INTO supplier VALUES ('898900007', '임진원', '01099912874', '여수', '5'); 
+INSERT INTO supplier VALUES ('898900008', '조상우', '01055671248', '광주', '3'); 
+INSERT INTO supplier VALUES ('898900009', '조석준', '01056534292', '김해', '4'); 
+INSERT INTO supplier VALUES ('898900010', '채동신', '01019872348', '목포', '1'); 
+INSERT INTO supplier VALUES ('898900011', '김명수', '01077676822', '천안', '4'); 
+INSERT INTO supplier VALUES ('898900012', '이철준', '01067465846', '천안', '5'); 
+INSERT INTO supplier VALUES ('898900013', '김민정', '01037988229', '인천', '1'); 
+INSERT INTO supplier VALUES ('898900014', '김지혜', '01099898892', '세종', '1'); 
+INSERT INTO supplier VALUES ('898900015', '이수진', '01012342222', '수원', '4'); 
+INSERT INTO supplier VALUES ('898900016', '이영구', '01034433008', '세종', '5'); 
+INSERT INTO supplier VALUES ('898900017', '한지선', '01099098621', '세종', '3'); 
+INSERT INTO supplier VALUES ('898900018', '이승지', '01012283903', '천안', '2'); 
+INSERT INTO supplier VALUES ('898900019', '최수진', '01044875984', '구미', '3'); 
+INSERT INTO supplier VALUES ('898900020', '한소진', '01057353728', '서울', '3'); 
+INSERT INTO supplier VALUES ('898900021', '최희라', '01067489597', '천안', '4'); 
+ 
+commit; 
+   
+CREATE TABLE teacher( 
+ teac_id          VARCHAR2(10), 
+ teac_name        VARCHAR2(20)  NOT  NULL,
+ teac_phone       VARCHAR2(13)  NOT  NULL,
+ teac_addr        VARCHAR2(30),
+ teac_grade       VARCHAR2(6),
+CONSTRAINT  teacher_PK   PRIMARY KEY (teac_id))
+CONSTRAINT teac_grade
+CHECK lect_grade IN ('best', 'good', 'bad');
+ 
+INSERT INTO lecturer VALUES ('2017000001', '김창민', '01012333678', '천안', 'good'); 
+INSERT INTO lecturer VALUES ('2017000002', '김영숙', '01025421234', '천안', 'best'); 
+INSERT INTO lecturer VALUES ('2017000003', '이민아', '01025234123', '수원', 'good'); 
+INSERT INTO lecturer VALUES ('2017000004', '박정민', '01084673425', '전주', 'good'); 
+INSERT INTO lecturer VALUES ('2017000005', '홍순갑', '01023098178', '서울', 'good'); 
+INSERT INTO lecturer VALUES ('2017000006', '박신영', '01088787459', '대전', 'best');  
+INSERT INTO lecturer VALUES ('2017000007', '서효숙', '01011923874', '인천', 'good'); 
+INSERT INTO lecturer VALUES ('2017000008', '신진만', '01050982342', '수원', 'best'); 
+INSERT INTO lecturer VALUES ('2017000009', '김지원', '01012938732', '수원', 'good'); 
+INSERT INTO lecturer VALUES ('2017000010', '최남이', '01056278912', '전주', 'good'); 
+INSERT INTO lecturer VALUES ('2017000011', '유영수', '01057827861', '광주', 'best');  
+INSERT INTO lecturer VALUES ('2017000012', '임지석', '01013234909', '대전', 'good'); 
+INSERT INTO lecturer VALUES ('2017000013', '송미란', '01025345263', '천안', 'best'); 
+INSERT INTO lecturer VALUES ('2017000014', '김중의', '01026367463', '수원', 'good'); 
+INSERT INTO lecturer VALUES ('2017000015', '이영우', '01034523752', '서울', 'good'); 
+INSERT INTO lecturer VALUES ('2017000016', '김철수', '01098008234', '서울', 'good'); 
+INSERT INTO lecturer VALUES ('2017000017', '민소진', '01000123789', '서울', 'best');  
+INSERT INTO lecturer VALUES ('2017000018', '송아린', '01024569732', '청주', 'good'); 
+INSERT INTO lecturer VALUES ('2017000019', '양미리', '01099248756', '청주', 'best'); 
+INSERT INTO lecturer VALUES ('2017000020', '김소원', '01088664725', '수원', 'good'); 
+INSERT INTO lecturer VALUES ('2017000021', '김창수', '01017361821', '청주', 'good'); 
+INSERT INTO lecturer VALUES ('2017000022', '이민주', '01045778297', '인천', 'good'); 
+ 
+
+commit; 
+
+////////////////////////////관계는 따로 해야됨
+
+CREATE TABLE  소속되다 ( 
+ 학번             CHAR(10), 
+ 학과번호         CHAR(3)  NOT  NULL, 
+ CONSTRAINT  전공_PK   PRIMARY KEY (학번, 학과번호),
+ CONSTRAINT  학번_FK   FOREIGN KEY (학번)
+                       REFERENCES  학생(학번),
+ CONSTRAINT  전공_FK   FOREIGN KEY (학과번호)
+                       REFERENCES  학과(학과번호)); 
+ 
+INSERT INTO 소속되다 VALUES ('2004112531', '111');
+INSERT INTO 소속되다 VALUES ('2004112532', '112');
+INSERT INTO 소속되다 VALUES ('2004112533', '113');
+INSERT INTO 소속되다 VALUES ('2004112533', '114');
+INSERT INTO 소속되다 VALUES ('2004112534', '114');
+INSERT INTO 소속되다 VALUES ('2004112535', '114');
+INSERT INTO 소속되다 VALUES ('2004112536', '114');
+INSERT INTO 소속되다 VALUES ('2004112537', '114'); 
+INSERT INTO 소속되다 VALUES ('2004112538', '211');
+INSERT INTO 소속되다 VALUES ('2004112539', '311');
+
+commit; 
+ 
+set scan on 

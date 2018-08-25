@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\17_1\digital\assign2\laundry\simulation\qsim
+vlaundry
+Z1 !s100 0z;3J@cV<`mfVeADhVgXC2
+Z2 Ifj4TC5]^NCaXO0ISH_LPc1
+Z3 V^S4kVZgKkic3hf_ceJCV02
+Z4 dD:\17_1\digital\assign2\laundry\simulation\qsim
+Z5 w1495182597
+Z6 8laundry.vo
+Z7 Flaundry.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|laundry.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1495182598.198000
+Z12 !s107 laundry.vo|
+!s101 -O0
+vlaundry_vlg_check_tst
+!i10b 1
+Z13 !s100 5j1aD@1I=LO4e9KkoJSOZ2
+Z14 I_g[Mf9IoMQ3Xbe=Z`M;?;0
+Z15 V:[WXeLKWzI>OaJEo=6TD^1
+R4
+Z16 w1495182595
+Z17 8laundry.vt
+Z18 Flaundry.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z19 !s108 1495182598.291000
+Z20 !s107 laundry.vt|
+Z21 !s90 -work|work|laundry.vt|
+!s101 -O0
+R10
+vlaundry_vlg_sample_tst
+!i10b 1
+Z22 !s100 k?_j3;S4mJc5ab8lalg?L1
+Z23 IomE]gi;34Rj^k8@O?mCAN3
+Z24 Va8KQeKz1OElHjJFDDgJYe0
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vlaundry_vlg_vec_tst
+!i10b 1
+!s100 ed9YcaMmc@PjNXzQVNB=O1
+IYJ:<E=<GSQnc^=NVfEK8J0
+Z25 VnE1Z4g9QLe<^ioIm3R6Nc2
+R4
+R16
+R17
+R18
+Z26 L0 318
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

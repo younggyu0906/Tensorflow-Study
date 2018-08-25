@@ -1,0 +1,33 @@
+|perity_check
+a[0] => xor2:g1:0:g2:ux.b
+a[1] => xor2:g1:1:g2:ux.b
+a[2] => xor2:g1:2:g2:ux.b
+a[3] => xor2:u3.b
+a[4] => xor2:u3.a
+parity_check <= xor2:g1:0:g2:ux.c
+
+
+|perity_check|xor2:u3
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|perity_check|xor2:\g1:2:g2:ux
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|perity_check|xor2:\g1:1:g2:ux
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|perity_check|xor2:\g1:0:g2:ux
+a => c.IN0
+b => c.IN1
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+

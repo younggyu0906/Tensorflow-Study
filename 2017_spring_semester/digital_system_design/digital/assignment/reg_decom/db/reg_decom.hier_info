@@ -1,0 +1,84 @@
+|reg_decom
+reg1[0] <= kyg_reg:u2.reg_out[0]
+reg1[1] <= kyg_reg:u2.reg_out[1]
+reg1[2] <= kyg_reg:u2.reg_out[2]
+reg1[3] <= kyg_reg:u2.reg_out[3]
+reg2[0] <= kyg_reg:u3.reg_out[0]
+reg2[1] <= kyg_reg:u3.reg_out[1]
+reg2[2] <= kyg_reg:u3.reg_out[2]
+reg2[3] <= kyg_reg:u3.reg_out[3]
+reg2[4] <= kyg_reg:u3.reg_out[4]
+reg2[5] <= kyg_reg:u3.reg_out[5]
+reg2[6] <= kyg_reg:u3.reg_out[6]
+reg2[7] <= kyg_reg:u3.reg_out[7]
+reg3[0] => kyg_reg:u1.data_in[0]
+reg3[1] => kyg_reg:u1.data_in[1]
+reg3[2] => kyg_reg:u1.data_in[2]
+reg3[3] => kyg_reg:u1.data_in[3]
+reg3[4] => kyg_reg:u1.data_in[4]
+reg3[5] => kyg_reg:u1.data_in[5]
+reg3[6] => kyg_reg:u1.data_in[6]
+reg3[7] => kyg_reg:u1.data_in[7]
+reg3[8] => kyg_reg:u1.data_in[8]
+reg3[9] => kyg_reg:u1.data_in[9]
+reg3[10] => kyg_reg:u1.data_in[10]
+reg3[11] => kyg_reg:u1.data_in[11]
+
+
+|reg_decom|kyg_reg:u1
+data_in[0] => reg_out[0].DATAIN
+data_in[1] => reg_out[1].DATAIN
+data_in[2] => reg_out[2].DATAIN
+data_in[3] => reg_out[3].DATAIN
+data_in[4] => reg_out[4].DATAIN
+data_in[5] => reg_out[5].DATAIN
+data_in[6] => reg_out[6].DATAIN
+data_in[7] => reg_out[7].DATAIN
+data_in[8] => reg_out[8].DATAIN
+data_in[9] => reg_out[9].DATAIN
+data_in[10] => reg_out[10].DATAIN
+data_in[11] => reg_out[11].DATAIN
+reg_out[0] <= data_in[0].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[1] <= data_in[1].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[2] <= data_in[2].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[3] <= data_in[3].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[4] <= data_in[4].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[5] <= data_in[5].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[6] <= data_in[6].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[7] <= data_in[7].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[8] <= data_in[8].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[9] <= data_in[9].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[10] <= data_in[10].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[11] <= data_in[11].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_decom|kyg_reg:u2
+data_in[0] => reg_out[0].DATAIN
+data_in[1] => reg_out[1].DATAIN
+data_in[2] => reg_out[2].DATAIN
+data_in[3] => reg_out[3].DATAIN
+reg_out[0] <= data_in[0].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[1] <= data_in[1].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[2] <= data_in[2].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[3] <= data_in[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_decom|kyg_reg:u3
+data_in[0] => reg_out[0].DATAIN
+data_in[1] => reg_out[1].DATAIN
+data_in[2] => reg_out[2].DATAIN
+data_in[3] => reg_out[3].DATAIN
+data_in[4] => reg_out[4].DATAIN
+data_in[5] => reg_out[5].DATAIN
+data_in[6] => reg_out[6].DATAIN
+data_in[7] => reg_out[7].DATAIN
+reg_out[0] <= data_in[0].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[1] <= data_in[1].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[2] <= data_in[2].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[3] <= data_in[3].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[4] <= data_in[4].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[5] <= data_in[5].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[6] <= data_in[6].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[7] <= data_in[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

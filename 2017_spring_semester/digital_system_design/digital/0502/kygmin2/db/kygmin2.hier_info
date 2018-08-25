@@ -1,0 +1,43 @@
+|kygmin2
+a[0] => LessThan0.IN8
+a[0] => temp.DATAB
+a[1] => LessThan0.IN7
+a[1] => temp.DATAB
+a[2] => LessThan0.IN6
+a[2] => temp.DATAB
+a[3] => LessThan0.IN5
+a[3] => temp.DATAB
+a[4] => LessThan0.IN4
+a[4] => temp.DATAB
+a[5] => LessThan0.IN3
+a[5] => temp.DATAB
+a[6] => LessThan0.IN2
+a[6] => temp.DATAB
+a[7] => LessThan0.IN1
+a[7] => temp.DATAB
+b[0] => LessThan0.IN16
+b[0] => temp.DATAA
+b[1] => LessThan0.IN15
+b[1] => temp.DATAA
+b[2] => LessThan0.IN14
+b[2] => temp.DATAA
+b[3] => LessThan0.IN13
+b[3] => temp.DATAA
+b[4] => LessThan0.IN12
+b[4] => temp.DATAA
+b[5] => LessThan0.IN11
+b[5] => temp.DATAA
+b[6] => LessThan0.IN10
+b[6] => temp.DATAA
+b[7] => LessThan0.IN9
+b[7] => temp.DATAA
+y_out[0] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+y_out[1] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+y_out[2] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+y_out[3] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+y_out[4] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+y_out[5] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+y_out[6] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+y_out[7] <= temp.DB_MAX_OUTPUT_PORT_TYPE
+
+

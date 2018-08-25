@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\digital\0328\signal\simulation\qsim
+vsystem
+Z1 Ig9l]OTn:E152gnR2H0@Z:1
+Z2 V2QlZCYm4?zDBWfzDzOdgl1
+Z3 dE:\digital\0328\signal\simulation\qsim
+Z4 w1491397290
+Z5 8signal.vo
+Z6 Fsignal.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|signal.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 0kf[c:O1l<[ZVQH1loc0l0
+!s85 0
+Z11 !s108 1491397290.089000
+Z12 !s107 signal.vo|
+!s101 -O0
+vsystem_vlg_check_tst
+!i10b 1
+Z13 !s100 HB0[;3e@lUTJSj[XYilO`2
+Z14 IeoVz<?ofjJReJa[UjkUN@1
+Z15 VVlS6Kc`NVVPko5]z]:oVh1
+R3
+Z16 w1491397284
+Z17 8signal.vt
+Z18 Fsignal.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z19 !s108 1491397290.700000
+Z20 !s107 signal.vt|
+Z21 !s90 -work|work|signal.vt|
+!s101 -O0
+R9
+vsystem_vlg_sample_tst
+!i10b 1
+Z22 !s100 08Y]K5`YSAF44aWVRd1GW3
+Z23 If2@FiKaLk7Kj?Q5GA_BW?1
+Z24 V<_SePg3N7Elc:IO<L`EFT2
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vsystem_vlg_vec_tst
+!i10b 1
+Z25 !s100 7==EFVX@9JXIgE0HlQ@oz2
+Z26 I=5Ql4Ad_M6cD46I>C;Nl>3
+Z27 VMV6N<MTGDi@[cDDc[l[Of2
+R3
+R16
+R17
+R18
+Z28 L0 156
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

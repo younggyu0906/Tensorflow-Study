@@ -1,0 +1,56 @@
+import java.awt.*;
+import java.awt.event.*;
+
+import javax.swing.*;
+
+class MyCounter extends JFrame {
+	private JLabel l1, l2;
+	private JButton b1, b2, b3;
+	private int count = 0;
+	MyActionListener listener = new MyActionListener();
+	
+	public MyCounter() {
+		setTitle("Event Handler");
+		setSize(500, 200);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		JPanel panel = new JPanel();
+		l1 = new JLabel("Counter");
+		l2 = new JLabel(String.valueOf(count));	// int를 String으로 변환, 반대는?
+		l2.setPreferredSize(new Dimension(100, 60));
+		l2.setHorizontalAlignment(SwingConstants.RIGHT);
+//		l2.setFont(new Font("Sw"));
+		
+		b1 = new JButton("increase");
+		b2 = new JButton("decrease");
+		b3 = new JButton("Reset");
+		b1.addActionListener(listener);
+		b2.addActionListener(listener);
+		b3.addActionListener(listener);
+		
+		panel.add(l1);
+		panel.add(l2);
+		panel.add(b1);
+		panel.add(b2);
+		panel.add(b3);
+		
+		add(panel);
+		setVisible(true);
+	}
+	private class MyActionListener implements ActionListener {
+		public void actionPerformed(ActionEvent e) {
+			if(e.getSource() == b1)
+				count++;
+			else if (e.getSource() == b2)
+				count--;
+			else
+				count = 0;
+			l2.setText(String.valueOf(count));
+		}
+	}
+}
+public class Lab01 {
+	public static void main(String[] args) {
+		MyCounter test = new MyCounter();
+	}
+}

@@ -1,0 +1,43 @@
+|kygmaxmin2
+x[0] => LessThan0.IN5
+x[0] => c.DATAB
+x[0] => d.DATAA
+x[1] => LessThan0.IN4
+x[1] => c.DATAB
+x[1] => d.DATAA
+x[2] => LessThan0.IN3
+x[2] => c.DATAB
+x[2] => d.DATAA
+x[3] => LessThan0.IN2
+x[3] => c.DATAB
+x[3] => d.DATAA
+x[4] => LessThan0.IN1
+x[4] => c.DATAB
+x[4] => d.DATAA
+y[0] => LessThan0.IN10
+y[0] => c.DATAA
+y[0] => d.DATAB
+y[1] => LessThan0.IN9
+y[1] => c.DATAA
+y[1] => d.DATAB
+y[2] => LessThan0.IN8
+y[2] => c.DATAA
+y[2] => d.DATAB
+y[3] => LessThan0.IN7
+y[3] => c.DATAA
+y[3] => d.DATAB
+y[4] => LessThan0.IN6
+y[4] => c.DATAA
+y[4] => d.DATAB
+max[0] <= c.DB_MAX_OUTPUT_PORT_TYPE
+max[1] <= c.DB_MAX_OUTPUT_PORT_TYPE
+max[2] <= c.DB_MAX_OUTPUT_PORT_TYPE
+max[3] <= c.DB_MAX_OUTPUT_PORT_TYPE
+max[4] <= c.DB_MAX_OUTPUT_PORT_TYPE
+min[0] <= d.DB_MAX_OUTPUT_PORT_TYPE
+min[1] <= d.DB_MAX_OUTPUT_PORT_TYPE
+min[2] <= d.DB_MAX_OUTPUT_PORT_TYPE
+min[3] <= d.DB_MAX_OUTPUT_PORT_TYPE
+min[4] <= d.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,8 @@
+|hw2logic
+a => y_out.OUTPUTSELECT
+b => y_out.DATAB
+c => y_out.OUTPUTSELECT
+d => y_out.OUTPUTSELECT
+y_out <= y_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

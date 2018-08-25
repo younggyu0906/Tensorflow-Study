@@ -1,0 +1,14 @@
+|full_adder
+a => sn1.IN0
+a => sn2.IN0
+a => sum.IN0
+b => sn1.IN1
+b => sn3.IN0
+b => sum.IN1
+c_in => sn2.IN1
+c_in => sn3.IN1
+c_in => sum.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+

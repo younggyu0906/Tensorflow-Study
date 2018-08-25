@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\17_1\digital\assignment\claDesign\simulation\qsim
+vclaDesign
+Z1 !s100 K`2[BhGYzR]A7z9YOcQdS1
+Z2 I5:An4PVYE^:A8NSia<5Qj2
+Z3 VaEz0e3API>??J4LkfHBh10
+Z4 dD:\17_1\digital\assignment\claDesign\simulation\qsim
+Z5 w1492360431
+Z6 8claDesign.vo
+Z7 FclaDesign.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|claDesign.vo|
+Z10 o-work work -O0
+Z11 ncla@design
+!i10b 1
+!s85 0
+Z12 !s108 1492360432.759000
+Z13 !s107 claDesign.vo|
+!s101 -O0
+vclaDesign_vlg_check_tst
+!i10b 1
+Z14 !s100 ;LBhCK`1[MTkdVm]cN]Jz1
+Z15 I>GV>5C>b0^ZHhik@@Ab_k1
+Z16 VNZNS]gE:FGoMePfWKmLoP0
+R4
+Z17 w1492360430
+Z18 8claDesign.vt
+Z19 FclaDesign.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z20 !s108 1492360432.853000
+Z21 !s107 claDesign.vt|
+Z22 !s90 -work|work|claDesign.vt|
+!s101 -O0
+R10
+Z23 ncla@design_vlg_check_tst
+vclaDesign_vlg_sample_tst
+!i10b 1
+Z24 !s100 7m<>kQ^2Q@1M1IjWVkmgV3
+Z25 IckF0:09n]GhWDRSdD0=_n0
+Z26 VmjHPmDgUmNYFhAcoO2XkR1
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 ncla@design_vlg_sample_tst
+vclaDesign_vlg_vec_tst
+!i10b 1
+Z28 !s100 Zm7S7TVo]fSnJgzkeBBHG2
+Z29 IdlMJejiK_m<d@T2z]W::70
+Z30 V=@HG]RlZ^Ncl41CGM^aLC1
+R4
+R17
+R18
+R19
+Z31 L0 236
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 ncla@design_vlg_vec_tst

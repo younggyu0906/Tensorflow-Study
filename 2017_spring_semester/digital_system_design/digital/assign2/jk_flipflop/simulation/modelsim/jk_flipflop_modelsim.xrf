@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, D:/17_1/digital/assign2/jk_flipflop/jk_flipflop.vhd
+source_file = 1, D:/17_1/digital/assign2/jk_flipflop/jk_flipflop.vwf
+source_file = 1, D:/17_1/digital/assign2/jk_flipflop/db/jk_flipflop.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = jk_flipflop
+instance = comp, \y_out~output , y_out~output, jk_flipflop, 1
+instance = comp, \pr~input , pr~input, jk_flipflop, 1
+instance = comp, \clr~input , clr~input, jk_flipflop, 1
+instance = comp, \comb~0 , comb~0, jk_flipflop, 1
+instance = comp, \clk~input , clk~input, jk_flipflop, 1
+instance = comp, \j~input , j~input, jk_flipflop, 1
+instance = comp, \k~input , k~input, jk_flipflop, 1
