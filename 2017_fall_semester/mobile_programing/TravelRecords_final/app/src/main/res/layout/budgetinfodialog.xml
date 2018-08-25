@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bilist"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:text="항목"
+        android:id="@+id/biItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="18dp"></TextView>
+
+    <EditText
+        android:id="@+id/etitem"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:hint="ex) 교통비"
+        android:textColor="#000000" />
+    <TextView
+        android:text="비용"
+        android:id="@+id/cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="18dp"></TextView>
+
+    <EditText
+        android:id="@+id/etcost"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:inputType="numberSigned"
+        android:hint="ex) 30000"
+        android:textColor="#000000" />
+</LinearLayout>

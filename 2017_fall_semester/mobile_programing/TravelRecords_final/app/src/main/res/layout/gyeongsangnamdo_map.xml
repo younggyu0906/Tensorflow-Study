@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4"
+    tools:context="com.example.woogyu.travelrecordsver3.MapActivity$PlaceholderFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <!--경상남도배경지도-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/gyeongsangnamdo"/>
+    </RelativeLayout>
+    <!--경상남도지도-->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/map_gn_geochang"
+            android:layout_width="89dp"
+            android:layout_height="92dp"
+            android:layout_marginStart="29.5dp"
+            android:layout_marginTop="108dp"
+            android:src="@drawable/gn_geochang"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/map_gn_hamyang"
+            android:layout_width="66dp"
+            android:layout_height="118dp"
+            android:layout_marginStart="4.5dp"
+            android:layout_marginTop="142dp"
+            android:src="@drawable/gn_hamyang"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/map_gn_hapcheon"
+            android:layout_width="89dp"
+            android:layout_height="139dp"
+            android:layout_marginStart="84dp"
+            android:layout_marginTop="124dp"
+            android:src="@drawable/gn_hapcheon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/map_gn_sancheong"
+            android:layout_width="92dp"
+            android:layout_height="124dp"
+            android:layout_marginStart="18.5dp"
+            android:layout_marginTop="175dp"
+            android:src="@drawable/gn_sancheong"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/map_gn_hadong"
+            android:layout_width="72dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="0.5dp"
+            android:layout_marginTop="230dp"
+            android:src="@drawable/gn_hadong"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/map_gn_sacheon"
+            android:layout_width="69dp"
+            android:layout_height="79dp"
+            android:layout_marginStart="59dp"
+            android:layout_marginTop="300dp"
+            android:src="@drawable/gn_sacheon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/map_gn_jinju"
+            android:layout_width="105dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="61dp"
+            android:layout_marginTop="258dp"
+            android:src="@drawable/gn_jinju"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/map_gn_namhae"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="364dp"
+            android:src="@drawable/gn_namhae"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/map_gn_uiryeong"
+            android:layout_width="91dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="101dp"
+            android:layout_marginTop="216dp"
+            android:src="@drawable/gn_uiryeong"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/map_gn_changnyeong"
+            android:layout_width="63dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="174dp"
+            android:src="@drawable/gn_changnyeong"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/map_gn_gosung"
+            android:layout_width="90dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="310dp"
+            android:src="@drawable/gn_gosung"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/map_gn_haman"
+            android:layout_width="74dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="143dp"
+            android:layout_marginTop="251dp"
+            android:src="@drawable/gn_haman"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/map_gn_changwon"
+            android:layout_width="111dp"
+            android:layout_height="96dp"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="254dp"
+            android:src="@drawable/gn_changwon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/map_gn_millyang"
+            android:layout_width="102dp"
+            android:layout_height="76dp"
+            android:layout_marginEnd="94dp"
+            android:layout_marginTop="195dp"
+            android:src="@drawable/gn_millyang"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/map_gn_tongyeong"
+            android:layout_width="48dp"
+            android:layout_height="66dp"
+            android:layout_marginEnd="223dp"
+            android:layout_marginTop="361dp"
+            android:src="@drawable/gn_tongyeong"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/map_gn_gujae"
+            android:layout_width="67dp"
+            android:layout_height="86dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="355dp"
+            android:src="@drawable/gn_gujae"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/map_gn_kimhae"
+            android:layout_width="67dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="239.5dp"
+            android:layout_marginTop="255dp"
+            android:src="@drawable/gn_kimhae"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/map_gn_yangsan"
+            android:layout_width="75dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="58dp"
+            android:layout_marginTop="217dp"
+            android:src="@drawable/gn_yangsan"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <ImageView
+            android:id="@+id/map_gn_busan"
+            android:layout_width="116dp"
+            android:layout_height="98dp"
+            android:layout_marginEnd="38dp"
+            android:layout_marginTop="260.5dp"
+            android:src="@drawable/gn_busan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/map_gn_ulsan"
+            android:layout_width="106dp"
+            android:layout_height="119dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginTop="172dp"
+            android:src="@drawable/gn_ulsan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+    <!--지명-->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/name_gn_hamyang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="184dp"
+            android:text="함양"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_gn_geochang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="140dp"
+            android:text="거창"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_gn_hapcheon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="192dp"
+            android:text="합천"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_gn_sancheong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="236dp"
+            android:text="산청"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_gn_hadong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="300dp"
+            android:text="하동"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_gn_namhae"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="392dp"
+            android:text="남해"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_gn_sacheon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="320dp"
+            android:text="사천"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_gn_jinju"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="102dp"
+            android:layout_marginTop="288dp"
+            android:text="진주"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_gn_uiryeong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="137dp"
+            android:layout_marginTop="236dp"
+            android:text="의령"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_gn_changnyeong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="187dp"
+            android:layout_marginTop="216dp"
+            android:text="창녕"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_gn_millyang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="224dp"
+            android:text="밀양"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_gn_haman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="164dp"
+            android:layout_marginTop="268dp"
+            android:text="함안"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_gn_gosung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="344dp"
+            android:text="고성"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_gn_tongyeong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="152dp"
+            android:layout_marginTop="372dp"
+            android:text="통영"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_gn_gujae"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="204dp"
+            android:layout_marginTop="392dp"
+            android:text="거제"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_gn_changwon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="204dp"
+            android:layout_marginTop="292dp"
+            android:text="창원"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_gn_kimhae"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="256dp"
+            android:layout_marginTop="280dp"
+            android:text="김해"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_gn_yangsan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="303dp"
+            android:layout_marginTop="251dp"
+            android:text="양산"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_gn_busan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="302dp"
+            android:layout_marginTop="304dp"
+            android:text="부산"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_gn_ulsan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="352dp"
+            android:layout_marginTop="216dp"
+            android:text="울산"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

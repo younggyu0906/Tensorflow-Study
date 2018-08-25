@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.woogyu.travelrecordsver3">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/worldwide"
+        android:label="TrevelRecords"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoadingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MapActivity"
+            android:label="나의 여행지도"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MapEditActivity"
+            android:label="@string/title_activity_map_edit"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RecordsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RecordsAddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RecordsViewActicity"
+            android:screenOrientation="portrait" />
+
+        <!-- 추가부분 -->
+        <activity android:name=".Schedule" />
+        <activity
+            android:name=".ScheduleAdd"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ScheduleProgress"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailSchdule"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Budget"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BudgetInfo"
+            android:screenOrientation="portrait" />
+        <activity android:name=".BudgetInfo2"></activity>
+    </application>
+
+</manifest>

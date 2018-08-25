@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_add_white_24dp"
+        android:title="add"
+        app:showAsAction="always"/>
+
+    <!--<item-->
+        <!--android:id="@+id/action_painting2"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:icon="@drawable/ic_brush_white_24dp"-->
+        <!--android:title="색칠하기"-->
+        <!--app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="종료"
+        app:showAsAction="never" />
+</menu>

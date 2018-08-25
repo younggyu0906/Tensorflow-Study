@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.woogyu.travelrecordsver3.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--배경-->
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/background2" />
+
+        <!--로고-->
+        <ImageView
+            android:id="@+id/title"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="70dp"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/title" />
+
+        <!--메뉴-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_map"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="#448AFF"
+                    android:drawableTop="@drawable/ic_place_white_36dp"
+                    android:text="여행지도"
+                    android:textColor="#ffffff"
+                    android:textSize="11dp"
+                    android:onClick="onClickMenu"/>
+
+                <Button
+                    android:id="@+id/button_diary"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="#FF4081"
+                    android:drawableTop="@drawable/ic_image_white_36dp"
+                    android:text="여행기록"
+                    android:textColor="#ffffff"
+                    android:textSize="11dp"
+                    android:onClick="onClickMenu"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_plan"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="#1DE9B6"
+                    android:drawableTop="@drawable/ic_airplanemode_active_white_36dp"
+                    android:text="일정관리"
+                    android:textColor="#ffffff"
+                    android:textSize="11dp"
+                    android:onClick="onClickMenu"/>
+
+                <Button
+                    android:id="@+id/button_cost"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="#9CCC65"
+                    android:drawableTop="@drawable/ic_credit_card_white_36dp"
+                    android:text="예산관리"
+                    android:textColor="#ffffff"
+                    android:textSize="11dp"
+                    android:onClick="onClickMenu"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</FrameLayout>

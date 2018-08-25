@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ygkim.pizzaorder.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Dough" />
+
+    <!-- 라디오 그룹 설정 -->
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- 라디오 버튼(도우) -->
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Original (10000)"
+            android:onClick="onDoughClick" /> <!-- 클릭할 때마다 onDoughClick 함수 호출 -->
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Napoli (15000)"
+            android:onClick="onDoughClick" /> <!-- 클릭할 때마다 onDoughClick 함수 호출 -->
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thin (13000)"
+            android:onClick="onDoughClick" /> <!-- 클릭할 때마다 onDoughClick 함수 호출 -->
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Topping" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peperani (3000)"
+        android:onClick="onToppingClick"/> <!-- 클릭할 때마다 onToppingClick 함수 호출 -->
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Potato (2000)"
+        android:onClick="onToppingClick"/> <!-- 클릭할 때마다 onToppingClick 함수 호출 -->
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cheeze (4000)"
+        android:onClick="onToppingClick"/> <!-- 클릭할 때마다 onToppingClick 함수 호출 -->
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="0"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="30sp" />
+    <!-- textColor=색상설정 / textSize 폰트 크기 설정 -->
+</LinearLayout>

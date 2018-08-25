@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ygkim.kyg_photogallery.MainActivity">
+    <!-- LinearLayout vertical 메인 이미지와 썸네일 세로로 배치 -->
+
+    <!-- 메인 이미지 weight = 1, scaleType="fitCenter(비율에 맞춰 확대와 축소하여 가운데 정렬) -->
+    <ImageView
+        android:id="@+id/image01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2pt"
+        android:layout_weight="1"
+        android:padding="2pt"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/chicken" />
+
+    <!-- LinearLayout horizontal 각 썸네일끼리는 가로로 배치 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="5">
+
+        <!-- 각 썸네일의 weight = 1, android:scaleType="fitXY"(이미지 뷰 크기에 이미지크기를 맞춤) -->
+        <ImageView
+            android:id="@+id/thumbnail01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5pt"
+            android:layout_weight="1"
+            android:padding="0.5pt"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/chicken" />
+
+        <ImageView
+            android:id="@+id/thumbnail02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5pt"
+            android:layout_weight="1"
+            android:padding="0.5pt"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/fried_shrimp" />
+
+        <ImageView
+            android:id="@+id/thumbnail03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5pt"
+            android:layout_weight="1"
+            android:padding="0.5pt"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/pork_cutlet" />
+
+        <ImageView
+            android:id="@+id/thumbnail04"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5pt"
+            android:layout_weight="1"
+            android:padding="0.5pt"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/tangsuyuk" />
+    </LinearLayout>
+
+</LinearLayout>

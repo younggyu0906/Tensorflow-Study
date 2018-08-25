@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Color">
+        <menu>
+            <item
+                android:id="@+id/nav_AliceBlue"
+                android:icon="@drawable/ic_color_lens_white_24dp"
+                android:title="AliceBlue" />
+            <item
+                android:id="@+id/nav_Lavender"
+                android:icon="@drawable/ic_color_lens_white_24dp"
+                android:title="Lavender" />
+            <item
+                android:id="@+id/nav_Ivory"
+                android:icon="@drawable/ic_color_lens_white_24dp"
+                android:title="Ivory" />
+            <item
+                android:id="@+id/nav_Lemon"
+                android:icon="@drawable/ic_color_lens_white_24dp"
+                android:title="Lemon" />
+            <item
+                android:id="@+id/nav_Peach"
+                android:icon="@drawable/ic_color_lens_white_24dp"
+                android:title="Peach" />
+            <item
+                android:id="@+id/nav_MintCream"
+                android:icon="@drawable/ic_color_lens_white_24dp"
+                android:title="MintCream" />
+            <item
+                android:id="@+id/nav_White"
+                android:icon="@drawable/ic_color_lens_white_24dp"
+                android:title="White" />
+        </menu>
+    </item>
+
+</menu>
